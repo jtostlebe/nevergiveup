@@ -37,16 +37,13 @@ sections:
       items:
         - statistic: "16"
           description: |
-            Men Admitted to  
-            NGU Program        
+            Men Admitted       
         - statistic: "84"
           description: |
-            Days Spent in  
-            NGU Program
+            Program Days
         - statistic: "XX%"
           description: |
-            Program Graduation  
-            Rate
+            Graduation Rate
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -61,22 +58,22 @@ sections:
       items:
         - name: 24/7 Supervision and Accountability
           icon: user-shield
-          description: Supervised, structured housing with clear rules, camera surveillance, curfew, and mandatory participation in services.
+          description: Structured housing with curfews, rules, camera monitoring, and required program participation.
         - name: Stable Housing
           icon: house
-          description: A safe place to live for the duration of the program.
+          description: Safe, consistent housing throughout the program.
         - name: Support Services
           icon: hands-helping
-          description: Assistance securing ID, EBT, Medicaid, and more. Provides food, clothing, hygiene products, cellphone, and transportation to/from AA/NA and employment.
+          description: Help with IDs, benefits, transportation, clothing, hygiene, and basic needs.
         - name: Employment and Workforce Development
           icon: briefcase
-          description: Job placement assistance, resume building, and interview preparation.
+          description: Support with job placement, resumes, and interview skills.
         - name: Therapy and Life Skills Development
           icon: brain
-          description: Group and individual therapy, 12-step sobriety programs, financial literacy classes, and peer support.
+          description: Counseling, sobriety support, financial literacy, and life skills groups.
         - name: Family, Prosocial Peers, and Community Network (Re)Development
           icon: people-roof
-          description: Family/friend visitation, church attendance, volunteer work, (pro)social outings.
+          description: Encourages healthy relationships, church, volunteering, and community outings.
   - block: cta-image-paragraph
     id: solutions
     content:
