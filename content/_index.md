@@ -53,6 +53,14 @@ sections:
       spacing:
         padding: ["1rem", 0, "1rem", 0]
         
+  - block: markdown
+    content:
+      title: |
+        About Never Give Up
+      text: |
+        <br>
+        
+  
   - block: cta-image-paragraph
     id: program
     content:
