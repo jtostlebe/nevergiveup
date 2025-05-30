@@ -28,14 +28,14 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "84"
-          description: |
-            Days Spent in 
-            the NGU Program
         - statistic: "16"
           description: |
             People Provided
             Transitional Living
+        - statistic: "84"
+          description: |
+            Days Spent in 
+            the NGU Program
         - statistic: "XX%"
           description: |
             Program Graduation
