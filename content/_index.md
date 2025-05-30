@@ -61,7 +61,6 @@ sections:
       items:
         - name: 24/7 Supervision and Accountability
           icon: user-shield
-          icon_pack: fas
           description: Supervised, structured housing with clear rules, camera surveillance, curfew, and mandatory participation in services.
         - name: Stable Housing
           icon: house
