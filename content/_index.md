@@ -81,6 +81,21 @@ sections:
 #          button:
 #            text: Join Discord
 #            url: https://discord.gg/z8wNYzb
+        - title: The Approach
+          text: Never Give Up creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
+          feature_icon: bolt
+          features:
+            - "24/7 supervision and accountability"
+            - "Stable housing"
+            - "Support services"
+            - "Employment and workforce development"
+            - "Therapy and life skills development"
+            - "Family, prosocial peers, and community network (re)development"
+          # Upload image to `assets/media/` and reference the filename here
+          image: GroupPhoto_3.jpg
+          button:
+            text: Learn More
+            url: https://nevergiveuptest.netlify.app/materials/
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
