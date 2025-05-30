@@ -69,7 +69,7 @@ sections:
           button:
             text: Meet the Team
             url: https://nevergiveuptest.netlify.app/#ourteam
-        - title: The Approach
+        - title: The NGU Approach
           text: Never Give Up creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
           feature_icon: bolt
           features:
