@@ -17,8 +17,9 @@ sections:
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
         icon: rocket-launch
       secondary_action:
-        text: Learn About Our Team
-        url: https://docs.hugoblox.com
+        text: |
+          {{% cta cta_link="./people/" cta_text="Meet the NGU Team →" %}}
+#        url: https://docs.hugoblox.com
     design:
       spacing:
         padding: [0, 0, 0, 0]
