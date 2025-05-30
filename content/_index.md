@@ -56,7 +56,7 @@ sections:
   - block: markdown
     content:
       title: |
-        About Never Give Up Transitional Living
+        About
       text: |
         <br>
         The Never Give Up Transitional Living program serves men released from prison who: (a) are approved for community supervision or parole, (b) are motivated to participate in structured reentry support, and (c) have applied to the program and completed a phone interview and background review.
