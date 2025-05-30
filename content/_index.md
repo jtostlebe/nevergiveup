@@ -144,23 +144,12 @@ sections:
     id: documentation
     content:
       title: Program Documentation
-      text: Access our core materials to better understand our policies, procedures, and services.
-      items:
-        - title: Participant Handbook
-          content: Rules, expectations, and resources for participants entering the program.
-          icon: document-text
-          image: pdf-icon.png
-          url: /docs/participant-handbook.pdf
-        - title: Program Overview
-          content: Summary of services, eligibility criteria, and program goals.
-          icon: document-text
-          image: pdf-icon.png
-          url: /docs/program-overview.pdf
-        - title: Staff Code of Conduct
-          content: Ethical standards and behavioral expectations for NGU staff members.
-          icon: document-text
-          image: pdf-icon.png
-          url: /docs/staff-code-of-conduct.pdf
+      text: |
+        Access our core materials to better understand our policies, procedures, and services:
+        
+        - [**Participant Handbook** (PDF)](/docs/participant-handbook.pdf): Rules, expectations, and resources for participants entering the program.
+        - [**Program Overview** (PDF)](/docs/program-overview.pdf): Summary of services, eligibility criteria, and program goals.
+        - [**Staff Code of Conduct** (PDF)](/docs/staff-code-of-conduct.pdf): Ethical standards and behavioral expectations for NGU staff members.
     design:
       css_class: "bg-white"
 
