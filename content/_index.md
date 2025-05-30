@@ -32,6 +32,7 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
+            
   - block: stats
     content:
       items:
@@ -51,6 +52,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
+        
   - block: features
     id: features
     content:
@@ -86,7 +88,7 @@ sections:
           features:
             - "**We don't give up.** No matter your past, we believe in your future."
             - "**Built for real change.** Helping people rebuild lives -- not just get by."
-            - "**We've been there.** Our Program Director has been to prison 5x -- he knows what reentry takes."
+            - "**We've been there.** Most of our team has been incarcerated—and made it out stronger."
           # Upload image to `assets/media/` and reference the filename here
           image: groupphoto1.jpeg
           button:
@@ -107,6 +109,7 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+      
   - block: testimonials
     content:
       title: ""
@@ -121,6 +124,7 @@ sections:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
+        
   - block: cta-card
     content:
       title: Help us Change Lives
