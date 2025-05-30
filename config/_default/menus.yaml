@@ -10,6 +10,7 @@ main:
     url: /#program
     weight: 20
   - name: Resources
+    url: /#resources
     weight: 30
 #    hasChildren: true
 #  - parent: Resources

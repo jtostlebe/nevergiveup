@@ -141,7 +141,7 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"        
 
   - block: markdown
-    id: documentation
+    id: resources
     content:
       title: Program Documentation
       text: |
