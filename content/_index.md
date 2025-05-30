@@ -90,8 +90,8 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: groupphoto1.jpeg
           button:
-            text: Get Started
-            link: files/NGUProgramDescription.pdf
+            text: Learn More
+            url: https://nevergiveuptest.netlify.app/blog/
 #        - title: Large Community
 #          text: Join our large community on Discord - ask questions and get live responses
 #          feature_icon: bolt
