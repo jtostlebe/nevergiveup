@@ -151,6 +151,18 @@ sections:
         - [**Staff Descriptions** (PDF)](/docs/NGUStaffRoleDescriptions.pdf): Ethical standards and behavioral expectations for NGU staff members.
     design:
       css_class: "bg-white"
+      
+  - block: cta
+    id: contact
+    content:
+      title: Contact Us
+      text: |
+        👤 **Contact:** Shane Reilly, MS  
+        📞 **Phone:** (402) 359-7404 
+        ✉️ [Email Us](mailto:ngutlomaha@gmail.com)
+      image: Shane.jpg
+    design:
+      css_class: "bg-primary-700 text-white"
 
 #  - block: testimonials
 #    content:
