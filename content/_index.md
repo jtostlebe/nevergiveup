@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-date: 2023-10-24
+date: 2025-05-30
 type: landing
 
 design:
@@ -11,19 +11,7 @@ sections:
   - block: hero
     content:
       title: Never Give Up Transitional Living - Omaha
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
-      primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      text: Founded in 2025
     design:
       spacing:
         padding: [0, 0, 0, 0]
