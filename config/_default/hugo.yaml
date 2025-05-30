@@ -13,14 +13,14 @@ baseURL: 'https://nevergiveuptest.netlify.app/' # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /blog/**
+      path: /materials/**
       kind: page
     pager: true
-    editable: true
+    editable: false
     hide_date: false
     show_date_updated: true
-    reading_time: true
-    commentable: true
+    reading_time: false
+    commentable: false
     show_related: true
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
@@ -30,7 +30,7 @@ cascade:
         enable: true
   # Blog section options
   - _target:
-      path: /blog/*
+      path: /materials/*
       kind: section
     # Set the listing view
     view: date-title-summary
