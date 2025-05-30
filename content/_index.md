@@ -84,15 +84,15 @@ sections:
           button:
             text: Learn More
             url: https://nevergiveuptest.netlify.app/materials/
-        - title: Community (Re)Integration
-          text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
-          feature_icon: bolt
-          features:
-            - "Connections to local community organizations and universities"
-            - "Partnerships with employers offering job opportunities"
-            - "Collaborative support from parole officers"
-          # Upload image to `assets/media/` and reference the filename here
-          image: HockeyPhoto.jpeg
+#        - title: Community (Re)Integration
+#          text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
+#          feature_icon: bolt
+#          features:
+#            - "Connections to local community organizations and universities"
+#            - "Partnerships with employers offering job opportunities"
+#            - "Collaborative support from parole officers"
+#          # Upload image to `assets/media/` and reference the filename here
+#          image: HockeyPhoto.jpeg
 #          button:
 #            text: Join Discord
 #            url: https://discord.gg/z8wNYzb
