@@ -140,6 +140,30 @@ sections:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"        
 
+  - block: cards
+    id: documentation
+    content:
+      title: Program Documentation
+      text: Access our core materials to better understand our policies, procedures, and services.
+      items:
+        - title: Participant Handbook
+          content: Rules, expectations, and resources for participants entering the program.
+          icon: document-text
+          image: pdf-icon.png
+          url: /docs/participant-handbook.pdf
+        - title: Program Overview
+          content: Summary of services, eligibility criteria, and program goals.
+          icon: document-text
+          image: pdf-icon.png
+          url: /docs/program-overview.pdf
+        - title: Staff Code of Conduct
+          content: Ethical standards and behavioral expectations for NGU staff members.
+          icon: document-text
+          image: pdf-icon.png
+          url: /docs/staff-code-of-conduct.pdf
+    design:
+      css_class: "bg-white"
+
 #  - block: testimonials
 #    content:
 #      title: "Testimonials"
