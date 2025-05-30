@@ -80,7 +80,7 @@ sections:
             - "Therapy and life skills development"
             - "Family, prosocial peers, and community network (re)development"
           # Upload image to `assets/media/` and reference the filename here
-          image: GroupPhoto_3.jpg
+          image: GroupPhoto_2.jpg
           button:
             text: Learn More
             url: https://nevergiveuptest.netlify.app/materials/
