@@ -65,19 +65,19 @@ sections:
             - "**Built for real change.** Helping people rebuild lives -- not just get by."
             - "**We've been there.** Most of our team has been incarcerated—and made it out stronger."
           # Upload image to `assets/media/` and reference the filename here
-          image: groupphoto1.jpeg
+          image: Shane.jpg
           button:
-            text: Learn More
-            url: https://nevergiveuptest.netlify.app/blog/
-#        - title: Large Community
-#          text: Join our large community on Discord - ask questions and get live responses
-#          feature_icon: bolt
-#          features:
-#            - "Dedicated support channel"
-#            - "3,000+ users on Discord"
-#            - "Share your site and get feedback"
-#          # Upload image to `assets/media/` and reference the filename here
-#          image: coffee.jpg
+            text: Meet the Team
+            url: https://nevergiveuptest.netlify.app/#ourteam
+        - title: Community and System Integration
+          text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
+          feature_icon: bolt
+          features:
+            - "Connections to local community organizations and universities"
+            - "Partnerships with employers offering job opportunities"
+            - "Collaborative support from parole officers"
+          # Upload image to `assets/media/` and reference the filename here
+          image: groupphoto1.jpeg
 #          button:
 #            text: Join Discord
 #            url: https://discord.gg/z8wNYzb
