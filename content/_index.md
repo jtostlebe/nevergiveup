@@ -69,18 +69,6 @@ sections:
           button:
             text: Meet the Team
             url: https://nevergiveuptest.netlify.app/#ourteam
-        - title: Community (Re)Integration
-          text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
-          feature_icon: bolt
-          features:
-            - "Connections to local community organizations and universities"
-            - "Partnerships with employers offering job opportunities"
-            - "Collaborative support from parole officers"
-          # Upload image to `assets/media/` and reference the filename here
-          image: HockeyPhoto.jpeg
-#          button:
-#            text: Join Discord
-#            url: https://discord.gg/z8wNYzb
         - title: The Approach
           text: Never Give Up creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
           feature_icon: bolt
@@ -96,6 +84,18 @@ sections:
           button:
             text: Learn More
             url: https://nevergiveuptest.netlify.app/materials/
+        - title: Community (Re)Integration
+          text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
+          feature_icon: bolt
+          features:
+            - "Connections to local community organizations and universities"
+            - "Partnerships with employers offering job opportunities"
+            - "Collaborative support from parole officers"
+          # Upload image to `assets/media/` and reference the filename here
+          image: HockeyPhoto.jpeg
+#          button:
+#            text: Join Discord
+#            url: https://discord.gg/z8wNYzb
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
