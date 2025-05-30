@@ -136,6 +136,9 @@ sections:
         - name: Faith-Based Support
           icon: user-group
           description: Encourages healthy relationships, church, volunteering, and community outings.
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"        
 
 #  - block: testimonials
 #    content:
