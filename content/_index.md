@@ -112,7 +112,7 @@ sections:
 
   - block: testimonials
     content:
-      title: ""
+      title: "Testimonials"
       text: ""
       items:
         - name: "Hugo Smith"
