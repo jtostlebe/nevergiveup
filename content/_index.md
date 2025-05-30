@@ -119,19 +119,19 @@ sections:
       text: 
       items:
         - name: Group Dialectical Behavior Therapy (DBT)
-          icon: clock
+          icon: light-bulb
           description: Structured housing with curfews, rules, camera monitoring, and required program participation.
         - name: Intensive Outpatient Programming (IOP)
-          icon: home
+          icon: chat-bubble-oval-left-ellipsis
           description: Safe, consistent housing throughout the program.
         - name: Individual Counseling
-          icon: shopping-bag
+          icon: heart
           description: Help with IDs, benefits, transportation, clothing, hygiene, and basic needs.
         - name: Alcoholics Anonymous and Narcotics Anonymous
-          icon: briefcase
+          icon: star
           description: Support with job placement, resumes, and interview skills.
         - name: Financial Literacy Classes
-          icon: heart
+          icon: currency-dollar
           description: Counseling, sobriety support, financial literacy, and life skills groups.
         - name: Faith-Based Support
           icon: user-group
