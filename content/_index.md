@@ -80,7 +80,7 @@ sections:
     id: solutions
     content:
       items:
-        - title: What Makes **Never Give Up** Different
+        - title: What Makes **Never Give Up** Unique
           text: Rooted in experience. Driven by hope.
           feature_icon: bolt
           features:
