@@ -54,7 +54,7 @@ sections:
         padding: ["1rem", 0, "1rem", 0]
         
   - block: cta-image-paragraph
-    id: solutions
+    id: program
     content:
       items:
         - title: What Makes **Never Give Up Transitional Living** Unique?
@@ -86,7 +86,7 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       
   - block: features
-    id: features
+    id: approach
     content:
       title: Our Approach
       text: Never Give Up creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
@@ -126,6 +126,7 @@ sections:
         padding: ["6rem", 0, 0, 0]
         
   - block: cta-card
+    id: donate
     content:
       title: Help us Change Lives
       text: Donate to Never Give Up through Good Turn Labor, LLC
