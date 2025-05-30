@@ -149,6 +149,7 @@ sections:
         
         - [**Program Overview** (PDF)](/docs/NGUProgramDescription.pdf): Summary of program goals, logic model, eligibility criteria, participant rules and expectations, and services.
         - [**Staff Descriptions** (PDF)](/docs/NGUStaffRoleDescriptions.pdf): Ethical standards and behavioral expectations for NGU staff members.
+        - [**Never Give Up Program Flyer** (PDF)](/docs/NGUFlyer_Updated 5.13.pdf): Print-ready handout describing our services.
     design:
       css_class: "bg-white"
 
