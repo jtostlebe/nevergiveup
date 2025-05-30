@@ -115,7 +115,7 @@ sections:
       
   - block: features
     content:
-      title: Program Opportunities
+      title: NGU Programming Opportunities
       text: 
       items:
         - name: Group Dialectical Behavior Therapy (DBT)
