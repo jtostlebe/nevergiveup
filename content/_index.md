@@ -64,7 +64,7 @@ sections:
         The overarching goal of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.
     design:
       # Section background color (CSS class)
-      css_class: "bg-white"        
+      css_class: "bg-gray-100 dark:bg-gray-900"        
   
   - block: cta-image-paragraph
     id: program
@@ -111,7 +111,7 @@ sections:
 #            url: https://discord.gg/z8wNYzb
     design:
       # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "bg-white"
       
   - block: features
     content:
