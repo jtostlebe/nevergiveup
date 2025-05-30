@@ -57,7 +57,7 @@ sections:
     id: features
     content:
       title: Our Approach
-      text: *Program Goal-* To support individuals transitioning from NDCS to the community by providing a peer-led, structured, and stable living reentry program. The NGU program’s overarching goal is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.
+      text: The *program goal* is to support individuals transitioning from NDCS to the community by providing a peer-led, structured, and stable living reentry program. The NGU program’s overarching goal is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.
       items:
         - name: Optimized SEO
           icon: magnifying-glass
