@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: Never Give Up Transitional Living - Omaha
-      text: Founded in 2025
+      text: Founded in March 2025
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -32,10 +32,10 @@ sections:
           description: |
             Days Spent in 
             the NGU Program
-        - statistic: "XX%"
+        - statistic: "16"
           description: |
-            Employment Rate
-            within 30 Days of Intake
+            People Provided
+            Transitional Living
         - statistic: "XX%"
           description: |
             Program Graduation
