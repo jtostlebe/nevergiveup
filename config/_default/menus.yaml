@@ -18,3 +18,6 @@ main:
   - parent: Resources
     name: Program Materials
     url: materials/
+  - name: Donate
+    url: /#donate
+    weight: 50
