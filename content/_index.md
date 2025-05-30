@@ -159,14 +159,14 @@ sections:
       items:
         - name: Shane Reilly
           icon: phone
-          description: 📞 (555) 123-4567  
+          description: 📞 (402) 359-7404  
+        - name: 
+          icon: user
+          description: |
+            ![](Shane.jpg)
         - name: Email Us
           icon: envelope
           description: '[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)'
-#        - name: 
-#          icon: user
-#          description: |
-#            ![](john.jpg)
     design:
       css_class: "bg-gray-100"
       
