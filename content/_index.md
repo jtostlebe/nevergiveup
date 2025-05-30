@@ -80,7 +80,7 @@ sections:
     id: solutions
     content:
       items:
-        - title: What Makes **Never Give Up** Unique
+        - title: What Makes **Never Give Up Transitional Living** Unique?
           text: Rooted in experience. Driven by hope.
           feature_icon: bolt
           features:
