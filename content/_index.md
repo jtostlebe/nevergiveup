@@ -16,9 +16,9 @@ sections:
         text: Support Second Chances
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
         icon: rocket-launch
-      secondary_action:
-        text: Learn About Our Team
-        url: https://docs.hugoblox.com
+#      secondary_action:
+#        text: Learn About Our Team
+#        url: https://docs.hugoblox.com
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -152,17 +152,6 @@ sections:
     design:
       css_class: "bg-white"
       
-  - block: cta
-    id: contact
-    content:
-      title: Contact Us
-      text: |
-        👤 **Contact:** Shane Reilly, MS  
-        📞 **Phone:** (402) 359-7404 
-        ✉️ [Email Us](mailto:ngutlomaha@gmail.com)
-    design:
-      css_class: "bg-primary-700 text-white"
-
 #  - block: testimonials
 #    content:
 #      title: "Testimonials"
