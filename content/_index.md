@@ -91,7 +91,7 @@ sections:
           image: groupphoto1.jpeg
           button:
             text: Get Started
-            url: https://hugoblox.com/templates/
+            link: files/NGUProgramDescription.pdf
 #        - title: Large Community
 #          text: Join our large community on Discord - ask questions and get live responses
 #          feature_icon: bolt
