@@ -6,15 +6,15 @@ main:
   - name: Home
     url: /#top
     weight: 10
-  - name: Our Approach
-    url: /#features
+  - name: The Program
+    url: /#program
     weight: 20
-  - name: Solutions
-    url: /#solutions
+  - name: Our Approach
+    url: /#approach
     weight: 30
   - name: Resources
     weight: 40
     hasChildren: true
   - parent: Resources
-    name: Blog
-    url: blog/
+    name: Program Materials
+    url: materials/
