@@ -62,22 +62,22 @@ sections:
         - name: 24/7 Supervision and Accountability
           icon: user-shield
           icon_pack: fas
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
+          description: Supervised, structured housing with clear rules, camera surveillance, curfew, and mandatory participation in services.
         - name: Stable Housing
           icon: house
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
+          description: A safe place to live for the duration of the program.
         - name: Support Services
           icon: hands-helping
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
+          description: Assistance securing ID, EBT, Medicaid, and more. Provides food, clothing, hygiene products, cellphone, and transportation to/from AA/NA and employment.
         - name: Employment and Workforce Development
           icon: briefcase
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
+          description: Job placement assistance, resume building, and interview preparation.
         - name: Therapy and Life Skills Development
           icon: brain
-          description: Rated 5-stars by the community.
+          description: Group and individual therapy, 12-step sobriety programs, financial literacy classes, and peer support.
         - name: Family, Prosocial Peers, and Community Network (Re)Development
           icon: people-roof
-          description: Build your pages with blocks - no coding required!
+          description: Family/friend visitation, church attendance, volunteer work, (pro)social outings.
   - block: cta-image-paragraph
     id: solutions
     content:
