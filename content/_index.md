@@ -60,22 +60,23 @@ sections:
       text: The NGU Transitional Living program creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
       items:
         - name: 24/7 Supervision and Accountability
-          icon: magnifying-glass
+          icon: fa-user-shield
+          icon_pack: fas
           description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
         - name: Stable Housing
-          icon: bolt
+          icon: fa-house
           description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
         - name: Support Services
-          icon: sparkles
+          icon: fa-hands-helping
           description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
         - name: Employment and Workforce Development
-          icon: code-bracket
+          icon: fa-briefcase
           description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
         - name: Therapy and Life Skills Development
-          icon: star
+          icon: fa-brain
           description: Rated 5-stars by the community.
         - name: Family, Prosocial Peers, and Community Network (Re)Development
-          icon: rectangle-group
+          icon: fa-people-roof
           description: Build your pages with blocks - no coding required!
   - block: cta-image-paragraph
     id: solutions
