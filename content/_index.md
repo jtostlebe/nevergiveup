@@ -42,7 +42,7 @@ sections:
             Since March 2025
         - statistic: "84"
           description: |
-            Program Days
+            Days of Programming
         - statistic: "XX%"
           description: |
             Graduation Rate
