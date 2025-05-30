@@ -65,7 +65,7 @@ sections:
             - "**Built for real change.** Helping people rebuild lives -- not just get by."
             - "**We've been there.** Most of our team has been incarcerated—and made it out stronger."
           # Upload image to `assets/media/` and reference the filename here
-          image: Shane.jpg
+          image: groupphoto1.jpeg
           button:
             text: Meet the Team
             url: https://nevergiveuptest.netlify.app/#ourteam
@@ -77,7 +77,7 @@ sections:
             - "Partnerships with employers offering job opportunities"
             - "Collaborative support from parole officers"
           # Upload image to `assets/media/` and reference the filename here
-          image: groupphoto1.jpeg
+          image: HockeyPhoto.jpeg
 #          button:
 #            text: Join Discord
 #            url: https://discord.gg/z8wNYzb
