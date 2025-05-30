@@ -147,8 +147,8 @@ sections:
       text: |
         Access our core materials to better understand our policies, procedures, and services:
         
-        - [**Participant Handbook** (PDF)](/docs/participant-handbook.pdf): Rules, expectations, and resources for participants entering the program.
         - [**Program Overview** (PDF)](/docs/program-overview.pdf): Summary of services, eligibility criteria, and program goals.
+        - [**Participant Handbook** (PDF)](/docs/participant-handbook.pdf): Rules, expectations, and resources for participants entering the program.
         - [**Staff Code of Conduct** (PDF)](/docs/staff-code-of-conduct.pdf): Ethical standards and behavioral expectations for NGU staff members.
     design:
       css_class: "bg-white"
