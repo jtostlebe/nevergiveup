@@ -54,6 +54,7 @@ sections:
         padding: ["1rem", 0, "1rem", 0]
         
   - block: markdown
+    id: program
     content:
       title: |
         About
@@ -67,7 +68,6 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"        
   
   - block: cta-image-paragraph
-    id: program
     content:
       items:
         - title: What Makes **Never Give Up Transitional Living** Unique?
