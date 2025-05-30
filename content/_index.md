@@ -28,18 +28,18 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "1M+"
+        - statistic: "84"
           description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
+            Days Spent in 
+            the NGU Program
+        - statistic: "XX%"
           description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
+            Employment Rate
+            within 30 Days of Intake
+        - statistic: "XX%"
           description: |
-            Discord community  
-            for support
+            Program Graduation
+            Rate
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
