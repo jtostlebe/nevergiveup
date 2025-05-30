@@ -84,9 +84,9 @@ sections:
           text: Rooted in experience. Driven by hope.
           feature_icon: bolt
           features:
-            - "**We don't give up on you.** No matter your past, we believe in your future."
+            - "**We don't give up.** No matter your past, we believe in your future."
             - "**Built for real change.** Helping people rebuild lives -- not just get by."
-            - "**We've been there.** Our Program Director has been to prison five times -- he understands what real reentry takes."
+            - "**We've been there.** Our Program Director has been to prison 5x -- he knows what reentry takes."
           # Upload image to `assets/media/` and reference the filename here
           image: groupphoto1.jpeg
           button:
