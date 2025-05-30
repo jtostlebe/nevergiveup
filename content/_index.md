@@ -69,7 +69,7 @@ sections:
           button:
             text: Meet the Team
             url: https://nevergiveuptest.netlify.app/#ourteam
-        - title: Community and System Integration
+        - title: Community (Re)Integration
           text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
           feature_icon: bolt
           features:
