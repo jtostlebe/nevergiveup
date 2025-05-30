@@ -9,15 +9,12 @@ main:
   - name: The Program
     url: /#program
     weight: 20
-  - name: Our Approach
-    url: /#approach
-    weight: 30
   - name: Resources
-    weight: 40
+    weight: 30
     hasChildren: true
   - parent: Resources
     name: Program Materials
     url: materials/
   - name: Donate
     url: /#donate
-    weight: 50
+    weight: 40
