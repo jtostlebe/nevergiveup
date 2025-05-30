@@ -113,27 +113,27 @@ sections:
       
   - block: features
     content:
-      title: Programming Offered
+      title: Our Approach
       text: Never Give Up creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
       items:
-        - name: Dialectical Behavior Therapy (DBT)
+        - name: 24/7 Supervision and Accountability
           icon: clock
-#          description: Structured housing with curfews, rules, camera monitoring, and required program participation.
-        - name: Intensive Outpatient Programming (IOP)
+          description: Structured housing with curfews, rules, camera monitoring, and required program participation.
+        - name: Stable Housing
           icon: home
-#          description: Safe, consistent housing throughout the program.
-        - name: Individual Counseling
+          description: Safe, consistent housing throughout the program.
+        - name: Support Services
           icon: shopping-bag
-#          description: 
-        - name: NA and AA
+          description: Help with IDs, benefits, transportation, clothing, hygiene, and basic needs.
+        - name: Employment and Workforce Development
           icon: briefcase
-#          description: Support with job placement, resumes, and interview skills.
-        - name: Financial Literacy
+          description: Support with job placement, resumes, and interview skills.
+        - name: Therapy and Life Skills Development
           icon: heart
-#          description: Counseling, sobriety support, financial literacy, and life skills groups.
-        - name: Faith-Based Support
+          description: Counseling, sobriety support, financial literacy, and life skills groups.
+        - name: Family, Prosocial Peers, and Community Network (Re)Development
           icon: user-group
-#          description: Encourages healthy relationships, church, volunteering, and community outings.
+          description: Encourages healthy relationships, church, volunteering, and community outings.
 
 #  - block: testimonials
 #    content:
