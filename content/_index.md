@@ -18,7 +18,7 @@ sections:
         icon: rocket-launch
       secondary_action:
         text: Learn About Our Team
-#        url: https://docs.hugoblox.com
+        url: https://docs.hugoblox.com
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -37,8 +37,8 @@ sections:
       items:
         - statistic: "16"
           description: |
-            Lives Transformed 
-            Through Transitional Living
+            Men Admitted to  
+            NGU Program        
         - statistic: "84"
           description: |
             Days Spent in  
