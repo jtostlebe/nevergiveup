@@ -60,7 +60,7 @@ sections:
           icon: user-shield
           description: Structured housing with curfews, rules, camera monitoring, and required program participation.
         - name: Stable Housing
-          icon: house
+          icon: home
           description: Safe, consistent housing throughout the program.
         - name: Support Services
           icon: hands-helping
