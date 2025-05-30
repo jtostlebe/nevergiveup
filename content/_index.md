@@ -53,18 +53,7 @@ sections:
       spacing:
         padding: ["1rem", 0, "1rem", 0]
         
-    - block: markdown
-    content:
-      title: |
-        Program Goals and Objectives
-      text: |
-        <br>
-        
-        The **Never Give Up (NGU)** progam's overarching goal is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources. 
-        
-        Additionally, the program creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial community reintegration. By offering structured support, the program seeks to emplower participants to rebuild their lives and achieve long-term stability.
-
-    - block: cta-image-paragraph
+  - block: cta-image-paragraph
     id: program
     content:
       items:
