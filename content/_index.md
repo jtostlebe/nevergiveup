@@ -121,16 +121,16 @@ sections:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
-#  - block: cta-card
-#    content:
-#      title: Build your future-proof website
-#      text: As easy as 1, 2, 3!
-#      button:
-#        text: Get Started
-#        url: https://hugoblox.com/templates/
-#    design:
-#      card:
-#        # Card background color (CSS class)
-#        css_class: "bg-primary-700"
-#        css_style: ""
+  - block: cta-card
+    content:
+      title: Help us Change Lives
+      text: As easy as 1, 2, 3!
+      button:
+        text: Support Second Chances
+        url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
+    design:
+      card:
+        # Card background color (CSS class)
+        css_class: "bg-primary-700"
+        css_style: ""
 ---
