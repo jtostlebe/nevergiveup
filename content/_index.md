@@ -128,7 +128,7 @@ sections:
   - block: cta-card
     content:
       title: Help us Change Lives
-      text: As easy as 1, 2, 3!
+      text: Donate to Never Give Up through Good Turn Labor, LLC
       button:
         text: Support Second Chances
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
