@@ -9,8 +9,8 @@ main:
   - name: The Program
     url: /#program
     weight: 20
-  - name: Resources
-    url: /#resources
+  - name: Program Documentation
+    url: /#documentation
     weight: 30
 #    hasChildren: true
 #  - parent: Resources
