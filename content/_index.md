@@ -109,20 +109,20 @@ sections:
           icon: user-group
           description: Encourages healthy relationships, church, volunteering, and community outings.
 
-  - block: testimonials
-    content:
-      title: "Testimonials"
-      text: ""
-      items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
+#  - block: testimonials
+#    content:
+#      title: "Testimonials"
+#      text: ""
+#      items:
+#        - name: "Hugo Smith"
+#          role: "Marketing Executive at X"
+#          # Upload image to `assets/media/` and reference the filename here
+#          image: "testimonial-1.jpg"
+#          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+#    design:
+#      spacing:
+#        # Reduce bottom spacing so the testimonial appears vertically centered between sections
+#        padding: ["6rem", 0, 0, 0]
         
   - block: cta-card
     id: donate
