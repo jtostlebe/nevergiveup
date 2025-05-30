@@ -37,7 +37,8 @@ sections:
       items:
         - statistic: "16"
           description: |
-            Men Admitted       
+            Men Admitted     
+            Since March 2025
         - statistic: "84"
           description: |
             Program Days
