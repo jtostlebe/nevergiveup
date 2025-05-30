@@ -57,26 +57,24 @@ sections:
     id: features
     content:
       title: Our Approach
-      text: Guided by a peer-driven approach, the NGU Transitional Living program creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
-      
-            The NGU program’s overarching goal is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.
+      text: The NGU Transitional Living program creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
       items:
-        - name: Optimized SEO
+        - name: 24/7 Supervision and Accountability
           icon: magnifying-glass
           description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+        - name: Stable Housing
           icon: bolt
           description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
+        - name: Support Services
           icon: sparkles
           description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
+        - name: Employment and Workforce Development
           icon: code-bracket
           description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
+        - name: Therapy and Life Skills Development
           icon: star
           description: Rated 5-stars by the community.
-        - name: Swappable Blocks
+        - name: Family, Prosocial Peers, and Community Network (Re)Development
           icon: rectangle-group
           description: Build your pages with blocks - no coding required!
   - block: cta-image-paragraph
