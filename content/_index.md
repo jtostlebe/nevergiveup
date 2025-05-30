@@ -160,7 +160,6 @@ sections:
         👤 **Contact:** Shane Reilly, MS  
         📞 **Phone:** (402) 359-7404 
         ✉️ [Email Us](mailto:ngutlomaha@gmail.com)
-      image: Shane.jpg
     design:
       css_class: "bg-primary-700 text-white"
 
