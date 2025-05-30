@@ -88,7 +88,7 @@ sections:
             - "**Built for real change.** Helping people rebuild lives -- not just get by."
             - "**We've been there.** Our Program Director has been to prison five times -- he understands what real reentry takes."
           # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
+          image: groupphoto1.jpeg
           button:
             text: Get Started
             url: https://hugoblox.com/templates/
