@@ -11,10 +11,10 @@ main:
     weight: 20
   - name: Resources
     weight: 30
-    hasChildren: true
-  - parent: Resources
-    name: Program Materials
-    url: materials/
+#    hasChildren: true
+#  - parent: Resources
+#    name: Program Materials
+#    url: materials/
   - name: Donate
     url: /#donate
     weight: 40
