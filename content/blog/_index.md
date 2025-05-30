@@ -1,3 +1,3 @@
 ---
-title: Blog
+title: Never Give Up Program Materials
 ---
