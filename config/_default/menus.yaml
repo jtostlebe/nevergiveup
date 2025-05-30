@@ -9,9 +9,6 @@ main:
   - name: The Program
     url: /#program
     weight: 20
-  - parent: The Program
-    name: Our Team
-    url: /#ourteam
   - name: Resources
     weight: 30
     hasChildren: true
