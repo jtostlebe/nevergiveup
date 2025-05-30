@@ -98,13 +98,13 @@ sections:
           icon: home
           description: Safe, consistent housing throughout the program.
         - name: Support Services
-          icon: handshake
+          icon: shopping-bag
           description: Help with IDs, benefits, transportation, clothing, hygiene, and basic needs.
         - name: Employment and Workforce Development
           icon: briefcase
           description: Support with job placement, resumes, and interview skills.
         - name: Therapy and Life Skills Development
-          icon: brain
+          icon: heart
           description: Counseling, sobriety support, financial literacy, and life skills groups.
         - name: Family, Prosocial Peers, and Community Network (Re)Development
           icon: user-group
