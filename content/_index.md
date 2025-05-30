@@ -11,10 +11,10 @@ sections:
   - block: hero
     content:
       title: Never Give Up Transitional Living
-      text: Providing safe housing, mentorship, and a path to reintegration for formerly incarcerated individuals in Omaha, Nebraska.
+      text: A structured transitional housing program operated under the nonprofit 501(c)(3) organization, Good Turn Labor, to support formerly incarcerated individuals as they reintegrate into the community.
       primary_action:
         text: Support Second Chances
-        url: https://hugoblox.com/templates/
+        url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
         icon: rocket-launch
       secondary_action:
         text: Learn About Our Team
