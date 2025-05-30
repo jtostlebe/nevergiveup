@@ -1,3 +1,3 @@
 ---
-title: Never Give Up Program Materials
+title: Program Materials
 ---
