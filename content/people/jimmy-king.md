@@ -2,7 +2,7 @@
 title: "Jimmy King"
 first_name: Jimmy
 last_name: King
-role: "Assistant Program Director &\n Resident Manager"
+role: "Assistant Program Director /\n Resident Manager"
 image: "/images/jimmy-king.png"
 user_groups:
   - Leadership
