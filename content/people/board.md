@@ -3,7 +3,7 @@ title: "Board of Directors"
 first_name: Board of
 last_name: Directors
 role: "Good Turn Labor, LLC Board of Directors"
-image: "/images/julie-micek.jpeg"
+image: "/images/board.png"
 user_groups:
   - Leadership
 #bio: Shane manages daily operations of the transitional living program, overseeing staff and ensuring quality service delivery and regulatory compliance. He also leads fundraising efforts, cultivates community partnerships, and supports program sustainability.
