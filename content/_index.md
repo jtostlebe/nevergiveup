@@ -100,9 +100,6 @@ sections:
           button:
             text: Program Overview (PDF)
             url: /docs/NGUProgramDescription.pdf
-          button:
-            text: Staff Descriptions (PDF)
-            url: /docs/NGUStaffRoleDescriptions.pdf
 #        - title: Community (Re)Integration
 #          text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
 #          feature_icon: bolt
@@ -176,9 +173,6 @@ sections:
       button:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
-      button:
-        text: Never Give Up Program Flyer (PDF)
-        url: /docs/NGUFlyer.pdf
     design:
       css_class: "bg-white"
       card:
