@@ -2,7 +2,7 @@
 title: "Julie Micek"
 slug: "julie-micek"
 position: "Executive Director / Health Support and Counseling Specialist"
-image: "media/julie-micek.jpg"
+image: "images/julie-micek.png"
 draft: false
 ---
 
