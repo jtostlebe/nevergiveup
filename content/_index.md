@@ -151,6 +151,7 @@ sections:
             - "**We've been there.** Most of our team has been incarcerated—and made it out stronger."
           # Upload image to `assets/media/` and reference the filename here
           image: groupphoto1.jpeg
+          image_position: left
           button:
             text: Meet the Team
             url: /people
