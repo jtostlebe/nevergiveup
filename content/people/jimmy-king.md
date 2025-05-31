@@ -13,6 +13,6 @@ user_groups:
 #    link: 'mailto:jimmy@example.com'
 ---
 
-Jimmy provides operational support, assists in staff supervision, and coordinates participant services. He helps ensure program efficiency and effectiveness. 
+As Assistant Program Director, Jimmy provides operational support, assists in staff supervision, and coordinates participant services. He helps ensure program efficiency and effectiveness. 
 
 As Resident Manager, Jimmy ensures a safe, structured, and supportive living environment for participants, enforcing program rules and maintaining a positive community atmosphere.
