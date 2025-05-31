@@ -16,15 +16,14 @@ sections:
         text: Support Second Chances
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
         icon: rocket-launch
-        style: "background-color: #FACC15; color: #1F2937; padding: 0.5rem 1rem; border-radius: 0.375rem; font-weight: 600;"
+        style: "background-color: #FFCC00; color: #003366; padding: 0.5rem 1rem; border-radius: 0.375rem; font-weight: 600;"
 #      secondary_action:
 #        text: Learn About Our Team
 #        url: https://docs.hugoblox.com
     design:
       css_class: "text-white"
-      css_class: "dark"
       background:
-        color: "#0E2240"  # Navy Blue Background
+        color: "#003366"  # Navy Blue Background
         image:
           # Add your image background to `assets/media/`.
           filename: bg-triangles.svg
