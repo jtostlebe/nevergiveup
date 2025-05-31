@@ -2,7 +2,9 @@
 <h1 class="page-title">Meet Our Team</h1>
 
 <p class="team-description">
-  The Never Give Up Transitional Living program will be staffed by a team of professionals with lived experiences who are committed to providing high-quality reentry and peer support services. The team will work at the reentry house throughout its operation and ensure that participants receive the comprehensive care and guidance they need. Together, this team ensures that individuals returning from incarceration receive the comprehensive support needed to rebuild their lives, secure stable employment and housing, and successfully reintegrate into their communities.
+  The Never Give Up Transitional Living program is staffed by a team of professionals with lived experiences who are committed to providing high-quality reentry and peer support services. The team works at the reentry house and ensures that participants receive the comprehensive care and guidance they need. 
+  
+  Together, this team ensures that individuals returning from incarceration receive the comprehensive support needed to rebuild their lives, secure stable employment and housing, and successfully reintegrate into their communities.
 </p>
 
 {{ $people := where site.Pages "Section" "people" }}
@@ -21,7 +23,7 @@
             {{ $roles := split . "/" }}
             <p class="team-role">
               {{ range $i, $r := $roles }}
-                {{ if gt $i 0 }}<br>{{ end }}{{ trim $r }}
+                {{ if gt $i 0 }}<br>{{ end }}{{ trim $r " " }}
               {{ end }}
             </p>
           {{ end }}
@@ -68,45 +70,45 @@
   margin-top: 3rem;
   margin-bottom: 1rem;
   text-align: center;
-  color: #003366; /* Dark Blue */
+  color: #003366;
 }
 
 .staff-title {
-  margin-top: 5rem; /* Larger space above Staff */
+  margin-top: 5rem; /* larger space before staff section */
 }
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.5rem; /* Reduced gap between cards */
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.4rem; /* tight spacing */
   justify-items: center;
 }
 
 .team-card {
   text-align: center;
-  padding: 0.2rem; /* Reduced padding */
-  max-width: 180px;
+  padding: 0.2rem;
+  max-width: 160px;
 }
 
 .team-photo {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 0.3rem; /* Tighter spacing below image */
+  margin-bottom: 0.3rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .team-name {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   margin-bottom: 0.2rem;
-  color: #005C99; /* Medium Blue */
+  color: #005C99;
 }
 
 .team-role {
-  white-space: pre-line; /* Enable newlines to show */
+  white-space: pre-line;
   font-size: 0.95rem;
   color: #333;
   margin: 0;
