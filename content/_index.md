@@ -139,6 +139,15 @@ sections:
         - name: Faith-Based Support
           icon: user-group
           description: Spiritual mentorship and participation in faith-based community activities.
+        - name: Housing & Basic Needs
+          icon: home
+          description: Safe and stable housing for the program duration, including provision of initial clothing, food, transportation, and cellphones.
+        - name: Essential Documents Assistance
+          icon: identification
+          description: Support with obtaining or replacing ID, Social Security cards, EBT, and Medicaid enrollment if needed.
+        - name: Community & Family Engagement
+          icon: users
+         description: Organized social outings and family visitation days to help participants rebuild connections with loved ones and the community.
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"        
