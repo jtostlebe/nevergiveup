@@ -13,4 +13,6 @@ user_groups:
 #    link: 'mailto:brian@example.com'
 ---
 
+Brian Hafley went to prison and exited through a reentry program operated by Shane Reilly. Now he’s in a good place.
+
 Brian provides individualized support to participants, helping them navigate employment and reentry challenges.
