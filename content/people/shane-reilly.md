@@ -1,5 +1,5 @@
 ---
-title: "Shane Reilly, M.S."
+title: "Shane Reilly, MS"
 first_name: Shane
 last_name: Reilly
 role: "Program Director &\nDevelopment Director"
