@@ -162,13 +162,13 @@ sections:
         text: Support Second Chances
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
     design:
+      css_class: "bg-gray-100 dark:bg-gray-900"
       card:
         # Card background color (CSS class)
-        css_class: "bg-gray-100 dark:bg-gray-900"
+        css_class: "bg-primary-700"
         css_style: ""
 
   - block: features
-    id: contact
     content:
       title: Contact Us
       items:
