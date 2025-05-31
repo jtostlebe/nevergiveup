@@ -5,8 +5,6 @@ params:
     background: "#F3F4F6"   # Soft Gray (light background)
     textDarkBg: "#FFFFFF"   # White (text on dark background)
     textLightBg: "#1F2937"  # Gray-800 (body text on light background)
-    
-params:
   custom_css:
     - "css/custom.css"
 

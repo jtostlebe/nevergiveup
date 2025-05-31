@@ -1,26 +1,14 @@
-.stats .statistic {
-  color: #FACC15;
-  font-weight: bold;
-}
+.bg-darkblue { background-color: #003366; }
+.bg-mediumblue { background-color: #005C99; }
+.bg-lightblue { background-color: #66B2FF; }
 
-/* Custom button styles for primary_action buttons */
-button.primary-action, 
-a.primary-action {
-  background-color: #FACC15 !important;  /* gold/tan */
-  color: #1F2937 !important;             /* dark text */
-  font-weight: 600;
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem; /* rounded-md */
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: background-color 0.3s ease;
-}
+.text-darkblue { color: #003366; }
+.text-mediumblue { color: #005C99; }
+.text-lightblue { color: #66B2FF; }
 
-button.primary-action:hover, 
-a.primary-action:hover {
-  background-color: #eab308 !important;  /* darker yellow hover */
-  color: #111827 !important;
-  cursor: pointer;
-}
+.bg-lighttan { background-color: #F5F5DC; }
+.bg-tan { background-color: #E6D8AD; }
+.bg-brown { background-color: #4D3B2F; }
+
+.text-yellowaccent { color: #FFCC00; }
+.bg-yellowaccent { background-color: #FFCC00; }
