@@ -10,7 +10,7 @@
 <!-- Leadership Section -->
 <h2 class="section-title">Leadership</h2>
 <div class="team-grid">
-  {{ $leadershipOrder := slice "Julie" "Shane" "Jimmy" }}
+  {{ $leadershipOrder := slice "Board" Julie" "Shane" "Jimmy" }}
   {{ range $name := $leadershipOrder }}
     {{ range where $people "Params.first_name" "eq" $name }}
       <div class="team-card">
@@ -27,7 +27,7 @@
 <!-- Staff Section -->
 <h2 class="section-title" style="margin-top: 5rem;">Staff</h2>
 <div class="team-grid">
-  {{ $leadershipFirstNames := slice "Julie" "Shane" "Jimmy" }}
+  {{ $leadershipFirstNames := slice "Board" Julie" "Shane" "Jimmy" }}
   {{ $staff := where $people "Params.first_name" "not in" $leadershipFirstNames }}
   {{ range sort $staff "Params.last_name" }}
     {{ if eq .Params.first_name "Brian" }}
