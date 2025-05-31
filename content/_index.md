@@ -20,6 +20,7 @@ sections:
 #        text: Learn About Our Team
 #        url: https://docs.hugoblox.com
     design:
+      css_class: "bg-blue-900 text-white"
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
