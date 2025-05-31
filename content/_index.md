@@ -204,7 +204,7 @@ sections:
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         - name: Want to help us spread the word?
-          icon: chat-bubble-oval-right
+          icon: chat-bubble-oval-left
           description: |
             [Click here to download our flyer](/docs/NGUFlyer.pdf)
 
