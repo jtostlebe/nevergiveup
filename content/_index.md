@@ -26,7 +26,7 @@ sections:
         color: "#0E2240"  # Navy Blue Background
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: bg-waves.png
           filters:
             brightness: 0.5
       spacing:
