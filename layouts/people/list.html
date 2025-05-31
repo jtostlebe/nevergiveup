@@ -20,7 +20,7 @@
             {{ $roles := split . "/" }}
             <p class="team-role">
               {{ range $i, $r := $roles }}
-                {{ if gt $i 0 }}<br>{{ end }}{{ trim $r }}
+                {{ if gt $i 0 }}<br>{{ end }}{{ trim $r " " }}
               {{ end }}
             </p>
           {{ end }}
