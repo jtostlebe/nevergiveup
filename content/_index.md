@@ -15,7 +15,7 @@ sections:
       primary_action:
         text: Support Second Chances
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
-        icon: handshake
+        icon: light-bulb
 #      secondary_action:
 #        text: Learn About Our Team
 #        url: https://docs.hugoblox.com
