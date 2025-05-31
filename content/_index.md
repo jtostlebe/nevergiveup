@@ -137,7 +137,7 @@ sections:
           icon: currency-dollar
           description: Practical education on budgeting, saving, credit, and building long-term financial stability.
         - name: Faith-Based Support
-          icon: user-group
+          icon: church
           description: Spiritual mentorship and participation in faith-based community activities.
         - name: Housing & Basic Needs
           icon: home
