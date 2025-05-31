@@ -138,13 +138,13 @@ sections:
   - block: cta-image-paragraph
     content:
       items:
-        - title: What Makes NGU Unique?
-          text: Rooted in experience. Driven by hope.
+        - title: '<span style="color:#141436;">What Makes NGU Unique?</span>'
+          text: '<span style="color:#4d4d4d;">Rooted in experience. Driven by hope.</span>'
           feature_icon: bolt
           features:
-            - "**We don't give up.** No matter your past, we believe in your future."
-            - "**Built for real change.** Helping people rebuild lives -- not just get by."
-            - "**We've been there.** Our staff have done time – and rebuilt their lives."
+            - '<span style="color:#8c8c8c;"><strong>We don\'t give up.</strong> No matter your past, we believe in your future.</span>'
+            - '<span style="color:#8c8c8c;"><strong>Built for real change.</strong> Helping people rebuild lives -- not just get by.</span>'
+            - '<span style="color:#8c8c8c;"><strong>We\'ve been there.</strong> Our staff have done time – and rebuilt their lives.</span>'
           image: groupphoto1.jpeg
           button:
             text: Meet the NGU Team
