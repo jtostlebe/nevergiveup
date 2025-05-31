@@ -187,7 +187,7 @@ sections:
   - block: features
     id: contact
     content:
-      title: Contact Us
+      title: '<div style="text-align:left;">Contact Us</div>'
       items:
         - name: Program Director Shane Reilly, M.S.
           icon: phone
@@ -199,7 +199,7 @@ sections:
           icon: map-pin
           description: "Omaha, Nebraska"
     design:
-      css_class: "bg-white contact-items-centered"
+      css_class: "bg-white"
       
 #  - block: testimonials
 #    content:
