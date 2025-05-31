@@ -21,8 +21,7 @@ sections:
 #        text: Learn About Our Team
 #        url: https://docs.hugoblox.com
     design:
-      css_class: "text-white"
-      css_class: "dark"
+      css_class: "dark text-white"
       background:
         color: "#0E2240"  # Navy Blue Background
         image:
@@ -49,9 +48,7 @@ sections:
           description: |
             Graduation Rate
     design:
-      # Section background color (CSS class)
       css_class: "bg-white text-[#003366]"      
-      # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
         
@@ -66,7 +63,6 @@ sections:
         
         The overarching goal of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</c>
     design:
-      # Section background color (CSS class)
       css_class: "bg-gray-100"        
   
   - block: cta-image-paragraph
@@ -82,7 +78,6 @@ sections:
             - "Employment and workforce development"
             - "Therapy and life skills development"
             - "Family, prosocial peers, and community network (re)development"
-          # Upload image to `assets/media/` and reference the filename here
           image: GroupPhoto_2.jpg
           button:
             text: Program Overview (PDF)
@@ -94,13 +89,11 @@ sections:
 #            - "Connections to local community organizations and universities"
 #            - "Partnerships with employers offering job opportunities"
 #            - "Collaborative support from parole officers"
-#          # Upload image to `assets/media/` and reference the filename here
 #          image: HockeyPhoto.jpeg
 #          button:
 #            text: Join Discord
 #            url: https://discord.gg/z8wNYzb
     design:
-      # Section background color (CSS class)
       css_class: "bg-[#FFFFFF]"
       
   - block: features
@@ -136,7 +129,6 @@ sections:
           icon: users
           description: Organized social outings and family visitation days to help participants rebuild connections with loved ones and the community.
     design:
-      # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"        
 
   - block: cta-image-paragraph
@@ -149,7 +141,6 @@ sections:
             - "**We don't give up.** No matter your past, we believe in your future."
             - "**Built for real change.** Helping people rebuild lives -- not just get by."
             - "**We've been there.** Our staff have done time – and rebuilt their lives."
-          # Upload image to `assets/media/` and reference the filename here
           image: groupphoto1.jpeg
           button:
             text: Meet the NGU Team
@@ -180,7 +171,6 @@ sections:
     design:
       css_class: "bg-gray-100"
       card:
-        # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
 
@@ -219,12 +209,10 @@ sections:
 #      items:
 #        - name: "Hugo Smith"
 #          role: "Marketing Executive at X"
-#          # Upload image to `assets/media/` and reference the filename here
 #          image: "testimonial-1.jpg"
 #          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
 #    design:
 #      spacing:
-#        # Reduce bottom spacing so the testimonial appears vertically centered between sections
 #        padding: ["6rem", 0, 0, 0]
         
 ---
