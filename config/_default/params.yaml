@@ -7,6 +7,10 @@
 appearance:
   mode: light
   color: indigo
+  
+icon:
+  logo: media/icon.png  # This is for the browser tab favicon
+  favicon: true
 
 # SEO
 marketing:
