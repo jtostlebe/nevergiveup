@@ -1,5 +1,5 @@
 ---
-title: "Julie Micek"
+title: "Julie Micek, LIMHP"
 first_name: Julie
 last_name: Micek
 role: "Executive Director and\nHealth Support and Counseling Specialist"
