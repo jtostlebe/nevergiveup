@@ -174,39 +174,39 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 
-  - block: features
-    id: contact
-    content:
-      title: Contact Us
-      items:
-        - name: Program Director Shane Reilly, M.S.
-          icon: phone
-          description: "📞 (402) 359-7404"
-        - name: Location
-          icon: map-pin
-          description: |
-            Omaha, Nebraska
-            
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.8843491753914!2d-95.9345031846238!3d41.25653617927001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938e6f1b8f0b8f%3A0xd53bfbb7c5304466!2sOmaha%2C%20NE!5e0!3m2!1sen!2sus!4v1695970800000!5m2!1sen!2sus"
-              width="100%"
-              height="200"
-              style="border:0;"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        - name: Email Us
-          icon: envelope
-          description: "[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)"
-        - name: Want to help us spread the word?
-          icon: send
-          description: |
-            [Click here to download our flyer](/docs/NGUFlyer.pdf)
-
-            Share it with someone who might benefit or want to support us!
-    design:
-      css_class: "bg-white"
+- block: features
+  id: contact
+  content:
+    title: Contact Us
+    items:
+      - name: Program Director Shane Reilly, M.S.
+        icon: phone
+        description: "📞 (402) 359-7404"
+      - name: Location
+        icon: map-pin
+        description: |
+          Omaha, Nebraska
+          
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.8843491753914!2d-95.9345031846238!3d41.25653617927001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938e6f1b8f0b8f%3A0xd53bfbb7c5304466!2sOmaha%2C%20NE!5e0!3m2!1sen!2sus!4v1695970800000!5m2!1sen!2sus"
+            width="100%"
+            height="200"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+      - name: Email Us
+        icon: envelope
+        description: "[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)"
+      - name: Want to help us spread the word?
+        icon: send
+        description: |
+          [Click here to download our flyer](/docs/NGUFlyer.pdf)
+  
+          Share it with someone who might benefit or want to support us!
+  design:
+    css_class: "bg-white features-contact-items"
       
 #  - block: testimonials
 #    content:
