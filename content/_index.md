@@ -118,7 +118,7 @@ sections:
       title: NGU Programming Opportunities
       text: 
       items:
-        - name: Group Dialectical Behavior Therapy (DBT)
+        - name: Dialectical Behavior Therapy (DBT)
           icon: light-bulb
           description: Evidence-based group therapy focused on emotional regulation, distress tolerance, and interpersonal skills.
         - name: Intensive Outpatient Programming (IOP)
