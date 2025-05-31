@@ -50,7 +50,7 @@ sections:
             Graduation Rate
     design:
       # Section background color (CSS class)
-      css_class: "bg-[#C6C6C6] text-[#0E2240]"      
+      css_class: "bg-[#E6D8AD] text-[#003366]"      
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
