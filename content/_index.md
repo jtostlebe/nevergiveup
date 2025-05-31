@@ -171,7 +171,7 @@ sections:
     content:
       title: Contact Us
       items:
-        - name: Shane Reilly
+        - name: Program Director Shane Reilly, M.S.
           icon: phone
           description: 📞 (402) 359-7404  
         - name: 
