@@ -78,12 +78,12 @@ sections:
           text: '<span style="color:#4d4d4d;">Never Give Up Transitional Living creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration.<br><br>By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.<br><br>Core elements of the program include:</span>'
           feature_icon: bolt
           features:
-            - '<span style="color:#8c8c8c;">24/7 supervision and accountability</span>'
-            - '<span style="color:#8c8c8c;">Stable housing</span>'
-            - '<span style="color:#8c8c8c;">Support services</span>'
-            - '<span style="color:#8c8c8c;">Employment and workforce development</span>'
-            - '<span style="color:#8c8c8c;">Therapy and life skills development</span>'
-            - '<span style="color:#8c8c8c;">Family, prosocial peers, and community network (re)development</span>'
+            - '<span style="color:#36454F;">24/7 supervision and accountability</span>'
+            - '<span style="color:#36454F;">Stable housing</span>'
+            - '<span style="color:#36454F;">Support services</span>'
+            - '<span style="color:#36454F;">Employment and workforce development</span>'
+            - '<span style="color:#36454F;">Therapy and life skills development</span>'
+            - '<span style="color:#36454F;">Family, prosocial peers, and community network (re)development</span>'
           image: GroupPhoto_2.jpg
           button:
             text: Program Overview (PDF)
