@@ -88,3 +88,19 @@ p {
 .contact-items-centered .feature-item .icon {
   margin-bottom: 0.5rem;
 }
+
+
+/* Make the container a flex row for the contact items */
+.features-contact-items {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Each item inside the container */
+.features-contact-items > div {
+  flex: 1;
+  min-width: 150px;
+}
