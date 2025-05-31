@@ -2,7 +2,7 @@
 title: "Julie Micek, LIMHP"
 first_name: Julie
 last_name: Micek
-role: "Executive Director &\nHealth Support and Counseling Specialist"
+role: "Executive Director / \nHealth Support and Counseling Specialist"
 image: "/images/julie-micek.jpeg"
 user_groups:
   - Leadership
