@@ -1,76 +1,76 @@
-/* Button styles */
-.btn-yellow {
-  background-color: #FFCC00;
-  color: #003366;
-  font-weight: 700;
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  text-decoration: none;
-}
-
-.btn-yellow:hover,
-.btn-yellow:focus {
-  background-color: #e6b800; /* Slightly darker yellow on hover */
-  outline: none;
-}
-
 /* Background colors */
 .bg-lightblue {
-  background-color: #66B2FF;
-  color: #003366;
+  background-color: #66B2FF; /* Lightest Blue */
+  color: #003366; /* Dark Blue text */
 }
 
-.bg-lightgray {
-  background-color: #F5F5F5;
-  color: #003366;
+.bg-mediumblue {
+  background-color: #005C99; /* Medium Blue */
+  color: #FFFFFF; /* White text */
+}
+
+.bg-darkblue {
+  background-color: #003366; /* Dark Blue */
+  color: #FFFFFF; /* White text */
+}
+
+.bg-lighttan {
+  background-color: #F5F5DC; /* Light Tan */
+  color: #4D3B2F; /* Brown text */
+}
+
+.bg-tan {
+  background-color: #E6D8AD; /* Tan */
+  color: #4D3B2F; /* Brown text */
 }
 
 .bg-white {
   background-color: #FFFFFF;
-  color: #003366;
+  color: #1F2937; /* Gray-800 text */
 }
 
-/* Hero text for better readability on dark bg */
-.hero-text {
-  color: white;
+/* Text colors */
+.text-darkblue {
+  color: #003366 !important;
 }
 
-/* Padding utility for consistent spacing */
-.section-padding {
-  padding: 3rem 2rem;
+.text-white {
+  color: #FFFFFF !important;
 }
 
-/* Heading colors */
+/* Buttons */
+button, .btn, .button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary, .button-primary {
+  background-color: #1E3A8A; /* Deep Navy */
+  color: #FFFFFF;
+}
+
+.btn-accent, .button-accent {
+  background-color: #FFCC00; /* Gold/Tan */
+  color: #003366; /* Dark Blue */
+}
+
+.btn-primary:hover, .button-primary:hover {
+  background-color: #163269; /* Darker Navy */
+}
+
+.btn-accent:hover, .button-accent:hover {
+  background-color: #e6b800; /* Darker Gold */
+}
+
+/* Misc */
 h1, h2, h3, h4, h5, h6 {
-  color: #003366;
-}
-
-/* Links */
-a {
-  color: #FFCC00;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
-
-/* Statistic block tweaks */
-.statistic {
+  color: #003366; /* Dark Blue headings */
   font-weight: 700;
-  font-size: 2rem;
-  color: #003366;
 }
 
-.description {
-  color: #4A4A4A;
-  font-weight: 500;
-  font-size: 1rem;
-}
+p {
+  color: #1
