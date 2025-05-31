@@ -2,7 +2,7 @@
 title: "Shane Reilly, MS"
 first_name: Shane
 last_name: Reilly
-role: "Program Director &\nDevelopment Director"
+role: "Program Director /\nDevelopment Director"
 image: "/images/shane-reilly.jpg"
 user_groups:
   - Leadership
