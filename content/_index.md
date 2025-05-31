@@ -16,6 +16,7 @@ sections:
         text: Support Second Chances
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
         icon: rocket-launch
+        class: "bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-2 px-4 rounded"
 #      secondary_action:
 #        text: Learn About Our Team
 #        url: https://docs.hugoblox.com
