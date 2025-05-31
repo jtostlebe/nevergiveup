@@ -59,10 +59,10 @@ sections:
     id: program
     content:
       title: |
-        About
+        About Never Give Up Transitional Living
       text: |
         <br>
-        <c style="color:#4D3B2F; font-size:1.125rem;">The Never Give Up Transitional Living program serves men released from prison who: (a) are approved for community supervision or parole, (b) are motivated to participate in structured reentry support, and (c) have applied to the program and completed a phone interview and background review.
+        <c style="color:#4D3B2F; font-size:1.125rem;">The Never Give Up (NGU) Transitional Living program serves men released from prison who: (a) are approved for community supervision or parole, (b) are motivated to participate in structured reentry support, and (c) have applied to the program and completed a phone interview and background review.
         
         The overarching goal of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</c>
     design:
@@ -73,7 +73,7 @@ sections:
     content:
       items:
         - title: The NGU Approach
-          text: Never Give Up creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
+          text: Never Give Up Transitional Living creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
           feature_icon: bolt
           features:
             - "24/7 supervision and accountability"
@@ -142,7 +142,7 @@ sections:
   - block: cta-image-paragraph
     content:
       items:
-        - title: What Makes **Never Give Up Transitional Living** Unique?
+        - title: What Makes NGU Unique?
           text: Rooted in experience. Driven by hope.
           feature_icon: bolt
           features:
@@ -184,23 +184,26 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 
-  - block: features
-    id: contact
-    content:
-      title: Contact Us
-      items:
-        - name: Program Director Shane Reilly, M.S.
-          icon: phone
-          description: 📞 (402) 359-7404  
-        - name: 
-          icon: user
-          description: |
-            ![](Shane.jpg)
-        - name: Email Us
-          icon: envelope
-          description: '[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)'
-    design:
-      css_class: "bg-gray-100 contact-items-centered"
+- block: features
+  id: contact
+  content:
+    title: Contact Us
+    items:
+      - name: Program Director Shane Reilly, M.S.
+        icon: phone
+        description: 📞 (402) 359-7404  
+      - name: 
+        icon: user
+        description: |
+          ![](Shane.jpg)
+      - name: Email Us
+        icon: envelope
+        description: '[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)'
+      - name: Location
+        icon: map-pin
+        description: Omaha, Nebraska
+  design:
+    css_class: "bg-gray-100 contact-items-centered"
       
 #  - block: testimonials
 #    content:
