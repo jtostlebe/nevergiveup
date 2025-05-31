@@ -1,0 +1,11 @@
+baseURL: "https://nevergiveuptest.netlify.app/"
+title: "My Hugo Site"
+theme: "blox"
+
+params:
+  colors:
+    primary: "#1E3A8A"      # Deep Navy (header, buttons)
+    accent: "#FACC15"       # Gold/Tan (highlights, CTA)
+    background: "#F3F4F6"   # Soft Gray (light background)
+    textDarkBg: "#FFFFFF"   # White (text on dark background)
+    textLightBg: "#1F2937"  # Gray-800 (body text on light background)
