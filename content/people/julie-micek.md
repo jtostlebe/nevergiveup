@@ -2,7 +2,7 @@
 title: "Julie Micek"
 first_name: Julie
 last_name: Micek
-role: "Executive Director\nHealth Support and Counseling Specialist"
+role: "Executive Director and\nHealth Support and Counseling Specialist"
 image: "/images/julie-micek.png"
 user_groups:
   - Leadership
