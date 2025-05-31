@@ -142,9 +142,9 @@ sections:
           text: '<span style="color:#4d4d4d;">Rooted in experience. Driven by hope.</span>'
           feature_icon: bolt
           features:
-            - '<span style="color:#8c8c8c;"><strong>We don\'t give up.</strong> No matter your past, we believe in your future.</span>'
+            - '<span style="color:#8c8c8c;"><strong>We don''t give up.</strong> No matter your past, we believe in your future.</span>'
             - '<span style="color:#8c8c8c;"><strong>Built for real change.</strong> Helping people rebuild lives -- not just get by.</span>'
-            - '<span style="color:#8c8c8c;"><strong>We\'ve been there.</strong> Our staff have done time – and rebuilt their lives.</span>'
+            - '<span style="color:#8c8c8c;"><strong>We''ve been there.</strong> Our staff have done time – and rebuilt their lives.</span>'
           image: groupphoto1.jpeg
           button:
             text: Meet the NGU Team
