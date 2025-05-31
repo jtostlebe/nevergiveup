@@ -173,7 +173,7 @@ sections:
     id: donate
     content:
       title: Help us Change Lives
-      text: Donate to Never Give Up through Good Turn Labor, LLC
+      text: Donate to Never Give Up through the 501(c)(3) organization, Good Turn Labor, LLC
       button:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
