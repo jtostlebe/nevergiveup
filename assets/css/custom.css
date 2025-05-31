@@ -73,8 +73,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #1
-
+  color: #1F2937; /* Gray-800 text */
+  margin-bottom: 1em;   /* Adds spacing below paragraphs */
+  line-height: 1.5;     /* Improves readability */
+}
 
 .contact-items-centered .feature-item {
   display: flex;
