@@ -3,7 +3,7 @@ title: "Muthang Choule"
 first_name: Muthang
 last_name: Choule
 role: "Peer Support Specialist"
-image: "/images/muthang-choule.jpg"
+image: "/images/muthang-choule.png"
 user_groups:
   - Staff
 #bio: Provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.

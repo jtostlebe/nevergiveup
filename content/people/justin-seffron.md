@@ -3,7 +3,7 @@ title: "Justin Seffron"
 first_name: Justin
 last_name: Seffron
 role: "Peer Support Specialist"
-image: "/images/justin-seffron.jpg"
+image: "/images/justin-seffron.png"
 user_groups:
   - Staff
 #bio: Provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
