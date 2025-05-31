@@ -15,7 +15,7 @@
     <ul>
       {{ range .Params.social }}
       <li>
-        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .icon }}">
           <i class="{{ .icon_pack }} fa-{{ .icon }}"></i>
         </a>
       </li>
@@ -29,26 +29,45 @@
 .person-profile {
   max-width: 600px;
   margin: 2rem auto;
-  text-align: center;
+  text-align: center;  /* Center all text and inline elements */
+  font-family: Arial, sans-serif;
+  padding: 0 1rem;
 }
+
 .profile-photo {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem auto; /* Center horizontally + margin below */
+  display: block;            /* Needed for margin auto centering */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+.bio {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
 .social-links ul {
   list-style: none;
   padding: 0;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
+
 .social-links a {
   font-size: 1.5rem;
-  color: #333;
+  color: #007acc;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #005fa3;
 }
 </style>
-
 {{ end }}
