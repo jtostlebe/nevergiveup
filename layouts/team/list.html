@@ -1,23 +1,14 @@
 {{ define "main" }}
-  <section class="team-page">
-    <div class="container">
-
-      <h1>{{ .Title }}</h1>
-      <p>{{ .Params.description }}</p>
-      {{ .Content }}
-
-      <div class="team-grid">
-        {{ $team := index .Site.Data "team" }}
-        {{ range $team }}
-          <div class="team-member">
-            <img src="/images/team/{{ .photo }}" alt="{{ .name }}">
-            <h2>{{ .name }}</h2>
-            <h3>{{ delimit .roles ", " }}</h3>
-            <p>{{ .bio }}</p>
-          </div>
-        {{ end }}
-      </div>
-
-    </div>
-  </section>
+<h1>Meet Our Team</h1>
+<div class="team-grid">
+  {{ range .Pages }}
+  <div class="team-card">
+    <a href="{{ .RelPermalink }}">
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Params.position }}</p>
+    </a>
+  </div>
+  {{ end }}
+</div>
 {{ end }}

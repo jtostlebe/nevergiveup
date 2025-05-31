@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="team-profile">
+  <img src="/{{ .Params.image }}" alt="{{ .Title }}" class="team-photo-large" />
+  <h1>{{ .Title }}</h1>
+  <h2>{{ .Params.position }}</h2>
+  <div class="bio">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
