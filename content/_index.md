@@ -192,10 +192,6 @@ sections:
         - name: Program Director Shane Reilly, M.S.
           icon: phone
           description: 📞 (402) 359-7404  
-        - name: 
-          icon: user
-          description: |
-            ![](Shane.jpg)
         - name: Email Us
           icon: envelope
           description: '[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)'
