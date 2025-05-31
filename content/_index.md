@@ -196,7 +196,7 @@ sections:
           icon: envelope
           description: '[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)'
     design:
-      css_class: "bg-white"
+      css_class: "bg-white contact-items-centered"
       
 #  - block: testimonials
 #    content:
