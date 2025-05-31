@@ -178,10 +178,10 @@ sections:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
     design:
-      css_class: "bg-white"
+      css_class: "bg-gray-100"
       card:
         # Card background color (CSS class)
-        css_class: "bg-gray-100"
+        css_class: "bg-primary-700"
         css_style: ""
 
   - block: features
@@ -203,7 +203,7 @@ sections:
           icon: map-pin
           description: Omaha, Nebraska
     design:
-      css_class: "bg-primary-700 contact-items-centered"
+      css_class: "bg-white contact-items-centered"
       
 #  - block: testimonials
 #    content:
