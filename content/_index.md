@@ -4,6 +4,7 @@ date: 2025-05-30
 type: landing
 
 design:
+  # Default section spacing
   spacing: "6rem"
 
 sections:
@@ -15,42 +16,59 @@ sections:
         text: Support Second Chances
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
         icon: rocket-launch
-        style: "background-color: #FFCC00; color: #003366; font-weight: 700; padding: 0.75rem 1.5rem; border-radius: 0.375rem;"
+#        style: "background-color: #FACC15; color: #1F2937; padding: 0.5rem 1rem; border-radius: 0.375rem; font-weight: 600;"
+#      secondary_action:
+#        text: Learn About Our Team
+#        url: https://docs.hugoblox.com
     design:
-      css_class: "bg-hero"
+      css_class: "text-white"
+      css_class: "dark"
+      background:
+        color: "#0E2240"  # Navy Blue Background
+        image:
+          # Add your image background to `assets/media/`.
+          filename: bg-triangles.svg
+          filters:
+            brightness: 0.5
       spacing:
-        padding: ["4rem", "2rem"]
-
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+            
   - block: stats
     content:
       items:
         - statistic: "16"
-          description: "Men Admitted Since March 2025"
+          description: |
+            Men Admitted     
+            Since March 2025
         - statistic: "84"
-          description: "Days of Programming"
+          description: |
+            Days of Programming
         - statistic: "XX%"
-          description: "Graduation Rate"
+          description: |
+            Graduation Rate
     design:
-      css_class: "bg-stats text-stats"
+      # Section background color (CSS class)
+      css_class: "bg-[#E6D8AD] text-[#003366]"      
+      # Reduce spacing
       spacing:
-        padding: ["3rem", "2rem"]
-
+        padding: ["1rem", 0, "1rem", 0]
+        
   - block: markdown
     id: program
     content:
-      title: About
+      title: |
+        About
       text: |
-        <p style="color:#003366; font-size:1.125rem; line-height:1.6;">
-        The Never Give Up Transitional Living program serves men released from prison who: (a) are approved for community supervision or parole, (b) are motivated to participate in structured reentry support, and (c) have applied to the program and completed a phone interview and background review.
-        </p>
-        <p style="color:#4D3B2F; font-size:1rem; line-height:1.6;">
-        The overarching goal of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.
-        </p>
+        <br>
+        <c style="color:#4D3B2F; font-size:1.125rem;">The Never Give Up Transitional Living program serves men released from prison who: (a) are approved for community supervision or parole, (b) are motivated to participate in structured reentry support, and (c) have applied to the program and completed a phone interview and background review.
+        
+        The overarching goal of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</c>
     design:
-      css_class: "bg-about"
-      spacing:
-        padding: ["3rem", "2rem"]
-
+      # Section background color (CSS class)
+      css_class: "bg-[#F5F5DC]"        
+  
   - block: cta-image-paragraph
     content:
       items:
@@ -61,11 +79,12 @@ sections:
             - "**We don't give up.** No matter your past, we believe in your future."
             - "**Built for real change.** Helping people rebuild lives -- not just get by."
             - "**We've been there.** Most of our team has been incarcerated—and made it out stronger."
+          # Upload image to `assets/media/` and reference the filename here
           image: groupphoto1.jpeg
           button:
             text: Meet the Team
             url: https://nevergiveuptest.netlify.app/#ourteam
-            style: "background-color: #FFCC00; color: #003366; font-weight: 700; padding: 0.5rem 1rem; border-radius: 0.375rem;"
+            style: "background-color: #FECA1B; color: #0E2240; font-weight: 700;"
         - title: The NGU Approach
           text: Never Give Up creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
           feature_icon: bolt
@@ -76,12 +95,27 @@ sections:
             - "Employment and workforce development"
             - "Therapy and life skills development"
             - "Family, prosocial peers, and community network (re)development"
+          # Upload image to `assets/media/` and reference the filename here
           image: GroupPhoto_2.jpg
+#          button:
+#            text: Learn More
+#            url: https://nevergiveuptest.netlify.app/materials/
+#        - title: Community (Re)Integration
+#          text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
+#          feature_icon: bolt
+#          features:
+#            - "Connections to local community organizations and universities"
+#            - "Partnerships with employers offering job opportunities"
+#            - "Collaborative support from parole officers"
+#          # Upload image to `assets/media/` and reference the filename here
+#          image: HockeyPhoto.jpeg
+#          button:
+#            text: Join Discord
+#            url: https://discord.gg/z8wNYzb
     design:
-      css_class: "bg-feature"
-      spacing:
-        padding: ["3rem", "2rem"]
-
+      # Section background color (CSS class)
+      css_class: "bg-[#FFFFFF]"
+      
   - block: features
     content:
       title: NGU Programming Opportunities
@@ -104,11 +138,10 @@ sections:
           description: Practical education on budgeting, saving, credit, and building long-term financial stability.
         - name: Faith-Based Support
           icon: user-group
-          description: Spiritual mentorship and participation in faith-based community activities.
+          description: Spirtual mentorship and participation in faith-based community activities.
     design:
-      css_class: "bg-about"
-      spacing:
-        padding: ["3rem", "2rem"]
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"        
 
   - block: markdown
     id: documentation
@@ -117,13 +150,11 @@ sections:
       text: |
         Access our core materials to better understand our policies, procedures, and services:
         
-        - [**Program Overview** (PDF)](/docs/NGUProgramDescription.pdf)
-        - [**Staff Descriptions** (PDF)](/docs/NGUStaffRoleDescriptions.pdf)
-        - [**Never Give Up Program Flyer** (PDF)](/docs/NGUFlyer.pdf)
+        - [**Program Overview** (PDF)](/docs/NGUProgramDescription.pdf): Summary of program goals, logic model, eligibility criteria, participant rules and expectations, and services.
+        - [**Staff Descriptions** (PDF)](/docs/NGUStaffRoleDescriptions.pdf): Employee roles, job descriptions, and qualification expectations.
+        - [**Never Give Up Program Flyer** (PDF)](/docs/NGUFlyer.pdf): Print-ready handout describing our services.
     design:
-      css_class: "bg-about"
-      spacing:
-        padding: ["3rem", "2rem"]
+      css_class: "bg-white"
 
   - block: cta-card
     id: donate
@@ -133,10 +164,10 @@ sections:
       button:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
-        style: "background-color: #003366; color: #FFCC00; font-weight: 700; padding: 0.75rem 1.5rem; border-radius: 0.375rem;"
     design:
-      css_class: "bg-stats text-stats"
+      css_class: "bg-gray-100 dark:bg-gray-900"
       card:
+        # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
 
@@ -156,7 +187,21 @@ sections:
           icon: envelope
           description: '[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)'
     design:
-      css_class: "bg-contact"
-      spacing:
-        padding: ["3rem", "2rem"]
+      css_class: "bg-gray-100"
+      
+#  - block: testimonials
+#    content:
+#      title: "Testimonials"
+#      text: ""
+#      items:
+#        - name: "Hugo Smith"
+#          role: "Marketing Executive at X"
+#          # Upload image to `assets/media/` and reference the filename here
+#          image: "testimonial-1.jpg"
+#          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+#    design:
+#      spacing:
+#        # Reduce bottom spacing so the testimonial appears vertically centered between sections
+#        padding: ["6rem", 0, 0, 0]
+        
 ---
