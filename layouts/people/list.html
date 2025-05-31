@@ -1,10 +1,11 @@
 {{ define "main" }}
-<h1>Meet Our Team</h1>
+<h1 class="page-title">Meet Our Team</h1>
+
 <p class="team-description">
   The Never Give Up Transitional Living program will be staffed by a team of professionals with lived experiences who are committed to providing high-quality reentry and peer support services. The team will work at the reentry house throughout its operation and ensure that participants receive the comprehensive care and guidance they need. Together, this team ensures that individuals returning from incarceration receive the comprehensive support needed to rebuild their lives, secure stable employment and housing, and successfully reintegrate into their communities.
 </p>
 
-<h2>Leadership</h2>
+<h2 class="section-title">Leadership</h2>
 <div class="team-grid">
   {{ range .Pages.ByParam "last_name" }}
     {{ if (gt (len (intersect .Params.user_groups (slice "Leadership"))) 0) }}
@@ -19,7 +20,7 @@
   {{ end }}
 </div>
 
-<h2>Staff</h2>
+<h2 class="section-title">Staff</h2>
 <div class="team-grid">
   {{ range .Pages.ByParam "last_name" }}
     {{ if eq (len (intersect .Params.user_groups (slice "Leadership"))) 0 }}
@@ -35,15 +36,40 @@
 </div>
 
 <style>
+.page-title {
+  font-size: 3rem;       /* Bigger font size */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.team-description {
+  max-width: 700px;
+  margin: 0 auto 3rem auto; /* Center + space below */
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.section-title {
+  font-size: 2rem;      /* Larger section titles */
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;  /* Space below each grid */
 }
+
 .team-card {
   padding: 1rem;
   text-align: center;
 }
+
 .team-photo {
   width: 150px;
   height: 150px;
@@ -52,13 +78,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.team-description {
-  max-width: 600px;
-  margin-bottom: 2rem;
-}
-h1, h2 {
-  text-align: center;
 }
 </style>
 {{ end }}
