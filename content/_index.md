@@ -50,7 +50,7 @@ sections:
             Graduation Rate
     design:
       # Section background color (CSS class)
-      css_class: "bg-light-grey text-[#003366]"      
+      css_class: "bg-white text-[#003366]"      
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
@@ -67,7 +67,7 @@ sections:
         The overarching goal of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</c>
     design:
       # Section background color (CSS class)
-      css_class: "bg-[#F5F5DC]"        
+      css_class: "bg-gray-100"        
   
   - block: cta-image-paragraph
     content:
@@ -187,7 +187,7 @@ sections:
           icon: envelope
           description: '[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)'
     design:
-      css_class: "bg-gray-100"
+      css_class: "bg-white"
       
 #  - block: testimonials
 #    content:
