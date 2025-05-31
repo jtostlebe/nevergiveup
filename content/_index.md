@@ -20,11 +20,7 @@ sections:
 #        text: Learn About Our Team
 #        url: https://docs.hugoblox.com
     design:
-      css_class: "bg-yellow-400 text-gray-800"
-      spacing:
-        padding: [0, 0, 0, 0]
-        margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
+      css_class: "text-white"
       css_class: "dark"
       background:
         color: "#0E2240"  # Navy Blue Background
@@ -33,6 +29,10 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
             
   - block: stats
     content:
