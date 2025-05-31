@@ -185,7 +185,7 @@ sections:
         - name: Email Us
           icon: envelope
           description: "[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)"
-                - name: Location
+        - name: Location
           icon: map-pin
           description: |
             Omaha, Nebraska
