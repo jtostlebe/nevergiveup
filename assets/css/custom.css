@@ -89,18 +89,26 @@ p {
   margin-bottom: 0.5rem;
 }
 
-
 /* Make the container a flex row for the contact items */
 .features-contact-items {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 2rem;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-wrap: nowrap;          /* prevent wrapping */
+  gap: 2rem;                  /* space between items */
+  justify-content: space-between; /* distribute evenly */
+  align-items: flex-start;    /* align items at top */
 }
 
-/* Each item inside the container */
-.features-contact-items > div {
-  flex: 1;
-  min-width: 150px;
+/* Each direct child inside the container */
+.features-contact-items > * {
+  flex: 1 1 0;               /* flexible width */
+  min-width: 150px;          /* don’t shrink below this */
+  box-sizing: border-box;    /* include padding/border in width */
+}
+
+/* For iframe inside location to fit nicely */
+.features-contact-items iframe {
+  width: 100% !important;    /* full width */
+  height: 200px !important;  /* fixed height */
+  border: 0 !important;
+  display: block;            /* fixes inline spacing */
 }
