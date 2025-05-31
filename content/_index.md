@@ -152,7 +152,7 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: groupphoto1.jpeg
           button:
-            text: Meet the Team
+            text: Meet the NGU Team
             url: /people
             style: "background-color: #FECA1B; color: #0E2240; font-weight: 700;"
 
