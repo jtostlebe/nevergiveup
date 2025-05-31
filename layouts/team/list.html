@@ -4,6 +4,7 @@
   {{ range .Pages }}
   <div class="team-card">
     <a href="{{ .RelPermalink }}">
+      <p>Image path: {{ .Params.image }}</p>   <!-- Debug: print the path -->
       <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
       <h2>{{ .Title }}</h2>
       <p>{{ .Params.position }}</p>
@@ -11,4 +12,4 @@
   </div>
   {{ end }}
 </div>
-{{ end }}
+
