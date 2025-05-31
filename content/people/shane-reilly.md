@@ -17,6 +17,9 @@ user_groups:
 ---
 
 <p>For over a decade, Shane Reilly was in and out of prison. Then he got clean, hit the books, and earned his master’s degree. Today, he takes pride in helping others get their life back after prison.</p>
+
 <p>Shane manages daily operations of the transitional living program, overseeing staff and ensuring quality service delivery and regulatory compliance.</p>
+
 <p>He also leads fundraising efforts, cultivates community partnerships, and supports program sustainability.</p>
+
 <p>Shane considers everyone who has been through the program a part of his family, and he’s a proud mentor when he hears a success story.</p>
