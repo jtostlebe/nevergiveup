@@ -64,7 +64,15 @@ sections:
         (a) are approved for community supervision or parole,<br>
         (b) are motivated to participate in structured reentry support, and<br>
         (c) have applied to the program and completed a phone interview and background review.<br><br>
-        The overarching goal of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.
+        The overarching goal of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.<br><br>
+        Program Eligibility Note:<br>
+        Men convicted of sex offenses are not eligible for the Never Give Up Transitional Living program. This policy reflects important considerations:<br><br>
+        <ul>
+          <li>Specialized needs: Individuals with sex offense convictions often require intensive and specialized reentry programming beyond the scope of this housing model.</li>
+          <li>Safety and support: Our shared housing environment and peer support model are designed to foster a safe and supportive community for all residents. The unique supervision, treatment, and safety requirements associated with sex offense histories are not aligned with this setting.</li>
+          <li>Community reintegration: Legal restrictions and supervision conditions for individuals with sex offense convictions typically necessitate alternative housing arrangements tailored to their specific therapeutic and legal needs.</li>
+        </ul><br>
+        This policy helps ensure that Never Give Up can effectively provide a safe, supportive environment that best meets the needs of its residents.
         </span>
     design:
       css_class: bg-gray-100
