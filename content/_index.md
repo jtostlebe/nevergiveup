@@ -147,7 +147,7 @@ sections:
           description: Support with obtaining or replacing ID, Social Security cards, EBT, and Medicaid enrollment if needed.
         - name: Community & Family Engagement
           icon: users
-         description: Organized social outings and family visitation days to help participants rebuild connections with loved ones and the community.
+          description: Organized social outings and family visitation days to help participants rebuild connections with loved ones and the community.
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"        
