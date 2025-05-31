@@ -1,19 +1,26 @@
-/* Custom Hugo Blox color theme based on your palette */
+/* Custom Hugo Blox color theme */
 :root {
-  --color-primary-50: 232 236 243; /* Light tint of navy */
-  --color-primary-100: 209 216 229;
-  --color-primary-200: 158 176 207;
-  --color-primary-300: 103 134 179;
-  --color-primary-400: 55 98 153;
-  --color-primary-500: 14 34 64;   /* Navy Blue */
-  --color-primary-600: 12 30 56;
-  --color-primary-700: 10 25 47;
-  --color-primary-800: 8 20 37;
-  --color-primary-900: 6 15 28;
+  /* Primary Blues */
+  --color-primary-50: 230 243 255;       /* lightest blue tint */
+  --color-primary-100: 204 229 255;
+  --color-primary-200: 153 204 255;
+  --color-primary-300: 102 178 255;      /* #66B2FF */
+  --color-primary-400: 51 153 255;
+  --color-primary-500: 0 124 198;        /* adjusted for contrast */
+  --color-primary-600: 0 92 153;         /* #005C99 */
+  --color-primary-700: 0 68 119;
+  --color-primary-800: 0 51 102;         /* #003366 */
+  --color-primary-900: 0 34 68;
 
-  --color-secondary-500: 254 202 27;  /* Yellow for buttons/highlights */
-  --color-gray-dark: 74 74 74;        /* Dark Gray */
-  --color-gray-medium: 132 132 132;   /* Medium Gray */
-  --color-gray-light: 198 198 198;    /* Light Gray */
-  --color-white: 255 255 255;         /* White */
+  /* Accent and Neutrals */
+  --color-accent-yellow: 255 204 0;      /* #FFCC00 */
+  --color-tan-light: 245 245 220;        /* #F5F5DC */
+  --color-tan: 230 216 173;              /* #E6D8AD */
+  --color-brown: 77 59 47;               /* #4D3B2F */
+
+  /* System Colors (optional overrides) */
+  --color-background: 245 245 220;       /* light tan as bg */
+  --color-surface: 255 255 255;          /* white */
+  --color-text: 0 0 0;                   /* black for light bg */
+  --color-text-dark-bg: 255 255 255;     /* white text on dark bg */
 }
