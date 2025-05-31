@@ -59,7 +59,7 @@ sections:
         About Never Give Up Transitional Living
       text: >
         <br>
-        <span style="color:#4D3B2F; font-size:1.125rem;">
+        <span style="color:#4D3B2F; font-size:1.125rem; text-align: center; display: block;">
         The Never Give Up (NGU) Transitional Living program serves men released from prison who:<br>
         (a) are approved for community supervision or parole,<br>
         (b) are motivated to participate in structured reentry support, and<br>
