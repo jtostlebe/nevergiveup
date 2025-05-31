@@ -1,0 +1,19 @@
+/* Custom Hugo Blox color theme based on your palette */
+:root {
+  --color-primary-50: 232 236 243; /* Light tint of navy */
+  --color-primary-100: 209 216 229;
+  --color-primary-200: 158 176 207;
+  --color-primary-300: 103 134 179;
+  --color-primary-400: 55 98 153;
+  --color-primary-500: 14 34 64;   /* Navy Blue */
+  --color-primary-600: 12 30 56;
+  --color-primary-700: 10 25 47;
+  --color-primary-800: 8 20 37;
+  --color-primary-900: 6 15 28;
+
+  --color-secondary-500: 254 202 27;  /* Yellow for buttons/highlights */
+  --color-gray-dark: 74 74 74;        /* Dark Gray */
+  --color-gray-medium: 132 132 132;   /* Medium Gray */
+  --color-gray-light: 198 198 198;    /* Light Gray */
+  --color-white: 255 255 255;         /* White */
+}

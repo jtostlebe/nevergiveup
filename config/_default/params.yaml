@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: light
-  color: blue
+  color: NGU
   
 icon:
   logo: media/logo.png  # This is for the browser tab favicon
