@@ -2,7 +2,7 @@
 title: "Board of Directors"
 first_name: Board of
 last_name: Directors
-role: "Good Turn Labor, LLC Board of Directors"
+role: "Good Turn Labor, LLC"
 image: "/images/board.png"
 user_groups:
   - Leadership
