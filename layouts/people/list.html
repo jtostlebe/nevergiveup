@@ -32,4 +32,66 @@
   {{ range sort $staff "Params.last_name" }}
     <div class="team-card">
       <a href="{{ .RelPermalink }}">
-        <img src="{{
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
+        <h3 class="team-name">{{ .Title }}</h3>
+        <p>{{ .Params.role }}</p>
+      </a>
+    </div>
+  {{ end }}
+</div>
+
+<style>
+.page-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.team-description {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #003366; /* Dark Blue */
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.team-card {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.team-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.75rem; /* Space between image and name */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-name {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+  color: #005C99; /* Medium Blue */
+}
+</style>
+
+{{ end }}
