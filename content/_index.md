@@ -34,25 +34,23 @@ sections:
           filters:
             brightness: 0.5
             
-  - block: stats
-    content:
-      items:
-        - statistic: "16"
-          description: |
-            Men Admitted     
-            Since March 2025
-        - statistic: "84"
-          description: |
-            Days of Programming
-        - statistic: "XX%"
-          description: |
-            Graduation Rate
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 text-gray-800"      
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
+- block: stats
+  content:
+    items:
+      - statistic: '<span class="text-yellow-400 text-4xl font-bold">16</span>'
+        description: |
+          Men Admitted     
+          Since March 2025
+      - statistic: '<span class="text-yellow-400 text-4xl font-bold">84</span>'
+        description: |
+          Days of Programming
+      - statistic: '<span class="text-yellow-400 text-4xl font-bold">XX%</span>'
+        description: |
+          Graduation Rate
+  design:
+    css_class: "bg-gray-100 text-gray-800"
+    spacing:
+      padding: ["1rem", 0, "1rem", 0]
         
   - block: markdown
     id: program
