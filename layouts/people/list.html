@@ -17,14 +17,7 @@
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
           <h3 class="team-name">{{ .Title }}</h3>
-          {{ with .Params.role }}
-            {{ $roles := split . "/" }}
-            <p class="team-role">
-              {{ range $i, $r := $roles }}
-                {{ if gt $i 0 }}<br>{{ end }}{{ trim $r }}
-              {{ end }}
-            </p>
-          {{ end }}
+          <p>{{ .Params.role }}</p>
         </a>
       </div>
     {{ end }}
@@ -32,18 +25,31 @@
 </div>
 
 <!-- Staff Section -->
-<h2 class="section-title staff-title">Staff</h2>
+<h2 class="section-title" style="margin-top: 5rem;">Staff</h2>
 <div class="team-grid">
   {{ $leadershipFirstNames := slice "Julie" "Shane" "Jimmy" }}
   {{ $staff := where $people "Params.first_name" "not in" $leadershipFirstNames }}
-  {{ range sort $staff "Params.first_name" }}
-    <div class="team-card">
-      <a href="{{ .RelPermalink }}">
-        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
-        <h3 class="team-name">{{ .Title }}</h3>
-        <p class="team-role">{{ .Params.role }}</p>
-      </a>
-    </div>
+  {{ range sort $staff "Params.last_name" }}
+    {{ if eq .Params.first_name "Brian" }}
+      <div class="team-card">
+        <a href="{{ .RelPermalink }}">
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
+          <h3 class="team-name">{{ .Title }}</h3>
+          <p>{{ .Params.role }}</p>
+        </a>
+      </div>
+    {{ end }}
+  {{ end }}
+  {{ range sort $staff "Params.last_name" }}
+    {{ if ne .Params.first_name "Brian" }}
+      <div class="team-card">
+        <a href="{{ .RelPermalink }}">
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
+          <h3 class="team-name">{{ .Title }}</h3>
+          <p>{{ .Params.role }}</p>
+        </a>
+      </div>
+    {{ end }}
   {{ end }}
 </div>
 
@@ -65,27 +71,24 @@
 
 .section-title {
   font-size: 2rem;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
   text-align: center;
   color: #003366; /* Dark Blue */
 }
 
-.staff-title {
-  margin-top: 5rem; /* Larger space above Staff */
-}
-
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.5rem; /* Reduced gap between cards */
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+  gap: 1rem;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .team-card {
   text-align: center;
-  padding: 0.2rem; /* Reduced padding */
-  max-width: 180px;
+  padding: 0.5rem;
 }
 
 .team-photo {
@@ -93,23 +96,22 @@
   height: 130px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 0.3rem; /* Tighter spacing below image */
+  margin-bottom: 0.5rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .team-name {
-  font-size: 1.2rem;
-  margin-bottom: 0.2rem;
-  color: #005C99; /* Medium Blue */
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+  color: #005C99;
 }
 
-.team-role {
-  white-space: pre-line; /* Enable newlines to show */
-  font-size: 0.95rem;
-  color: #333;
-  margin: 0;
+.team-card p {
+  white-space: pre-line;
+  margin: 0.25rem 0 0;
 }
 </style>
+
 {{ end }}
