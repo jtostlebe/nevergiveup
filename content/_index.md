@@ -191,13 +191,16 @@ sections:
     items:
       - name: Program Director Shane Reilly, M.S.
         icon: phone
-        description: '<div style="text-align:center;">📞 (402) 359-7404</div>'
+        description: |
+          <div style="text-align:center;">📞 (402) 359-7404</div>
       - name: Email Us
         icon: envelope
-        description: '<div style="text-align:center;">[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)</div>'
+        description: |
+          <div style="text-align:center;">[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)</div>
       - name: Location
         icon: map-pin
-        description: '<div style="text-align:center;">Omaha, Nebraska</div>'
+        description: |
+          <div style="text-align:center;">Omaha, Nebraska</div>
   design:
     css_class: "bg-white contact-items-centered"
       
