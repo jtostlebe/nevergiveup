@@ -5,14 +5,14 @@
   The Never Give Up Transitional Living program will be staffed by a team of professionals with lived experiences who are committed to providing high-quality reentry and peer support services. The team will work at the reentry house throughout its operation and ensure that participants receive the comprehensive care and guidance they need. Together, this team ensures that individuals returning from incarceration receive the comprehensive support needed to rebuild their lives, secure stable employment and housing, and successfully reintegrate into their communities.
 </p>
 
+{{ $people := where site.Pages "Section" "people" }}
+
 <!-- Leadership Section -->
 <h2 class="section-title">Leadership</h2>
 <div class="team-grid">
-  {{/* Define the exact leadership order by first name */}}
   {{ $leadershipOrder := slice "Julie" "Shane" "Jimmy" }}
-
   {{ range $name := $leadershipOrder }}
-    {{ range where .Pages "Params.first_name" "eq" $name }}
+    {{ range where $people "Params.first_name" "eq" $name }}
       <div class="team-card">
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
@@ -28,7 +28,7 @@
 <h2 class="section-title">Staff</h2>
 <div class="team-grid">
   {{ $leadershipFirstNames := slice "Julie" "Shane" "Jimmy" }}
-  {{ range where .Pages "Params.first_name" "not in" $leadershipFirstNames | sort "Params.last_name" }}
+  {{ range where $people "Params.first_name" "not in" $leadershipFirstNames | sort "Params.last_name" }}
     <div class="team-card">
       <a href="{{ .RelPermalink }}">
         <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
