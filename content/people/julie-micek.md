@@ -3,7 +3,7 @@ title: "Julie Micek, LIMHP"
 first_name: Julie
 last_name: Micek
 role: "Executive Director &\nHealth Support and Counseling Specialist"
-image: "/images/julie-micek.png"
+image: "/images/julie-micek.jpeg"
 user_groups:
   - Leadership
 #bio: Shane manages daily operations of the transitional living program, overseeing staff and ensuring quality service delivery and regulatory compliance. He also leads fundraising efforts, cultivates community partnerships, and supports program sustainability.
