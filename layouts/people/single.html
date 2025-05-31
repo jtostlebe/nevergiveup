@@ -1,0 +1,54 @@
+{{ define "main" }}
+<article class="person-profile">
+  <img src="{{ .Params.image }}" alt="{{ .Title }}" class="profile-photo" />
+
+  <h1>{{ .Title }}</h1>
+  <h3>{{ .Params.role }}</h3>
+
+  <div class="bio">
+    {{ .Content }}
+  </div>
+
+  {{ if .Params.social }}
+  <div class="social-links">
+    <h4>Connect</h4>
+    <ul>
+      {{ range .Params.social }}
+      <li>
+        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+          <i class="{{ .icon_pack }} fa-{{ .icon }}"></i>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</article>
+
+<style>
+.person-profile {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.social-links a {
+  font-size: 1.5rem;
+  color: #333;
+}
+</style>
+
+{{ end }}
