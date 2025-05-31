@@ -72,19 +72,6 @@ sections:
   - block: cta-image-paragraph
     content:
       items:
-        - title: What Makes **Never Give Up Transitional Living** Unique?
-          text: Rooted in experience. Driven by hope.
-          feature_icon: bolt
-          features:
-            - "**We don't give up.** No matter your past, we believe in your future."
-            - "**Built for real change.** Helping people rebuild lives -- not just get by."
-            - "**We've been there.** Most of our team has been incarcerated—and made it out stronger."
-          # Upload image to `assets/media/` and reference the filename here
-          image: groupphoto1.jpeg
-          button:
-            text: Meet the Team
-            url: https://nevergiveuptest.netlify.app/#ourteam
-            style: "background-color: #FECA1B; color: #0E2240; font-weight: 700;"
         - title: The NGU Approach
           text: Never Give Up creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
           feature_icon: bolt
@@ -151,6 +138,23 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"        
+
+  - block: cta-image-paragraph
+    content:
+      items:
+        - title: What Makes **Never Give Up Transitional Living** Unique?
+          text: Rooted in experience. Driven by hope.
+          feature_icon: bolt
+          features:
+            - "**We don't give up.** No matter your past, we believe in your future."
+            - "**Built for real change.** Helping people rebuild lives -- not just get by."
+            - "**We've been there.** Most of our team has been incarcerated—and made it out stronger."
+          # Upload image to `assets/media/` and reference the filename here
+          image: groupphoto1.jpeg
+          button:
+            text: Meet the Team
+            url: https://nevergiveuptest.netlify.app/#ourteam
+            style: "background-color: #FECA1B; color: #0E2240; font-weight: 700;"
 
 #  - block: markdown
 #    id: documentation
