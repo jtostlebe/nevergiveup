@@ -154,7 +154,7 @@ sections:
           button:
             text: Meet the NGU Team
             url: /people
-            style: "background-color: #FECA1B; color: #0E2240; font-weight: 700;"
+            style: "background-color: #FECA1B; color: #0E2240; font-weight: 700; display: block; margin: 0 auto;"
 
 #  - block: markdown
 #    id: documentation
