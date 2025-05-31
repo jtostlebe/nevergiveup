@@ -1,4 +1,23 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ partial "team-list.html" . }}
+  <section class="team-page">
+    <div class="container">
+
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.description }}</p>
+      {{ .Content }}
+
+      <div class="team-grid">
+        {{ $team := index .Site.Data "team" }}
+        {{ range $team }}
+          <div class="team-member">
+            <img src="/images/team/{{ .photo }}" alt="{{ .name }}">
+            <h2>{{ .name }}</h2>
+            <h3>{{ delimit .roles ", " }}</h3>
+            <p>{{ .bio }}</p>
+          </div>
+        {{ end }}
+      </div>
+
+    </div>
+  </section>
 {{ end }}
