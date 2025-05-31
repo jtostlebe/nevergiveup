@@ -72,16 +72,16 @@ sections:
   - block: cta-image-paragraph
     content:
       items:
-        - title: The NGU Approach
-          text: Never Give Up Transitional Living creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.
+        - title: '<span style="color:#4D3B2F;">The NGU Approach</span>'
+          text: '<span style="color:#999999;">Never Give Up Transitional Living creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration. By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.</span>'
           feature_icon: bolt
           features:
-            - "24/7 supervision and accountability"
-            - "Stable housing"
-            - "Support services"
-            - "Employment and workforce development"
-            - "Therapy and life skills development"
-            - "Family, prosocial peers, and community network (re)development"
+            - '<span style="color:#999999;">24/7 supervision and accountability</span>'
+            - '<span style="color:#999999;">Stable housing</span>'
+            - '<span style="color:#999999;">Support services</span>'
+            - '<span style="color:#999999;">Employment and workforce development</span>'
+            - '<span style="color:#999999;">Therapy and life skills development</span>'
+            - '<span style="color:#999999;">Family, prosocial peers, and community network (re)development</span>'
           image: GroupPhoto_2.jpg
           button:
             text: Program Overview (PDF)
