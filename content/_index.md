@@ -153,7 +153,7 @@ sections:
           image: groupphoto1.jpeg
           button:
             text: Meet the Team
-            url: /people
+            url: /team
             style: "background-color: #FECA1B; color: #0E2240; font-weight: 700;"
 
 #  - block: markdown
