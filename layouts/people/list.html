@@ -19,16 +19,20 @@
   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
   gap: 1rem;
 }
+
 .team-card {
-  border: 1px solid #ccc;
+  /* Removed border */
   padding: 1rem;
-  text-align: center;
+  text-align: center; /* center image and text */
 }
+
 .team-photo {
   width: 150px;
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto; /* center the image */
 }
 </style>
 {{ end }}
