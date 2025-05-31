@@ -5,11 +5,12 @@
   The Never Give Up Transitional Living program will be staffed by a team of professionals with lived experiences who are committed to providing high-quality reentry and peer support services. The team will work at the reentry house throughout its operation and ensure that participants receive the comprehensive care and guidance they need. Together, this team ensures that individuals returning from incarceration receive the comprehensive support needed to rebuild their lives, secure stable employment and housing, and successfully reintegrate into their communities.
 </p>
 
+{{ $people := where site.Pages "Section" "people" }}
+
 <!-- Leadership Section -->
 <h2 class="section-title">Leadership</h2>
-<div class="team-grid leadership-grid">
+<div class="team-grid">
   {{ $leadershipOrder := slice "Julie" "Shane" "Jimmy" }}
-  {{ $people := where site.Pages "Section" "people" }}
   {{ range $name := $leadershipOrder }}
     {{ range where $people "Params.first_name" "eq" $name }}
       <div class="team-card">
@@ -20,7 +21,7 @@
             {{ $roles := split . "/" }}
             <p class="team-role">
               {{ range $i, $r := $roles }}
-                {{ if gt $i 0 }}<br>{{ end }}{{ trim $r " " }}
+                {{ if gt $i 0 }}<br>{{ end }}{{ trim $r }}
               {{ end }}
             </p>
           {{ end }}
@@ -32,11 +33,10 @@
 
 <!-- Staff Section -->
 <h2 class="section-title staff-title">Staff</h2>
-<div class="team-grid staff-grid">
+<div class="team-grid">
   {{ $leadershipFirstNames := slice "Julie" "Shane" "Jimmy" }}
   {{ $staff := where $people "Params.first_name" "not in" $leadershipFirstNames }}
-  {{ $staffSorted := sort $staff "Params.first_name" }}
-  {{ range $staffSorted }}
+  {{ range sort $staff "Params.first_name" }}
     <div class="team-card">
       <a href="{{ .RelPermalink }}">
         <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
@@ -71,55 +71,44 @@
   color: #003366; /* Dark Blue */
 }
 
-/* Extra space between leadership and staff sections */
 .staff-title {
-  margin-top: 5rem !important;
+  margin-top: 5rem; /* Larger space above Staff */
 }
 
-/* Grid adjustments */
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.75rem; /* Reduced gap to push cards closer */
+  gap: 0.5rem; /* Reduced gap between cards */
   justify-items: center;
-}
-
-/* Optional: Different grid for leadership if needed */
-.leadership-grid {
-  gap: 1rem;
-}
-
-.staff-grid {
-  gap: 0.75rem;
 }
 
 .team-card {
   text-align: center;
-  padding: 0.3rem;
+  padding: 0.2rem; /* Reduced padding */
+  max-width: 180px;
 }
 
 .team-photo {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 0.5rem; /* Smaller space between image and name */
+  margin-bottom: 0.3rem; /* Tighter spacing below image */
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .team-name {
-  font-size: 1.4rem;
-  margin-bottom: 0.15rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
   color: #005C99; /* Medium Blue */
 }
 
 .team-role {
-  font-size: 1rem;
+  white-space: pre-line; /* Enable newlines to show */
+  font-size: 0.95rem;
   color: #333;
-  line-height: 1.3;
-  white-space: pre-line; /* respects line breaks */
   margin: 0;
 }
 </style>
