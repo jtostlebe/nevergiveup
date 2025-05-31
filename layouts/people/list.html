@@ -17,7 +17,7 @@
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
           <h3 class="team-name">{{ .Title }}</h3>
-          <p>{{ .Params.role }}</p>
+          <p class="team-role">{{ replace .Params.role " / " "\n" }}</p>
         </a>
       </div>
     {{ end }}
@@ -25,7 +25,7 @@
 </div>
 
 <!-- Staff Section -->
-<h2 class="section-title">Staff</h2>
+<h2 class="section-title staff-title">Staff</h2>
 <div class="team-grid">
   {{ $leadershipFirstNames := slice "Julie" "Shane" "Jimmy" }}
   {{ $staff := where $people "Params.first_name" "not in" $leadershipFirstNames }}
@@ -34,7 +34,7 @@
       <a href="{{ .RelPermalink }}">
         <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
         <h3 class="team-name">{{ .Title }}</h3>
-        <p>{{ .Params.role }}</p>
+        <p class="team-role">{{ .Params.role }}</p>
       </a>
     </div>
   {{ end }}
@@ -64,10 +64,14 @@
   color: #003366; /* Dark Blue */
 }
 
+.staff-title {
+  margin-top: 5rem; /* Larger space above Staff */
+}
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0.75rem; /* Reduced gap to push people closer */
+  gap: 0.4rem; /* Reduced gap even more */
   justify-items: center;
 }
 
@@ -81,7 +85,7 @@
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 0.75rem; /* Space between image and name */
+  margin-bottom: 0.5rem; /* Less space between image and name */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -91,6 +95,13 @@
   font-size: 1.4rem;
   margin-bottom: 0.3rem;
   color: #005C99; /* Medium Blue */
+}
+
+.team-role {
+  white-space: pre-line; /* Enable newlines to show */
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
 }
 </style>
 
