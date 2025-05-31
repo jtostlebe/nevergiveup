@@ -148,7 +148,7 @@ sections:
         Access our core materials to better understand our policies, procedures, and services:
         
         - [**Program Overview** (PDF)](/docs/NGUProgramDescription.pdf): Summary of program goals, logic model, eligibility criteria, participant rules and expectations, and services.
-        - [**Staff Descriptions** (PDF)](/docs/NGUStaffRoleDescriptions.pdf): Ethical standards and behavioral expectations for NGU staff members.
+        - [**Staff Descriptions** (PDF)](/docs/NGUStaffRoleDescriptions.pdf): Employee roles, job descriptions, and qualification expectations.
         - [**Never Give Up Program Flyer** (PDF)](/docs/NGUFlyer.pdf): Print-ready handout describing our services.
     design:
       css_class: "bg-white"
@@ -159,7 +159,7 @@ sections:
       title: Help us Change Lives
       text: Donate to Never Give Up through Good Turn Labor, LLC
       button:
-        text: Support Second Chances
+        text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
