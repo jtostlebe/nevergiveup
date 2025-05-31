@@ -15,7 +15,7 @@ sections:
       primary_action:
         text: Support Second Chances
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
-        icon: light-bulb
+        icon: rocket-launch
 #      secondary_action:
 #        text: Learn About Our Team
 #        url: https://docs.hugoblox.com
@@ -27,7 +27,7 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
-        color: "navy"
+        color: "#0E2240"  # Navy Blue Background
         image:
           # Add your image background to `assets/media/`.
           filename: bg-triangles.svg
