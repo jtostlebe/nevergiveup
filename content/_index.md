@@ -127,7 +127,7 @@ sections:
         - name: Individual Counseling
           icon: heart
           description: One-on-one sessions with licensed counselors to address trauma, mental health, substance use, and personal growth.
-        - name: Alcoholics Anonymous and Narcotics Anonymous
+        - name: Alcoholics Anonymous (AA) and Narcotics Anonymous (NA)
           icon: star
           description: Peer-led recovery group attendance offering 12-step support and a strong sober community.
         - name: Financial Literacy Classes
