@@ -9,7 +9,7 @@ appearance:
   color: deep-blue
   
 icon:
-  logo: media/icon.png  # This is for the browser tab favicon
+  logo: media/logo.png  # This is for the browser tab favicon
   favicon: true
 
 # SEO
