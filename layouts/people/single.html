@@ -1,73 +1,87 @@
 {{ define "main" }}
 <article class="person-profile">
-  <img src="{{ .Params.image }}" alt="{{ .Title }}" class="profile-photo" />
 
-  <h1>{{ .Title }}</h1>
-  <h3>{{ .Params.role }}</h3>
+  <div class="photo-container">
+    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="person-photo" />
+  </div>
 
-  <div class="bio">
+  <h1 class="person-name">{{ .Title }}</h1>
+  <p class="person-role">{{ .Params.role }}</p>
+
+  <div class="person-bio">
     {{ .Content }}
   </div>
 
-  {{ if .Params.social }}
+  {{/* Optional Social Links - Uncomment if you want to display social icons
+  {{ with .Params.social }}
   <div class="social-links">
-    <h4>Connect</h4>
-    <ul>
-      {{ range .Params.social }}
-      <li>
-        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .icon }}">
-          <i class="{{ .icon_pack }} fa-{{ .icon }}"></i>
-        </a>
-      </li>
-      {{ end }}
-    </ul>
+    {{ range . }}
+      <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" class="social-icon" title="{{ .icon }}">
+        <i class="{{ if eq .icon_pack "fas" }}fas{{ else if eq .icon_pack "fab" }}fab{{ else if eq .icon_pack "ai" }}ai{{ end }} fa-{{ .icon }}"></i>
+      </a>
+    {{ end }}
   </div>
   {{ end }}
+  */}}
+
 </article>
 
 <style>
 .person-profile {
   max-width: 600px;
   margin: 2rem auto;
-  text-align: center;  /* Center all text and inline elements */
-  font-family: Arial, sans-serif;
   padding: 0 1rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.profile-photo {
+.photo-container {
+  margin-bottom: 1rem;
+}
+
+.person-photo {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 1rem auto; /* Center horizontally + margin below */
-  display: block;            /* Needed for margin auto centering */
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.bio {
-  margin-top: 1rem;
-  font-size: 1.1rem;
-  line-height: 1.5;
+.person-name {
+  font-size: 2.5rem; /* Bigger name */
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+.person-role {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.person-bio {
+  font-size: 1rem;
+  line-height: 1.6;
   color: #333;
+  white-space: pre-line; /* preserve line breaks in markdown */
 }
 
-.social-links ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 1.5rem;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+/* Optional social icon styling
+.social-links {
+  margin-top: 2rem;
 }
 
-.social-links a {
+.social-icon {
   font-size: 1.5rem;
+  margin: 0 0.5rem;
   color: #007acc;
-  transition: color 0.3s ease;
+  text-decoration: none;
 }
-
-.social-links a:hover {
-  color: #005fa3;
+.social-icon:hover {
+  color: #004f99;
 }
+*/
 </style>
 {{ end }}
