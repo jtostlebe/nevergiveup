@@ -199,6 +199,12 @@ sections:
         - name: Email Us
           icon: envelope
           description: "[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)"
+        - name: Want to help us spread the word?
+          icon: send
+          description: |
+            [Click here to download our flyer](/docs/NGUFlyer.pdf)
+
+            Share it with someone who might benefit or want to support us!
     design:
       css_class: "bg-white"
       
