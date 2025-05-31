@@ -95,20 +95,24 @@ p {
   flex-wrap: nowrap;          /* prevent wrapping */
   gap: 2rem;                  /* space between items */
   justify-content: space-between; /* distribute evenly */
-  align-items: flex-start;    /* align items at top */
+  align-items: stretch;       /* make all items same height */
+  margin-top: 2rem;
 }
 
 /* Each direct child inside the container */
 .features-contact-items > * {
-  flex: 1 1 0;               /* flexible width */
-  min-width: 150px;          /* don’t shrink below this */
-  box-sizing: border-box;    /* include padding/border in width */
+  flex: 1 1 0;                /* flexible width */
+  min-width: 0;               /* allow full shrinking if needed */
+  box-sizing: border-box;     /* include padding/border in width */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /* For iframe inside location to fit nicely */
 .features-contact-items iframe {
-  width: 100% !important;    /* full width */
-  height: 200px !important;  /* fixed height */
+  width: 100% !important;     /* full width */
+  height: 200px !important;   /* fixed height */
   border: 0 !important;
-  display: block;            /* fixes inline spacing */
+  display: block;             /* fixes inline spacing */
 }
