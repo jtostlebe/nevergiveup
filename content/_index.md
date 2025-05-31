@@ -100,6 +100,9 @@ sections:
           button:
             text: Program Overview (PDF)
             url: /docs/NGUProgramDescription.pdf
+          button:
+            text: Staff Descriptions (PDF)
+            url: /docs/NGUStaffRoleDescriptions.pdf
 #        - title: Community (Re)Integration
 #          text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
 #          feature_icon: bolt
@@ -152,18 +155,18 @@ sections:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"        
 
-  - block: markdown
-    id: documentation
-    content:
-      title: Program Documentation
-      text: |
-        Access our core materials to better understand our policies, procedures, and services:
-        
-        - [**Program Overview** (PDF)](/docs/NGUProgramDescription.pdf): Summary of program goals, logic model, eligibility criteria, participant rules and expectations, and services.
-        - [**Staff Descriptions** (PDF)](/docs/NGUStaffRoleDescriptions.pdf): Employee roles, job descriptions, and qualification expectations.
-        - [**Never Give Up Program Flyer** (PDF)](/docs/NGUFlyer.pdf): Print-ready handout describing our services.
-    design:
-      css_class: "bg-white"
+#  - block: markdown
+#    id: documentation
+#    content:
+#      title: Program Documentation
+#      text: |
+#        Access our core materials to better understand our policies, procedures, and services:
+#        
+#        - [**Program Overview** (PDF)](/docs/NGUProgramDescription.pdf): Summary of program goals, logic model, eligibility criteria, participant rules and expectations, and services.
+#        - [**Staff Descriptions** (PDF)](/docs/NGUStaffRoleDescriptions.pdf): Employee roles, job descriptions, and qualification expectations.
+#        - [**Never Give Up Program Flyer** (PDF)](/docs/NGUFlyer.pdf): Print-ready handout describing our services.
+#    design:
+#      css_class: "bg-white"
 
   - block: cta-card
     id: donate
@@ -173,8 +176,11 @@ sections:
       button:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
-    design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      button:
+        text: Never Give Up Program Flyer (PDF)
+        url: /docs/NGUFlyer.pdf
+design:
+      css_class: "bg-white"
       card:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
@@ -196,7 +202,7 @@ sections:
           icon: envelope
           description: '[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)'
     design:
-      css_class: "bg-white contact-items-centered"
+      css_class: "bg-gray-100 contact-items-centered"
       
 #  - block: testimonials
 #    content:
