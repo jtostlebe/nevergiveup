@@ -118,7 +118,7 @@ sections:
       
   - block: features
     content:
-      title: NGU Programming Opportunities
+      title: NGU Programming + Services
       text: 
       items:
         - name: Dialectical Behavior Therapy (DBT)
@@ -138,7 +138,7 @@ sections:
           description: Practical education on budgeting, saving, credit, and building long-term financial stability.
         - name: Faith-Based Support
           icon: user-group
-          description: Spirtual mentorship and participation in faith-based community activities.
+          description: Spiritual mentorship and participation in faith-based community activities.
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"        
