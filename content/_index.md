@@ -184,25 +184,22 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 
-- block: features
-  id: contact
-  content:
-    title: Contact Us
-    items:
-      - name: Program Director Shane Reilly, M.S.
-        icon: phone
-        description: |
-          <div style="text-align:center;">📞 (402) 359-7404</div>
-      - name: Email Us
-        icon: envelope
-        description: |
-          <div style="text-align:center;">[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)</div>
-      - name: Location
-        icon: map-pin
-        description: |
-          <div style="text-align:center;">Omaha, Nebraska</div>
-  design:
-    css_class: "bg-white contact-items-centered"
+  - block: features
+    id: contact
+    content:
+      title: Contact Us
+      items:
+        - name: Program Director Shane Reilly, M.S.
+          icon: phone
+          description: "📞 (402) 359-7404"
+        - name: Email Us
+          icon: envelope
+          description: "[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)"
+        - name: Location
+          icon: map-pin
+          description: "Omaha, Nebraska"
+    design:
+      css_class: "bg-white contact-items-centered"
       
 #  - block: testimonials
 #    content:
