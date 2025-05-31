@@ -15,12 +15,12 @@ sections:
       primary_action:
         text: Support Second Chances
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
-        icon: rocket-launch
+        icon: handshake
 #      secondary_action:
 #        text: Learn About Our Team
 #        url: https://docs.hugoblox.com
     design:
-      css_class: "bg-blue-900 text-white"
+      css_class: "bg-yellow-400 text-gray-800"
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
@@ -49,7 +49,7 @@ sections:
             Graduation Rate
     design:
       # Section background color (CSS class)
-      css_class: "bg-white text-gray-800"      
+      css_class: "bg-gray-100 text-gray-800"      
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
