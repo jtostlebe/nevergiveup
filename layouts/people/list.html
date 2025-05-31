@@ -1,6 +1,10 @@
 {{ define "main" }}
 <h1>Meet Our Team</h1>
 
+<p class="team-description">
+  The Never Give Up Transitional Living program will be staffed by a team of professionals with lived experiences who are committed to providing high-quality reentry and peer support services. The team will work at the reentry house throughout its operation and ensure that participants receive the comprehensive care and guidance they need. Together, this team ensures that individuals returning from incarceration receive the comprehensive support needed to rebuild their lives, secure stable employment and housing, and successfully reintegrate into their communities.
+</p>
+
 <div class="team-grid">
   {{ range .Pages.ByParam "last_name" }}
   <div class="team-card">
@@ -14,6 +18,21 @@
 </div>
 
 <style>
+h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+}
+
+.team-description {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
@@ -21,9 +40,8 @@
 }
 
 .team-card {
-  /* Removed border */
   padding: 1rem;
-  text-align: center; /* center image and text */
+  text-align: center;
 }
 
 .team-photo {
@@ -32,7 +50,7 @@
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  margin: 0 auto 1rem auto; /* center the image */
+  margin: 0 auto 1rem auto;
 }
 </style>
 {{ end }}
