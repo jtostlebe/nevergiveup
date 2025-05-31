@@ -168,6 +168,7 @@ sections:
         css_style: ""
 
   - block: features
+    id: contact
     content:
       title: Contact Us
       items:

@@ -19,3 +19,6 @@ main:
   - name: Donate
     url: /#donate
     weight: 40
+  - name: Contact Us
+    url: /#contact
+    weight: 50
