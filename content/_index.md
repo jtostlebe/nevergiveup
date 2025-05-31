@@ -128,16 +128,16 @@ sections:
           icon: chat-bubble-oval-left-ellipsis
           description: Structured clinical treatment that includes group sessions, relapse prevention, and coping strategies.
         - name: Individual Counseling
-          icon: heart
+          icon: user
           description: One-on-one sessions with licensed counselors to address trauma, mental health, substance use, and personal growth.
         - name: Alcoholics Anonymous (AA) and Narcotics Anonymous (NA)
-          icon: star
+          icon: flag-checkered
           description: Peer-led recovery group attendance offering 12-step support and a strong sober community.
         - name: Financial Literacy Classes
           icon: currency-dollar
           description: Practical education on budgeting, saving, credit, and building long-term financial stability.
         - name: Faith-Based Support
-          icon: church
+          icon: heart
           description: Spiritual mentorship and participation in faith-based community activities.
         - name: Housing & Basic Needs
           icon: home
