@@ -148,7 +148,7 @@ sections:
           features:
             - "**We don't give up.** No matter your past, we believe in your future."
             - "**Built for real change.** Helping people rebuild lives -- not just get by."
-            - "**We've been there.** Most of our team did time -- and came back stronger."
+            - "**We've been there.** Our staff have done time – and rebuilt their lives."
           # Upload image to `assets/media/` and reference the filename here
           image: groupphoto1.jpeg
           button:
