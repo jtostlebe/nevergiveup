@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: light
-  color: indigo
+  color: deep-blue
   
 icon:
   logo: media/icon.png  # This is for the browser tab favicon
