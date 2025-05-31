@@ -1,5 +1,5 @@
 ---
-title: "Shane Reilly"
+title: "Shane Reilly, M.S."
 first_name: Shane
 last_name: Reilly
 role: "Program Director &\nDevelopment Director"
@@ -16,7 +16,7 @@ user_groups:
 #    link: 'https://linkedin.com/in/shanereilly'
 ---
 
-<p>For over a decade, Shane Reilly was in and out of prison. Then he got clean, hit the books, and earned his master’s degree. Today, he takes pride in helping others get their life back after prison.</p>
+<p>For over a decade, Shane was in and out of prison. Then he got clean, hit the books, and earned his master’s degree. Today, he takes pride in helping others get their life back after prison.</p>
 
 <p>Shane manages daily operations of the transitional living program, overseeing staff and ensuring quality service delivery and regulatory compliance.</p>
 
