@@ -2,7 +2,7 @@
 title: "Shane Reilly"
 slug: "shane-reilly"
 position: "Program Director / Development Director"
-image: "images/shane-reilly.png"
+image: "images/shane-reilly.jpg"
 draft: false
 ---
 
