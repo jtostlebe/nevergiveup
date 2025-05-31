@@ -187,7 +187,7 @@ sections:
   - block: features
     id: contact
     content:
-      title: '<div style="text-align:left;">Contact Us</div>'
+      title: Contact Us
       items:
         - name: Program Director Shane Reilly, M.S.
           icon: phone
