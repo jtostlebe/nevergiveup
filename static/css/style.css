@@ -1,0 +1,46 @@
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.team-member {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 300px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.team-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #66B2FF; /* your light blue accent */
+}
+
+.team-member h2 {
+  margin: 0 0 5px 0;
+  color: #003366; /* your dark blue */
+  font-size: 1.3rem;
+}
+
+.team-member h3 {
+  margin: 0 0 10px 0;
+  font-weight: 400;
+  color: #66B2FF; /* your light blue */
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.team-member p {
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}

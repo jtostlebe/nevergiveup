@@ -1,0 +1,44 @@
+- name: "Julie Micek, LIMHP"
+  photo: "julie-micek.jpg"
+  roles:
+    - "Executive Director"
+    - "Health Support and Counseling Specialist"
+  bio: "Julie provides overall leadership and vision for the organization. She focuses on external partnerships, stakeholder engagement, and long-term sustainability while ensuring the program aligns with its mission. Julie is also a licensed therapist available to support participants’ mental health and substance abuse counseling needs."
+
+- name: "Shane Reilly, MS"
+  photo: "shane-reilly.jpg"
+  roles:
+    - "Program Director"
+    - "Development Director"
+  bio: "Shane manages daily operations of the transitional living program, overseeing staff and ensuring quality service delivery and regulatory compliance. He also leads fundraising efforts, cultivates community partnerships, and supports program sustainability."
+
+- name: "Jimmy King"
+  photo: "jimmy-king.jpg"
+  roles:
+    - "Assistant Program Director"
+    - "Resident Manager"
+  bio: "Jimmy assists with program operations, staff supervision, and participant service coordination. He ensures a safe, structured living environment for residents, enforcing rules and providing on-site support."
+
+- name: "Brian Hafley"
+  photo: "brian-hafley.jpg"
+  roles:
+    - "Case Manager"
+  bio: "Brian offers individualized support to participants, helping them with job readiness, employment navigation, and connection to community resources to aid successful reentry."
+
+- name: "Muthang Choule"
+  photo: "muthang-choule.jpg"
+  roles:
+    - "Peer Support Specialist"
+  bio: "Muthang uses lived experience to mentor and support participants, fostering connection, accountability, and motivation during the reentry process."
+
+- name: "Justin Seffron"
+  photo: "justin-seffron.jpg"
+  roles:
+    - "Peer Support Specialist"
+  bio: "Justin provides emotional guidance and mentorship to participants, helping them navigate reentry challenges and build a supportive community."
+
+- name: "Jacob Thore"
+  photo: "jacob-thore.jpg"
+  roles:
+    - "Peer Support Specialist"
+  bio: "Jacob encourages personal accountability and goal setting, connecting participants to community resources through peer mentorship."
