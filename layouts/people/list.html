@@ -5,7 +5,6 @@
   The Never Give Up Transitional Living program will be staffed by a team of professionals with lived experiences who are committed to providing high-quality reentry and peer support services. The team will work at the reentry house throughout its operation and ensure that participants receive the comprehensive care and guidance they need. Together, this team ensures that individuals returning from incarceration receive the comprehensive support needed to rebuild their lives, secure stable employment and housing, and successfully reintegrate into their communities.
 </p>
 
-<!-- Leadership Section -->
 <h2 style="text-align:center; margin-bottom: 1rem;">Leadership</h2>
 <div class="team-grid">
   {{ range where .Pages "Params.user_groups" "intersect" (slice "Leadership") }}
@@ -19,10 +18,9 @@
   {{ end }}
 </div>
 
-<!-- Staff Section -->
 <h2 style="text-align:center; margin: 2rem 0 1rem 0;">Staff</h2>
 <div class="team-grid">
-  {{ range where .Pages "Params.user_groups" "not in" (slice "Leadership") }}
+  {{ range where .Pages "Params.user_groups" "not intersect" (slice "Leadership") }}
   <div class="team-card">
     <a href="{{ .RelPermalink }}">
       <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
@@ -47,6 +45,9 @@
 }
 
 .team-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -54,5 +55,4 @@
   margin-bottom: 1rem;
 }
 </style>
-
 {{ end }}
