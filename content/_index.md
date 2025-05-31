@@ -179,7 +179,7 @@ sections:
       button:
         text: Never Give Up Program Flyer (PDF)
         url: /docs/NGUFlyer.pdf
-design:
+    design:
       css_class: "bg-white"
       card:
         # Card background color (CSS class)
