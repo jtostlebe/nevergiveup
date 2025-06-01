@@ -56,7 +56,7 @@ sections:
     id: program
     content:
       title: >
-        <span style="text-align: center>About Never Give Up Transitional Living</span>
+        About NGU
       text: >
         
         <span style="color:#4D3B2F; font-size:1.125rem; text-align: center; display: block;">
