@@ -9,7 +9,7 @@ appearance:
   color: nevergiveup
   
 icon:
-  logo: media/logo.png  # This is for the browser tab favicon
+  logo: media/logo.svg  # This is for the browser tab favicon
   favicon: true
 
 # SEO
@@ -40,7 +40,7 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.png"
+      filename: "logo.svg"
 #    button:
 #      enable: true
 #      text: "Get Started"
