@@ -23,3 +23,6 @@ Determined to turn his life around, Shane committed himself to recovery, educati
 Today, Shane channels his extensive lived experience and academic expertise into leading the Never Give Up Transitional Living program. As Program Director, he manages daily operations, oversees staff, ensures quality service delivery and regulatory compliance, and spearheads fundraising and community partnerships to sustain the program’s mission.
 
 Driven by a passion to help others change their lives as he changed his own, Shane considers everyone who enters the program part of his family. He takes immense pride in mentoring participants and celebrating their successes as testaments to the power of hope, accountability, and second chances.
+
+Click [HERE](https://www.youtube.com/watch?v=AYQppvO5H7w) to listen to Shane's Story.
+
