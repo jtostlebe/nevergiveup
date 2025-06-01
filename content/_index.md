@@ -56,7 +56,7 @@ sections:
     id: program
     content:
       title: >
-        About Never Give Up Transitional Living
+        <span style="text-align: center>About Never Give Up Transitional Living</span>
       text: >
         
         <span style="color:#4D3B2F; font-size:1.125rem; text-align: center; display: block;">
