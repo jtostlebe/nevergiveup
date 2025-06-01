@@ -60,7 +60,7 @@ sections:
       text: >
         
         <span style="color:#4D3B2F; font-size:1.125rem; text-align: center; display: block;">
-        Never Give Up (NGU) Transitional Living serves<br>**men released from prison** who:
+        Never Give Up (NGU) Transitional Living serves **men released from prison** who:
         <br>
         (a) are approved for community supervision or parole,<br>
         (b) are motivated to participate in structured reentry support, and<br>
