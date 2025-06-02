@@ -116,9 +116,3 @@ p {
   border: 0 !important;
   display: block;             /* fixes inline spacing */
 }
-
-.navbar-brand img {
-  max-height: 80px;  /* Adjust this value as needed */
-  height: auto;
-  width: auto;
-}
