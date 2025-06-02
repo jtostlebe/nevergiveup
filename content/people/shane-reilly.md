@@ -26,7 +26,7 @@ Driven by a passion to help others change their lives as he changed his own, Sha
 
 Listen to Shane's Story Here:
 
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;height:auto;">
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;height:auto; margin-bottom:30px;">
   <iframe 
     src="https://www.youtube.com/embed/AYQppvO5H7w" 
     frameborder="0" 
@@ -36,9 +36,11 @@ Listen to Shane's Story Here:
   </iframe>
 </div>
 
-Shane Reilly's Volunteer Video at the Good News Life Learning Program at the Douglas County Jail:
+&nbsp;
 
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;height:auto;">
+<h3>Shane Reilly's Volunteer Video at the Good News Life Learning Program at the Douglas County Jail:</h3>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;height:auto; margin-bottom:30px;">
   <iframe 
     src="https://www.youtube.com/embed/IsHz0pD6lso" 
     frameborder="0" 
@@ -47,9 +49,3 @@ Shane Reilly's Volunteer Video at the Good News Life Learning Program at the Dou
     style="position:absolute;top:0;left:0;width:100%;height:100%;">
   </iframe>
 </div>
-
-<p style="font-style: italic; color: #555; margin-top: 8px;">
-  <!-- Add your caption or description about this video here -->
-</p>
-
-
