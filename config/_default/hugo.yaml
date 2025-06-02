@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Never Give Up Transitional Living | Omaha # Website name
-baseURL: 'https://nevergiveupomaha.netlify.app/' # Website URL
+baseURL: 'https://nevergiveupomaha.org' # Website URL
 
 ############################
 ## PAGE OPTIONS
