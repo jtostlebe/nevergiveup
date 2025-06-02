@@ -47,7 +47,7 @@ sections:
         - statistic: "--%"
           description: |
             Graduation Rate     
-            Data Not Yet Available 
+            (Data Not Yet Available) 
     design:
       css_class: "bg-white text-[#003366]"      
       spacing:
