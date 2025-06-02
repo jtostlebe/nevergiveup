@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: Never Give Up Transitional Living
-      text: A structured transitional housing program operated under the nonprofit 501(c)(3) organization, Good Turn Labor, to support formerly incarcerated individuals as they reintegrate into the community.
+      text: A structured transitional housing program in Omaha, Nebraska operated under the nonprofit 501(c)(3) organization, Good Turn Labor, to support formerly incarcerated individuals as they reintegrate into the community.
       primary_action:
         text: Support The Program
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
@@ -62,7 +62,7 @@ sections:
         <img src="/media/logo.png" alt="NGU Logo" style="max-height: 200px; display: block; margin: 0 auto 1rem auto;">
         
         <span style="color:#4D3B2F; font-size:1.125rem; text-align: center; display: block;">
-        Never Give Up (NGU) Transitional Living serves <strong>men released from prison</strong> who:
+        Never Give Up (NGU) Transitional Living serves <strong>men released from prison</strong> in Nebraska who:
         <br>
         (a) are approved for community supervision or parole,<br>
         (b) are motivated to participate in structured reentry support, and<br>
