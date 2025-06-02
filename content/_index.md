@@ -61,13 +61,13 @@ sections:
         <img src="/media/logo.png" alt="NGU Logo" style="max-height: 100px; display: block; margin: 0 auto 1rem auto;">
         
         <span style="color:#4D3B2F; font-size:1.125rem; text-align: center; display: block;">
-        Never Give Up (NGU) Transitional Living serves **men released from prison** who:
+        Never Give Up (NGU) Transitional Living serves <strong>men released from prison</strong> who:
         <br>
         (a) are approved for community supervision or parole,<br>
         (b) are motivated to participate in structured reentry support, and<br>
         (c) have applied to the program and completed a phone interview and background review.
         <br><br>
-        The **overarching goal** of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</span>
+        The <strong>overarching goal</strong> of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</span>
     
     design:
       css_class: bg-gray-100
