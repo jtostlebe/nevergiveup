@@ -24,7 +24,7 @@ Today, Shane channels his extensive lived experience and academic expertise into
 
 Driven by a passion to help others change their lives as he changed his own, Shane considers everyone who enters the program part of his family. He takes immense pride in mentoring participants and celebrating their successes as testaments to the power of hope, accountability, and second chances.
 
-**Listen to Shane's Story Here:**
+<h3>Listen to Shane's Story Here:</h3>
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;height:auto; margin-bottom:30px;">
   <iframe 
