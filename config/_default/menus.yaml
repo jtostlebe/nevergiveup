@@ -9,9 +9,12 @@ main:
   - name: About the Program
     url: /#program
     weight: 20
+  - name: The NGU Team
+    url: /people
+    weight: 30
   - name: Donate
     url: /#donate
-    weight: 30
+    weight: 40
   - name: Contact Us
     url: /#contact
-    weight: 40
+    weight: 50
