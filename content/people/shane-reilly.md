@@ -36,10 +36,7 @@ Listen to Shane's Story Here:
   </iframe>
 </div>
 
-<br>
-<br>
-
-Shane Reilly's Volunteer Video at the Good News Life Learning Program at the Douglas County Jail:
+Shane Reilly Volunteer Video at the Good News Life Learning Program at the Douglas County Jail:
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;height:auto;">
   <iframe 
