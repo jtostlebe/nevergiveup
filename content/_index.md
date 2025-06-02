@@ -81,6 +81,7 @@ sections:
           features:
             - '<span style="color:#36454F;">24/7 supervision and accountability</span>'
             - '<span style="color:#36454F;">Stable housing</span>'
+            - '<span style="color:#36454F;">Commitment to sobriety and recovery support</span>'
             - '<span style="color:#36454F;">Support services</span>'
             - '<span style="color:#36454F;">Employment and workforce development</span>'
             - '<span style="color:#36454F;">Therapy and life skills development</span>'
