@@ -58,6 +58,7 @@ sections:
       title: >
         About NGU
       text: >
+        <img src="/media/logo.png" alt="NGU Logo" style="max-height: 100px; display: block; margin: 0 auto 1rem auto;">
         
         <span style="color:#4D3B2F; font-size:1.125rem; text-align: center; display: block;">
         Never Give Up (NGU) Transitional Living serves **men released from prison** who:
