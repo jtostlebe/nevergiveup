@@ -44,9 +44,10 @@ sections:
         - statistic: "84"
           description: |
             Days of Programming
-        - statistic: "XX%"
+        - statistic: "--%"
           description: |
-            Graduation Rate
+            Graduation Rate     
+            Data Not Yet Available 
     design:
       css_class: "bg-white text-[#003366]"      
       spacing:
