@@ -57,7 +57,7 @@ sections:
     id: program
     content:
       title: >
-        About NGU
+        About the Program
       text: >
         <img src="/media/logo.png" alt="NGU Logo" style="max-height: 200px; display: block; margin: 0 auto 1rem auto;">
         
