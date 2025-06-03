@@ -13,4 +13,6 @@ user_groups:
 #    link: 'mailto:justin@example.com'
 ---
 
-Justin provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
+Justin Seffron is a peer support specialist who draws on his lived experience with incarceration and reentry to provide mentorship and emotional support to program participants. 
+
+Having completed the transitional living program in March 2024, Justin is committed to walking alongside others in their recovery journeys, offering guidance, empathy, and hope for the future.
