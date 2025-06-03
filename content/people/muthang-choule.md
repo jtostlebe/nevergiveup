@@ -13,6 +13,6 @@ user_groups:
 #    link: 'mailto:muthang@example.com'
 ---
 
-Muthang provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
+Muthang offers mentorship, guidance, and emotional support to participants, drawing on his own experience with incarceration and successful reentry. 
 
-Muthang graduated from Shane's previous transitional living program in September 2022.
+A graduate of Shane Reilly’s previous transitional living program in September 2022, he builds trust through shared experience and helps others navigate their own paths forward.
