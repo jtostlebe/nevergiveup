@@ -15,5 +15,5 @@ user_groups:
 
 Jackson Steinman serves as a Peer Support Specialist, offering encouragement, mentorship, and a listening ear to program participants. His personal journey through incarceration and reentry allows him to connect with others in meaningful ways and offer support rooted in experience. 
 
-After completing the transitional living program in April 2024, Jackson chose to give back by helping others take their own steps toward stability and growth.
+After completing Shane's previous transitional living program in April 2024, Jackson chose to give back by helping others take their own steps toward stability and growth.
 

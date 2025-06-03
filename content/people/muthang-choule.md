@@ -14,3 +14,5 @@ user_groups:
 ---
 
 Muthang provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
+
+Muthang graduated from Shane's previous transitional living program in August 2022.
