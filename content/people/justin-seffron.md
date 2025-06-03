@@ -13,6 +13,6 @@ user_groups:
 #    link: 'mailto:justin@example.com'
 ---
 
-Justin Seffron is a peer support specialist who draws on his lived experience with incarceration and reentry to provide mentorship and emotional support to program participants. 
+Justin Seffron is a Peer Support Specialist who draws on his lived experience with incarceration and reentry to provide mentorship and emotional support to program participants. 
 
 Having completed Shane's previous transitional living program in March 2024, Justin is committed to walking alongside others in their recovery journeys, offering guidance, empathy, and hope for the future.
