@@ -7,7 +7,6 @@
   Together, this team ensures that individuals returning from incarceration receive the comprehensive support needed to rebuild their lives, secure stable employment and housing, and successfully reintegrate into their communities.
 </p>
 
-<!-- Simple text link to Employee Descriptions PDF -->
 <p style="text-align: center; margin-bottom: 2rem;">
   <a href="/docs/NGUStaffRoleDescriptions.pdf" target="_blank" rel="noopener noreferrer" style="font-weight: bold; color: #141436;">
     Click HERE for Detailed Program Staff Descriptions (PDF)
@@ -88,16 +87,23 @@
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
   justify-content: center;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .team-card {
   text-align: center;
   padding: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .team-photo {
@@ -122,5 +128,4 @@
   margin: 0.25rem 0 0;
 }
 </style>
-
 {{ end }}
