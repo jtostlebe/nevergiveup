@@ -3,7 +3,7 @@ title: "Kyle Guertz"
 first_name: Kyle
 last_name: Guertz
 role: "Peer Support Specialist"
-image: "/images/kyle-guertz.png"
+image: "/images/kyle-guertz.jpeg"
 user_groups:
   - Staff
 #bio: Provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
