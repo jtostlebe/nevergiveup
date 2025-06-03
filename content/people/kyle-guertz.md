@@ -17,4 +17,4 @@ Kyle Guertz is a Peer Support Specialist with the Never Give Up Transitional Liv
 
 Originally from Iowa, Kyle draws on his own experiences with incarceration and successful reentry to provide mentorship, guidance, and emotional support to participants.
 
-He graduated from the program in January 2025 and now helps others do the same.
+He graduated from the transitional living program in January 2025 and now helps others do the same.
