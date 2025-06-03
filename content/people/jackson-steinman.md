@@ -3,7 +3,7 @@ title: "Jackson Steinman"
 first_name: Jackson
 last_name: Steinman
 role: "Peer Support Specialist"
-image: "/images/jackson-steinman.png"
+image: "/images/jackson-steinman.jpeg"
 user_groups:
   - Staff
 #bio: Provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
