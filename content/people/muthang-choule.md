@@ -3,7 +3,7 @@ title: "Muthang Choule"
 first_name: Muthang
 last_name: Choule
 role: "Peer Support Specialist"
-image: "/images/muthang-choule.png"
+image: "/images/muthang-choule.jpeg"
 user_groups:
   - Staff
 #bio: Provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
@@ -15,4 +15,4 @@ user_groups:
 
 Muthang provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
 
-Muthang graduated from Shane's previous transitional living program in August 2022.
+Muthang graduated from Shane's previous transitional living program in September 2022.
