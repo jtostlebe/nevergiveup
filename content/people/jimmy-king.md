@@ -13,7 +13,7 @@ user_groups:
 #    link: 'mailto:jimmy@example.com'
 ---
 
-Jimmy King brings energy, empathy, and leadership to Never Give Up. As Assistant Program Director, he supports daily operations, assists in staff supervision, and helps coordinate participant services to ensure the program runs smoothly and effectively. In his role as Resident Manager, Jimmy fosters a safe, structured, and supportive living environment, enforcing program guidelines while maintaining a positive and encouraging atmosphere.
+Jimmy brings energy, empathy, and leadership to Never Give Up. As Assistant Program Director, he supports daily operations, assists in staff supervision, and helps coordinate participant services to ensure the program runs smoothly and effectively. In his role as Resident Manager, Jimmy fosters a safe, structured, and supportive living environment, enforcing program guidelines while maintaining a positive and encouraging atmosphere.
 
 Formerly incarcerated in the federal system, Jimmy uses his lived experience to build authentic connections with participants and staff alike. His passion for service extends beyond the program—he also serves as the [Food Distribution Director at Heart Ministry Center](https://heartministrycenter.org/choice-food-distribution/) in Omaha, where he plays a key role in addressing food insecurity in the community.
 
