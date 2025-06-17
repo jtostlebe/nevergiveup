@@ -3,7 +3,7 @@ title: "Brian Hafley"
 first_name: Brian
 last_name: Hafley
 role: "Case Manager"
-image: "/images/brian-hafley.jpeg"
+image: "/images/Brian-headshot.jpg"
 user_groups:
   - Staff
 #bio: The Case Manager provides individualized support to participants, helping them navigate employment and reentry challenges.
