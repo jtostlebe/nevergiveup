@@ -3,7 +3,7 @@ title: "Shane Reilly, MS"
 first_name: Shane
 last_name: Reilly
 role: "Program Director /\nDevelopment Director"
-image: "/images/shane-reilly.jpg"
+image: "/images/Shane_headshot.jpg"
 user_groups:
   - Leadership
 #bio: Shane manages daily operations of the transitional living program, overseeing staff and ensuring quality service delivery and regulatory compliance. He also leads fundraising efforts, cultivates community partnerships, and supports program sustainability.
