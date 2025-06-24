@@ -185,7 +185,7 @@ sections:
 
   - block: markdown
     content:
-      title: Photo Gallery
+      title: NGU Photo Gallery
       text: >
         <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
 
