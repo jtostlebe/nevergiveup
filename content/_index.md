@@ -187,26 +187,21 @@ sections:
     content:
       title: NGU Photo Gallery
       text: >
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem;">
 
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
+          <figure style="flex: 0 0 33.33%; max-width: 33.33%; margin: 0; text-align: center;">
             <img src="/media/house_flowers.jpeg" alt="House Flowers" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
             <figcaption style="margin-top: 0.5rem; font-size: 1rem;">House garden</figcaption>
           </figure>
 
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
+          <figure style="flex: 0 0 33.33%; max-width: 33.33%; margin: 0; text-align: center;">
             <img src="/media/kickball_5.jpeg" alt="Kickball Tournament" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
             <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Kickball Tournament</figcaption>
           </figure>
 
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
+          <figure style="flex: 0 0 33.33%; max-width: 33.33%; margin: 0; text-align: center;">
             <img src="/media/kickball_3.jpeg" alt="Kickball Tournament" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
             <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Kickball Tournament</figcaption>
-          </figure>
-
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
-            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Group Photo</figcaption>
           </figure>
 
         </div>
