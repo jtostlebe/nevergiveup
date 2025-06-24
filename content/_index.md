@@ -183,20 +183,20 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 
-  - block: slider
+  - block: gallery
     content:
       title: Photo Gallery
       items:
-        - image: /assets/media/house_flowers.jpeg
+        - image: house_flowers.jpeg
           caption: House garden
-#        - image: /media/slider2.jpg
+#        - image: slider2.jpg
 #          caption: Team meeting in the community room
-#        - image: /media/slider3.jpg
+#        - image: slider3.jpg
 #          caption: Volunteer day event
-#        - image: /media/slider4.jpg
+#        - image: slider4.jpg
 #          caption: Morning meditation session
     design:
-      css_class: "bg-[#F5F5DC]"  # Light Tan Background
+      css_class: "bg-[#F5F5DC]"
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
 
