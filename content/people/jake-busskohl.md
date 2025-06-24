@@ -15,4 +15,4 @@ user_groups:
 
 Jake is a Peer Support Specialist who draws on his own experience with incarceration and successful reentry to provide mentorship, guidance, and emotional support to participants.
 
-He completed Shane’s previous transitional living program in XX and now helps others navigate the same journey.
+He completed Shane’s previous transitional living program in December 2024 and now helps others navigate the same journey.
