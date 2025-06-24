@@ -186,19 +186,19 @@ sections:
   - block: gallery
     content:
       title: Photo Gallery
-      items:
+      subtitle: Life at NGU
+      images:
         - image: house_flowers.jpeg
-          caption: House garden
-#        - image: slider2.jpg
-#          caption: Team meeting in the community room
-#        - image: slider3.jpg
-#          caption: Volunteer day event
-#        - image: slider4.jpg
-#          caption: Morning meditation session
+          caption: "House garden"
+        - image: GroupPhoto_2.jpg
+          caption: "Group photo day"
+        - image: groupphoto1.jpeg
+          caption: "Team meetup"
     design:
-      css_class: "bg-[#F5F5DC]"
+      columns: "3"
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
+      css_class: "bg-[#F5F5DC]"
 
   - block: features
     id: contact
