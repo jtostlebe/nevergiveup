@@ -204,6 +204,11 @@ sections:
             <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Kickball Tournament</figcaption>
           </figure>
 
+          <figure style="flex: 1 1 45%; max-width: 45%; margin: 0; text-align: center;">
+            <img src="/media/GroupPhoto_3" alt="Group Photo" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Group Photo</figcaption>
+          </figure>
+
         </div>
     design:
       css_class: bg-[#F5F5DC]
