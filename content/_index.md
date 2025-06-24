@@ -191,9 +191,9 @@ sections:
 
           <img src="/media/house_flowers.jpeg" alt="House garden" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 
-          <img src="/media/GroupPhoto_2.jpg" alt="Group photo" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+          <img src="/media/kickball_5.jpeg" alt="Transitional Living Houses Kickball Tournament" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 
-          <img src="/media/groupphoto1.jpeg" alt="Team meetup" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+          <img src="/media/kickball_3.jpeg" alt="Transitional Living Houses Kickball Tournament" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 
         </div>
     design:
