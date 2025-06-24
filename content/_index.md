@@ -187,29 +187,100 @@ sections:
     content:
       title: NGU Photo Gallery
       text: >
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+        <style>
+          .slider {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            background: #fff;
+          }
+          .slides {
+            display: flex;
+            transition: transform 0.4s ease-in-out;
+            width: 400%;
+          }
+          .slide {
+            flex: 1 0 100%;
+            text-align: center;
+            user-select: none;
+          }
+          .slide img {
+            width: 100%;
+            border-radius: 12px 12px 0 0;
+            max-height: 450px;
+            object-fit: cover;
+          }
+          .caption {
+            padding: 0.75rem;
+            font-size: 1.1rem;
+            background: #F5F5DC;
+            border-radius: 0 0 12px 12px;
+            color: #4D3B2F;
+          }
+          .nav-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.4);
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 50%;
+            user-select: none;
+          }
+          .nav-arrow:hover {
+            background: rgba(0,0,0,0.7);
+          }
+          .prev {
+            left: 10px;
+          }
+          .next {
+            right: 10px;
+          }
+        </style>
 
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
-            <img src="/media/house_flowers.jpeg" alt="House Flowers" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">House garden</figcaption>
-          </figure>
-
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
-            <img src="/media/kickball_5.jpeg" alt="Kickball Tournament" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Kickball Tournament</figcaption>
-          </figure>
-
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
-            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Kickball Tournament</figcaption>
-          </figure>
-
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
-            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Group Photo</figcaption>
-          </figure>
-
+        <div class="slider" id="slider">
+          <div class="slides" id="slides">
+            <div class="slide">
+              <img src="/media/house_flowers.jpeg" alt="House Flowers" />
+              <div class="caption">House garden</div>
+            </div>
+            <div class="slide">
+              <img src="/media/kickball_5.jpeg" alt="Kickball Tournament" />
+              <div class="caption">Kickball Tournament</div>
+            </div>
+            <div class="slide">
+              <img src="/media/kickball_3.jpeg" alt="Kickball Tournament" />
+              <div class="caption">Kickball Tournament</div>
+            </div>
+            <div class="slide">
+              <img src="/media/GroupPhoto_3.jpg" alt="Group Photo" />
+              <div class="caption">Group Photo</div>
+            </div>
+          </div>
+          <button class="nav-arrow prev" onclick="slideMove(-1)">&#10094;</button>
+          <button class="nav-arrow next" onclick="slideMove(1)">&#10095;</button>
         </div>
+
+        <script>
+          (function() {
+            let index = 0;
+            const slides = document.getElementById('slides');
+            const total = slides.children.length;
+
+            window.slideMove = function(direction) {
+              index += direction;
+              if(index < 0) index = total - 1;
+              if(index >= total) index = 0;
+              slides.style.transform = 'translateX(' + (-index * 100) + '%)';
+            };
+          })();
+        </script>
     design:
       css_class: bg-[#F5F5DC]
       spacing:
