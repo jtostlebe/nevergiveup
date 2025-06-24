@@ -15,4 +15,4 @@ user_groups:
 
 Carlos offers mentorship, guidance, and emotional support to participants, drawing on his personal journey through incarceration and successful reintegration to build trust and inspire others.
 
-He graduated from Shane’s earlier transitional living program in XX and now supports others working toward similar success.
+He graduated from Shane’s earlier transitional living program in June 2024 and now supports others working toward similar success.
