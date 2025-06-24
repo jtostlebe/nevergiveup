@@ -183,22 +183,23 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 
-  - block: gallery
+  - block: markdown
     content:
       title: Photo Gallery
-      subtitle: Life at NGU
-      images:
-        - image: house_flowers.jpeg
-          caption: "House garden"
-        - image: GroupPhoto_2.jpg
-          caption: "Group photo day"
-        - image: groupphoto1.jpeg
-          caption: "Team meetup"
+      text: >
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+
+          <img src="/media/house_flowers.jpeg" alt="House garden" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+
+          <img src="/media/GroupPhoto_2.jpg" alt="Group photo" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+
+          <img src="/media/groupphoto1.jpeg" alt="Team meetup" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+
+        </div>
     design:
-      columns: "3"
+      css_class: bg-[#F5F5DC]
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
-      css_class: "bg-[#F5F5DC]"
 
   - block: features
     id: contact
