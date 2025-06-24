@@ -187,13 +187,22 @@ sections:
     content:
       title: NGU Photo Gallery
       text: >
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">
 
-          <img src="/media/house_flowers.jpeg" alt="House garden" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+          <figure style="flex: 1 1 30%; max-width: 32%; text-align: center;">
+            <img src="/media/house_flowers.jpeg" alt="House garden" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+            <figcaption style="margin-top: 0.5rem; font-size: 0.9rem;">House garden</figcaption>
+          </figure>
 
-          <img src="/media/kickball_5.jpeg" alt="Transitional Living Houses Kickball Tournament" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+          <figure style="flex: 1 1 30%; max-width: 32%; text-align: center;">
+            <img src="/media/kickball_5.jpeg" alt="Kickball Tournament" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+            <figcaption style="margin-top: 0.5rem; font-size: 0.9rem;">Kickball Tournament</figcaption>
+          </figure>
 
-          <img src="/media/kickball_3.jpeg" alt="Transitional Living Houses Kickball Tournament" style="max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+          <figure style="flex: 1 1 30%; max-width: 32%; text-align: center;">
+            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+            <figcaption style="margin-top: 0.5rem; font-size: 0.9rem;">Kickball Tournament</figcaption>
+          </figure>
 
         </div>
     design:
