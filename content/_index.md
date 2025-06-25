@@ -238,6 +238,11 @@ sections:
           </div>
 
           <div class="gallery-item">
+            <img src="/media/beavercreek_saturday_1.jpeg" alt="Beavercreek">
+            <div class="gallery-caption">Saturday Group Outing</div>
+          </div>
+
+          <div class="gallery-item">
             <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
             <div class="gallery-caption">Kickball Tournament</div>
           </div>
@@ -245,6 +250,11 @@ sections:
           <div class="gallery-item">
             <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
             <div class="gallery-caption">Group Photo</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/media/house_garden.jpeg" alt="House Garden">
+            <div class="gallery-caption">House Garden</div>
           </div>
 
         </div>
