@@ -200,7 +200,8 @@ sections:
           .gallery-caption {
             padding: 0.5rem;
             font-size: 1rem;
-            background-color: #FECA1B;
+            font-color: #FFFFFF;
+            background-color: #0E2240;
           }
 
           @media (max-width: 640px) {
