@@ -228,8 +228,8 @@ sections:
         <div class="gallery-container">
 
           <div class="gallery-item">
-            <img src="/media/house_flowers.jpeg" alt="House garden">
-            <div class="gallery-caption">House garden</div>
+            <img src="/media/house_flowers.jpeg" alt="House Flowers">
+            <div class="gallery-caption">House Flowers</div>
           </div>
 
           <div class="gallery-item">
