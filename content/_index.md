@@ -188,106 +188,72 @@ sections:
       title: NGU Photo Gallery
       text: >
         <style>
-          .carousel-wrapper {
-            position: relative;
-          }
-
-          .carousel-container {
-            overflow-x: auto;
+          .gallery-container {
             display: flex;
-            gap: 1rem;
-            padding-bottom: 1rem;
-            scroll-snap-type: x mandatory;
-            -webkit-overflow-scrolling: touch;
-            scroll-behavior: smooth;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
           }
 
-          .carousel-slide {
-            flex: 0 0 48%;
-            scroll-snap-align: start;
+          .gallery-item {
+            flex: 1 1 calc(33.333% - 1.5rem);
+            max-width: calc(33.333% - 1.5rem);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
             border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             overflow: hidden;
             background: white;
+            text-align: center;
           }
 
-          .carousel-slide img {
+          .gallery-item img {
             width: 100%;
             height: auto;
-            object-fit: cover;
             display: block;
           }
 
-          .carousel-caption {
+          .gallery-caption {
             padding: 0.5rem;
-            text-align: center;
             font-size: 1rem;
             background-color: #f5f5dc;
           }
 
-          .carousel-button {
-            position: absolute;
-            top: 40%;
-            transform: translateY(-50%);
-            background: #0E2240;
-            color: white;
-            border: none;
-            font-size: 2rem;
-            padding: 0.25rem 0.75rem;
-            cursor: pointer;
-            z-index: 1;
-            border-radius: 6px;
-          }
-
-          .carousel-button.left {
-            left: -1.5rem;
-          }
-
-          .carousel-button.right {
-            right: -1.5rem;
-          }
-
-          .carousel-container::-webkit-scrollbar {
-            display: none;
-          }
-
-          @media (max-width: 768px) {
-            .carousel-slide {
-              flex: 0 0 100%;
+          @media (max-width: 1024px) {
+            .gallery-item {
+              flex: 1 1 calc(48% - 1rem);
+              max-width: calc(48% - 1rem);
             }
+          }
 
-            .carousel-button {
-              display: none;
+          @media (max-width: 640px) {
+            .gallery-item {
+              flex: 1 1 100%;
+              max-width: 100%;
             }
           }
         </style>
 
-        <div class="carousel-wrapper">
-          <button class="carousel-button left" onclick="document.querySelector('.carousel-container').scrollBy({left: -300, behavior: 'smooth'})">&#10094;</button>
+        <div class="gallery-container">
 
-          <div class="carousel-container">
-            <div class="carousel-slide">
-              <img src="/media/house_flowers.jpeg" alt="House garden">
-              <div class="carousel-caption">House garden</div>
-            </div>
-
-            <div class="carousel-slide">
-              <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
-              <div class="carousel-caption">Kickball Tournament</div>
-            </div>
-
-            <div class="carousel-slide">
-              <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
-              <div class="carousel-caption">Kickball Tournament</div>
-            </div>
-
-            <div class="carousel-slide">
-              <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
-              <div class="carousel-caption">Group Photo</div>
-            </div>
+          <div class="gallery-item">
+            <img src="/media/house_flowers.jpeg" alt="House garden">
+            <div class="gallery-caption">House garden</div>
           </div>
 
-          <button class="carousel-button right" onclick="document.querySelector('.carousel-container').scrollBy({left: 300, behavior: 'smooth'})">&#10095;</button>
+          <div class="gallery-item">
+            <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
+            <div class="gallery-caption">Kickball Tournament</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
+            <div class="gallery-caption">Kickball Tournament</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
+            <div class="gallery-caption">Group Photo</div>
+          </div>
+
         </div>
     design:
       css_class: bg-[#F5F5DC]
