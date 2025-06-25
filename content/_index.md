@@ -174,76 +174,143 @@ sections:
       title: Moments at NGU
       text: >
         <style>
-          .gallery-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            justify-content: center;
-          }
-
-          .gallery-item {
-            flex: 1 1 calc(48% - 1rem);
-            max-width: calc(48% - 1rem);
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            border-radius: 12px;
+          .carousel {
+            position: relative;
+            max-width: 700px;
+            margin: 0 auto;
             overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
             background: white;
-            text-align: center;
           }
-
-          .gallery-item img {
+          .carousel-slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            will-change: transform;
+          }
+          .carousel-slide {
+            min-width: 100%;
+            user-select: none;
+          }
+          .carousel-slide img {
             width: 100%;
             height: auto;
             display: block;
+            border-radius: 12px 12px 0 0;
           }
-
-          .gallery-caption {
-            padding: 0.5rem;
-            font-size: 1rem;
-            background-color: #f5f5dc;
+          .carousel-caption {
+            background: #f5f5dc;
+            color: #4D3B2F;
+            text-align: center;
+            font-size: 1.1rem;
+            padding: 1rem;
+            border-radius: 0 0 12px 12px;
           }
-
-          @media (max-width: 640px) {
-            .gallery-item {
-              flex: 1 1 100%;
-              max-width: 100%;
-            }
+          .carousel-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(14, 34, 64, 0.7);
+            color: #FECA1B;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 50%;
+            user-select: none;
+            z-index: 10;
+            transition: background 0.3s;
+          }
+          .carousel-arrow:hover {
+            background: rgba(14, 34, 64, 0.9);
+          }
+          .carousel-arrow.prev {
+            left: 1rem;
+          }
+          .carousel-arrow.next {
+            right: 1rem;
           }
         </style>
 
-        <div class="gallery-container">
-
-          <div class="gallery-item">
-            <img src="/media/house_flowers.jpeg" alt="House Flowers">
-            <div class="gallery-caption">House Flowers</div>
+        <div class="carousel" aria-label="NGU Photo Gallery Carousel">
+          <div class="carousel-slides">
+            <div class="carousel-slide">
+              <img src="/media/house_flowers.jpeg" alt="House Flowers">
+              <div class="carousel-caption">House Flowers</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
+              <div class="carousel-caption">Kickball Tournament</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="/media/beavercreek_saturday_1.jpeg" alt="Saturday Group Outing">
+              <div class="carousel-caption">Saturday Group Outing</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
+              <div class="carousel-caption">Group Photo</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="/media/house_garden.jpg" alt="House Garden">
+              <div class="carousel-caption">House Garden</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="/media/beavercreek_saturday_2.jpg" alt="Saturday Group Outing 2">
+              <div class="carousel-caption">Saturday Group Outing 2</div>
+            </div>
           </div>
 
-          <div class="gallery-item">
-            <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
-            <div class="gallery-caption">Kickball Tournament</div>
-          </div>
-
-          <div class="gallery-item">
-            <img src="/media/beavercreek_saturday_1.jpeg" alt="Beavercreek 1">
-            <div class="gallery-caption">Saturday Group Outing</div>
-          </div>
-
-          <div class="gallery-item">
-            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
-            <div class="gallery-caption">Group Photo</div>
-          </div>
-
-          <div class="gallery-item">
-            <img src="/media/house_garden.jpg" alt="House Garden">
-            <div class="gallery-caption">House Garden</div>
-          </div>
-
-          <div class="gallery-item">
-            <img src="/media/beavercreek_saturday_2.jpg" alt="Beavercreek 2">
-            <div class="gallery-caption">Saturday Group Outing</div>
-          </div>
-
+          <button class="carousel-arrow prev" aria-label="Previous Slide">&#10094;</button>
+          <button class="carousel-arrow next" aria-label="Next Slide">&#10095;</button>
         </div>
+
+        <script>
+          (function() {
+            const carousel = document.querySelector('.carousel');
+            const slidesContainer = carousel.querySelector('.carousel-slides');
+            const slides = carousel.querySelectorAll('.carousel-slide');
+            const prevBtn = carousel.querySelector('.carousel-arrow.prev');
+            const nextBtn = carousel.querySelector('.carousel-arrow.next');
+
+            let currentIndex = 0;
+            const totalSlides = slides.length;
+
+            function updateCarousel() {
+              slidesContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+
+            function showNext() {
+              currentIndex = (currentIndex + 1) % totalSlides;
+              updateCarousel();
+            }
+
+            function showPrev() {
+              currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+              updateCarousel();
+            }
+
+            let autoSlide = setInterval(showNext, 4000); // Auto slide every 4 seconds
+
+            nextBtn.addEventListener('click', () => {
+              showNext();
+              resetInterval();
+            });
+            prevBtn.addEventListener('click', () => {
+              showPrev();
+              resetInterval();
+            });
+
+            carousel.addEventListener('mouseenter', () => clearInterval(autoSlide));
+            carousel.addEventListener('mouseleave', () => autoSlide = setInterval(showNext, 4000));
+
+            function resetInterval() {
+              clearInterval(autoSlide);
+              autoSlide = setInterval(showNext, 4000);
+            }
+
+            updateCarousel();
+          })();
+        </script>
     design:
       css_class: bg-[#F5F5DC]
       spacing:
