@@ -253,7 +253,7 @@ sections:
           </div>
 
           <div class="gallery-item">
-            <img src="/media/house_garden.jpeg" alt="House Garden">
+            <img src="/media/house_garden.jpg" alt="House Garden">
             <div class="gallery-caption">House Garden</div>
           </div>
 
