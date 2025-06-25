@@ -187,7 +187,7 @@ sections:
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
             border-radius: 12px;
             overflow: hidden;
-            background: #FECA1B;
+            background: #66B2FF;
             text-align: center;
           }
 
@@ -200,7 +200,7 @@ sections:
           .gallery-caption {
             padding: 0.5rem;
             font-size: 1rem;
-            background-color: #FECA1B; 
+            background-color: #66B2FF; 
             color: #0E2240
           }
 
