@@ -189,15 +189,16 @@ sections:
       text: >
         <style>
           .carousel-container {
-            overflow-x: auto;
+            overflow-x: scroll;
             scroll-snap-type: x mandatory;
             display: flex;
             gap: 1rem;
             padding-bottom: 1rem;
+            -webkit-overflow-scrolling: touch;
           }
 
           .carousel-slide {
-            scroll-snap-align: center;
+            scroll-snap-align: start;
             flex: 0 0 calc(50% - 0.5rem);
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -207,7 +208,7 @@ sections:
 
           .carousel-slide img {
             width: 100%;
-            height: 300px;
+            height: auto;
             object-fit: cover;
             display: block;
           }
@@ -221,6 +222,7 @@ sections:
 
           .carousel-wrapper {
             position: relative;
+            width: 100%;
           }
 
           .carousel-container::-webkit-scrollbar {
