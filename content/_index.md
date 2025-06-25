@@ -189,17 +189,17 @@ sections:
       text: >
         <style>
           .carousel-container {
-            overflow-x: scroll;
-            scroll-snap-type: x mandatory;
+            overflow-x: auto;
             display: flex;
             gap: 1rem;
             padding-bottom: 1rem;
+            scroll-snap-type: x mandatory;
             -webkit-overflow-scrolling: touch;
           }
 
           .carousel-slide {
+            flex: 0 0 48%;
             scroll-snap-align: start;
-            flex: 0 0 calc(50% - 0.5rem);
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             overflow: hidden;
@@ -220,11 +220,6 @@ sections:
             background-color: #f5f5dc;
           }
 
-          .carousel-wrapper {
-            position: relative;
-            width: 100%;
-          }
-
           .carousel-container::-webkit-scrollbar {
             display: none;
           }
@@ -236,27 +231,25 @@ sections:
           }
         </style>
 
-        <div class="carousel-wrapper">
-          <div class="carousel-container">
-            <div class="carousel-slide">
-              <img src="/media/house_flowers.jpeg" alt="House garden">
-              <div class="carousel-caption">House garden</div>
-            </div>
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="/media/house_flowers.jpeg" alt="House garden">
+            <div class="carousel-caption">House garden</div>
+          </div>
 
-            <div class="carousel-slide">
-              <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
-              <div class="carousel-caption">Kickball Tournament</div>
-            </div>
+          <div class="carousel-slide">
+            <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
+            <div class="carousel-caption">Kickball Tournament</div>
+          </div>
 
-            <div class="carousel-slide">
-              <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
-              <div class="carousel-caption">Kickball Tournament</div>
-            </div>
+          <div class="carousel-slide">
+            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
+            <div class="carousel-caption">Kickball Tournament</div>
+          </div>
 
-            <div class="carousel-slide">
-              <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
-              <div class="carousel-caption">Group Photo</div>
-            </div>
+          <div class="carousel-slide">
+            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
+            <div class="carousel-caption">Group Photo</div>
           </div>
         </div>
     design:
