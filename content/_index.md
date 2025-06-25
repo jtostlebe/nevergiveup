@@ -262,7 +262,6 @@ sections:
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
 
-
   - block: features
     id: contact
     content:
