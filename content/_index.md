@@ -291,7 +291,9 @@ sections:
         - name: Want to help us spread the word?
           icon: chat-bubble-oval-left
           description: |
-            [Click **HERE** to download our flyer.](/docs/NGUFlyer.pdf)
+            <a href="/docs/NGUFlyer.pdf" target="_blank" rel="noopener noreferrer">
+              Click <strong>HERE</strong> to download our flyer.
+            </a>
 
             Share it with someone who might benefit or want to support us!
     design:
