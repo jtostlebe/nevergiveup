@@ -216,10 +216,12 @@ sections:
 
           <div class="gallery-item">
             <img src="/media/house_flowers.jpeg" alt="House Flowers">
+            <div class="gallery-caption">House Flowers</div>
           </div>
 
           <div class="gallery-item">
             <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
+            <div class="gallery-caption">Kickball Tournament</div>
           </div>
 
           <div class="gallery-item">
@@ -229,7 +231,6 @@ sections:
 
           <div class="gallery-item">
             <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
-            <div class="gallery-caption">Group Photo</div>
           </div>
 
           <div class="gallery-item">
