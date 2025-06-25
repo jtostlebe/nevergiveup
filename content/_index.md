@@ -89,7 +89,7 @@ sections:
           image: GroupPhoto_2.jpg
           button:
             text: Program Overview (PDF)
-            url: '<a href="/docs/NGUProgramDescription.pdf" target="_blank" rel="noopener noreferrer">Program Overview(PDF)</a>'
+            url: /docs/NGUProgramDescription.pdf
 #        - title: Community (Re)Integration
 #          text: Our program is supported by a broad network that includes community organizations, employers, and strong partnerships with the criminal justice system.
 #          feature_icon: bolt
