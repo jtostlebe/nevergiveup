@@ -147,9 +147,9 @@ sections:
           feature_icon: bolt
           features:
             - '<span style="color:#36454F;"><strong>Out-of-the-box.</strong> Innovative methods tailored for lasting impact.</span>'
-            - '<span style="color:#36454F;"><strong>We don''t give up.</strong> No matter your past, we believe in your future.</span>'
-            - '<span style="color:#36454F;"><strong>We''ve been there.</strong> Our staff have done time, and changed their lives.</span>'
             - '<span style="color:#36454F;"><strong>Built for real change.</strong> Helping people rebuild lives -- not just get by.</span>'
+            - '<span style="color:#36454F;"><strong>We''ve been there.</strong> Our staff have done time, and changed their lives.</span>'
+            - '<span style="color:#36454F;"><strong>We don''t give up.</strong> No matter your past, we believe in your future.</span>'
           image: groupphoto1.jpeg
           button:
             text: Meet the NGU Team
