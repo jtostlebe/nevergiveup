@@ -231,6 +231,7 @@ sections:
 
           <div class="gallery-item">
             <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
+            <div class="gallery-caption">Group Photo</div>
           </div>
 
           <div class="gallery-item">
