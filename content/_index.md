@@ -234,11 +234,6 @@ sections:
           </div>
 
           <div class="gallery-item">
-            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
-            <div class="gallery-caption">Kickball Tournament</div>
-          </div>
-
-          <div class="gallery-item">
             <img src="/media/house_garden.jpg" alt="House Garden">
             <div class="gallery-caption">House Garden</div>
           </div>
