@@ -172,7 +172,7 @@ sections:
   - block: markdown
     content:
       title: Moments at NGU
-      text: >
+      text: |
         <style>
           .carousel {
             position: relative;
@@ -264,6 +264,7 @@ sections:
           <button class="carousel-arrow next" aria-label="Next Slide">&#10095;</button>
         </div>
 
+        {{< rawhtml >}}
         <script>
           (function() {
             const carousel = document.querySelector('.carousel');
@@ -289,7 +290,7 @@ sections:
               updateCarousel();
             }
 
-            let autoSlide = setInterval(showNext, 4000); // Auto slide every 4 seconds
+            let autoSlide = setInterval(showNext, 4000);
 
             nextBtn.addEventListener('click', () => {
               showNext();
@@ -311,6 +312,7 @@ sections:
             updateCarousel();
           })();
         </script>
+        {{< /rawhtml >}}
     design:
       css_class: bg-[#F5F5DC]
       spacing:
