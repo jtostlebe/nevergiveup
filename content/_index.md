@@ -243,13 +243,13 @@ sections:
           </div>
 
           <div class="gallery-item">
-            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
-            <div class="gallery-caption">Kickball Tournament</div>
+            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
+            <div class="gallery-caption">Group Photo</div>
           </div>
 
           <div class="gallery-item">
-            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
-            <div class="gallery-caption">Group Photo</div>
+            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
+            <div class="gallery-caption">Kickball Tournament</div>
           </div>
 
           <div class="gallery-item">
