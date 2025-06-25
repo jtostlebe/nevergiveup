@@ -187,33 +187,81 @@ sections:
     content:
       title: NGU Photo Gallery
       text: >
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+        <style>
+          .carousel-container {
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            display: flex;
+            gap: 1rem;
+            padding-bottom: 1rem;
+          }
 
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
-            <img src="/media/house_flowers.jpeg" alt="House Flowers" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">House garden</figcaption>
-          </figure>
+          .carousel-slide {
+            scroll-snap-align: center;
+            flex: 0 0 calc(50% - 0.5rem);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            background: white;
+          }
 
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
-            <img src="/media/kickball_5.jpeg" alt="Kickball Tournament" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Kickball Tournament</figcaption>
-          </figure>
+          .carousel-slide img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+          }
 
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
-            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Kickball Tournament</figcaption>
-          </figure>
+          .carousel-caption {
+            padding: 0.5rem;
+            text-align: center;
+            font-size: 1rem;
+            background-color: #f5f5dc;
+          }
 
-          <figure style="flex: 1 1 32%; max-width: 32%; margin: 0; text-align: center;">
-            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-            <figcaption style="margin-top: 0.5rem; font-size: 1rem;">Group Photo</figcaption>
-          </figure>
+          .carousel-wrapper {
+            position: relative;
+          }
 
+          .carousel-container::-webkit-scrollbar {
+            display: none;
+          }
+
+          @media (max-width: 768px) {
+            .carousel-slide {
+              flex: 0 0 100%;
+            }
+          }
+        </style>
+
+        <div class="carousel-wrapper">
+          <div class="carousel-container">
+            <div class="carousel-slide">
+              <img src="/media/house_flowers.jpeg" alt="House garden">
+              <div class="carousel-caption">House garden</div>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
+              <div class="carousel-caption">Kickball Tournament</div>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
+              <div class="carousel-caption">Kickball Tournament</div>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
+              <div class="carousel-caption">Group Photo</div>
+            </div>
+          </div>
         </div>
     design:
       css_class: bg-[#F5F5DC]
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
+
 
   - block: features
     id: contact
