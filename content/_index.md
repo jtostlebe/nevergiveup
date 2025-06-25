@@ -188,70 +188,99 @@ sections:
       title: NGU Photo Gallery
       text: >
         <style>
-          .carousel-container {
-            overflow-x: auto;
-            display: flex;
-            gap: 1rem;
-            padding-bottom: 1rem;
-            scroll-snap-type: x mandatory;
-            -webkit-overflow-scrolling: touch;
-          }
-
-          .carousel-slide {
-            flex: 0 0 48%;
-            scroll-snap-align: start;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+          .slider-container {
+            position: relative;
             overflow: hidden;
-            background: white;
+            max-width: 100%;
+            margin: auto;
           }
 
-          .carousel-slide img {
+          .slider-track {
+            display: flex;
+            transition: transform 0.5s ease;
+          }
+
+          .slide {
+            flex: 0 0 50%;
+            box-sizing: border-box;
+            padding: 1rem;
+          }
+
+          .slide img {
             width: 100%;
-            height: auto;
-            object-fit: cover;
-            display: block;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
           }
 
-          .carousel-caption {
-            padding: 0.5rem;
-            text-align: center;
-            font-size: 1rem;
-            background-color: #f5f5dc;
+          .slider-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+            pointer-events: none;
           }
 
-          .carousel-container::-webkit-scrollbar {
-            display: none;
+          .slider-nav button {
+            pointer-events: auto;
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            border: none;
+            font-size: 2rem;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 8px;
           }
 
           @media (max-width: 768px) {
-            .carousel-slide {
+            .slide {
               flex: 0 0 100%;
             }
           }
         </style>
 
-        <div class="carousel-container">
-          <div class="carousel-slide">
-            <img src="/media/house_flowers.jpeg" alt="House garden">
-            <div class="carousel-caption">House garden</div>
+        <div class="slider-container">
+          <div class="slider-track" id="slider-track">
+            <div class="slide"><img src="/media/house_flowers.jpeg" alt="House garden"></div>
+            <div class="slide"><img src="/media/kickball_5.jpeg" alt="Kickball 5"></div>
+            <div class="slide"><img src="/media/kickball_3.jpeg" alt="Kickball 3"></div>
+            <div class="slide"><img src="/media/GroupPhoto_3.jpg" alt="Group Photo"></div>
           </div>
-
-          <div class="carousel-slide">
-            <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
-            <div class="carousel-caption">Kickball Tournament</div>
-          </div>
-
-          <div class="carousel-slide">
-            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
-            <div class="carousel-caption">Kickball Tournament</div>
-          </div>
-
-          <div class="carousel-slide">
-            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
-            <div class="carousel-caption">Group Photo</div>
+          <div class="slider-nav">
+            <button onclick="slidePrev()">‹</button>
+            <button onclick="slideNext()">›</button>
           </div>
         </div>
+
+        <script>
+          let currentIndex = 0;
+          const track = document.getElementById('slider-track');
+          const totalSlides = track.children.length;
+          const visibleSlides = window.innerWidth < 768 ? 1 : 2;
+
+          function slideTo(index) {
+            currentIndex = index;
+            const width = track.clientWidth / visibleSlides;
+            track.style.transform = 'translateX(' + (-width * index) + 'px)';
+          }
+
+          function slideNext() {
+            if (currentIndex < totalSlides - visibleSlides) {
+              slideTo(currentIndex + 1);
+            }
+          }
+
+          function slidePrev() {
+            if (currentIndex > 0) {
+              slideTo(currentIndex - 1);
+            }
+          }
+
+          window.addEventListener('resize', () => {
+            slideTo(currentIndex);
+          });
+        </script>
     design:
       css_class: bg-[#F5F5DC]
       spacing:
