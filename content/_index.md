@@ -258,7 +258,7 @@ sections:
           </div>
 
           <div class="gallery-item">
-            <img src="/media/beavercreek_saturday_2.jpeg" alt="Beavercreek 2">
+            <img src="/media/beavercreek_saturday_2.jpg" alt="Beavercreek 2">
             <div class="gallery-caption">Saturday Group Outing</div>
           </div>
 
