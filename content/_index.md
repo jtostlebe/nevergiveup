@@ -191,13 +191,13 @@ sections:
           .gallery-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 1.5rem;
+            gap: 1rem;
             justify-content: center;
           }
 
           .gallery-item {
-            flex: 1 1 calc(33.333% - 1.5rem);
-            max-width: calc(33.333% - 1.5rem);
+            flex: 1 1 calc(48% - 1rem);
+            max-width: calc(48% - 1rem);
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
             border-radius: 12px;
             overflow: hidden;
@@ -215,13 +215,6 @@ sections:
             padding: 0.5rem;
             font-size: 1rem;
             background-color: #f5f5dc;
-          }
-
-          @media (max-width: 1024px) {
-            .gallery-item {
-              flex: 1 1 calc(48% - 1rem);
-              max-width: calc(48% - 1rem);
-            }
           }
 
           @media (max-width: 640px) {
