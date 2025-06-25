@@ -188,6 +188,10 @@ sections:
       title: NGU Photo Gallery
       text: >
         <style>
+          .carousel-wrapper {
+            position: relative;
+          }
+
           .carousel-container {
             overflow-x: auto;
             display: flex;
@@ -195,6 +199,7 @@ sections:
             padding-bottom: 1rem;
             scroll-snap-type: x mandatory;
             -webkit-overflow-scrolling: touch;
+            scroll-behavior: smooth;
           }
 
           .carousel-slide {
@@ -220,6 +225,28 @@ sections:
             background-color: #f5f5dc;
           }
 
+          .carousel-button {
+            position: absolute;
+            top: 40%;
+            transform: translateY(-50%);
+            background: #0E2240;
+            color: white;
+            border: none;
+            font-size: 2rem;
+            padding: 0.25rem 0.75rem;
+            cursor: pointer;
+            z-index: 1;
+            border-radius: 6px;
+          }
+
+          .carousel-button.left {
+            left: -1.5rem;
+          }
+
+          .carousel-button.right {
+            right: -1.5rem;
+          }
+
           .carousel-container::-webkit-scrollbar {
             display: none;
           }
@@ -228,29 +255,39 @@ sections:
             .carousel-slide {
               flex: 0 0 100%;
             }
+
+            .carousel-button {
+              display: none;
+            }
           }
         </style>
 
-        <div class="carousel-container">
-          <div class="carousel-slide">
-            <img src="/media/house_flowers.jpeg" alt="House garden">
-            <div class="carousel-caption">House garden</div>
+        <div class="carousel-wrapper">
+          <button class="carousel-button left" onclick="document.querySelector('.carousel-container').scrollBy({left: -300, behavior: 'smooth'})">&#10094;</button>
+
+          <div class="carousel-container">
+            <div class="carousel-slide">
+              <img src="/media/house_flowers.jpeg" alt="House garden">
+              <div class="carousel-caption">House garden</div>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
+              <div class="carousel-caption">Kickball Tournament</div>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
+              <div class="carousel-caption">Kickball Tournament</div>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
+              <div class="carousel-caption">Group Photo</div>
+            </div>
           </div>
 
-          <div class="carousel-slide">
-            <img src="/media/kickball_5.jpeg" alt="Kickball Tournament">
-            <div class="carousel-caption">Kickball Tournament</div>
-          </div>
-
-          <div class="carousel-slide">
-            <img src="/media/kickball_3.jpeg" alt="Kickball Tournament">
-            <div class="carousel-caption">Kickball Tournament</div>
-          </div>
-
-          <div class="carousel-slide">
-            <img src="/media/GroupPhoto_3.jpg" alt="Group Photo">
-            <div class="carousel-caption">Group Photo</div>
-          </div>
+          <button class="carousel-button right" onclick="document.querySelector('.carousel-container').scrollBy({left: 300, behavior: 'smooth'})">&#10095;</button>
         </div>
     design:
       css_class: bg-[#F5F5DC]
