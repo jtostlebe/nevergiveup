@@ -248,6 +248,7 @@ sections:
       css_class: bg-[#F5F5DC]
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
+      css_class: "bg-gray-100 dark:bg-gray-900"        
 
   - block: cta-card
     id: donate
@@ -258,7 +259,7 @@ sections:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
     design:
-      css_class: "bg-gray-100"
+      css_class: "bg-white"
       card:
         css_class: "bg-primary-700"
         css_style: ""
@@ -297,7 +298,7 @@ sections:
 
             Share it with someone who might benefit or want to support us!
     design:
-      css_class: "bg-white features-contact-items"
+      css_class: "bg-gray-100 features-contact-items"
       
 #  - block: testimonials
 #    content:
