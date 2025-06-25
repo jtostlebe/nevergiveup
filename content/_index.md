@@ -185,7 +185,7 @@ sections:
 
   - block: markdown
     content:
-      title: NGU Photo Gallery
+      title: Moments at NGU
       text: >
         <style>
           .gallery-container {
