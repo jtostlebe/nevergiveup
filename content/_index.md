@@ -227,8 +227,8 @@ sections:
           </div>
 
           <div class="gallery-item">
-            <img src="/media/beavercreek_saturday_1.jpeg" alt="Beavercreek 1">
-            <div class="gallery-caption">Saturday Group Outing</div>
+            <img src="/media/IOP3_62525.jpg" alt="Intensive Outpatient Programming">
+            <div class="gallery-caption">Intensive Outpatient Programming</div>
           </div>
 
           <div class="gallery-item">
