@@ -41,9 +41,6 @@ sections:
           description: |
             Men Admitted     
             Since March 2025
-        - statistic: "84"
-          description: |
-            Days of Programming
         - statistic: "--%"
           description: |
             Graduation Rate     
@@ -84,6 +81,7 @@ sections:
           text: '<span style="color:#4d4d4d;">Never Give Up Transitional Living creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration.<br><br>By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.<br><br>Core elements of the program include:</span>'
           feature_icon: bolt
           features:
+            - '<span style="color:#36454F;">84 days of programming</span>'
             - '<span style="color:#36454F;">24/7 supervision and accountability</span>'
             - '<span style="color:#36454F;">Stable housing</span>'
             - '<span style="color:#36454F;">Commitment to sobriety and recovery support</span>'
