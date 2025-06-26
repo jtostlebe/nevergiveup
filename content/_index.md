@@ -37,7 +37,7 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "17"
+        - statistic: "18"
           description: |
             Men Admitted     
             Since March 2025
@@ -47,6 +47,10 @@ sections:
         - statistic: "--%"
           description: |
             Graduation Rate     
+            (Data Not Yet Available) 
+        - statistic: "--%"
+          description: |
+            1-Year Recidivism Rate     
             (Data Not Yet Available) 
     design:
       css_class: "bg-white text-[#003366]"      
