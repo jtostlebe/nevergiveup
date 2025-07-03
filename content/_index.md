@@ -272,19 +272,18 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 
-  - block: image-gallery
-    id: sponsors
+  - block: sponsors
     content:
-      title: Our Sponsors
-      images:
-        - src: /media/sherwood.png
-          alt: Sponsor 1 Logo
-        - src: /media/sherwood2.png
-          alt: Sponsor 2 Logo
+      title: "Our Sponsors"
+      text: ""
+      items:
+        - name: "Sherwood"
+#          role: "Marketing Executive at X"
+          image: "sherwood.png"
+#          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
     design:
-      css_class: "bg-white"
-      image:
-        css_class: "max-h-24 mx-auto"
+      spacing:
+        padding: ["6rem", 0, 0, 0]
 
   - block: features
     id: contact
