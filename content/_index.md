@@ -272,6 +272,20 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 
+  - block: image-gallery
+    id: sponsors
+    content:
+      title: Our Sponsors
+      images:
+        - src: /media/sherwood.png
+          alt: Sponsor 1 Logo
+        - src: /media/sherwood2.png
+          alt: Sponsor 2 Logo
+    design:
+      css_class: "bg-white"
+      image:
+        css_class: "max-h-24 mx-auto"
+
   - block: features
     id: contact
     content:
