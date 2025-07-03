@@ -313,7 +313,7 @@ sections:
 
             Share it with someone who might benefit or want to support us!
     design:
-      css_class: "bg-gray-100 features-contact-items"
+      css_class: "bg-white features-contact-items"
       
 #  - block: testimonials
 #    content:
