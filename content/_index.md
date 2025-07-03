@@ -278,7 +278,7 @@ sections:
       title: Our Sponsors
       text: >
         <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 2rem 0;">
-          <img src="/media/sherwood2.png" alt="Sponsor 2" style="max-height: 100px; width: auto;">
+          <img src="/media/sherwood.png" alt="Sponsor 2" style="max-height: 100px; width: auto;">
         </div>
     design:
       css_class: "bg-white"
