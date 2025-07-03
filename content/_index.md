@@ -54,20 +54,6 @@ sections:
       spacing:
         padding: ["1rem", 0, "1rem", 0]
 
-  - block: cta-card
-    id: donate
-    content:
-      title: Help us Change Lives
-      text: Donate to Never Give Up through the 501(c)(3) organization, Good Turn Labor, LLC
-      button:
-        text: Support Our Mission
-        url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
-    design:
-      css_class: "bg-white"
-      card:
-        css_class: "bg-primary-700"
-        css_style: ""
-
   - block: markdown
     id: program
     content:
@@ -184,6 +170,20 @@ sections:
 #        - [**Never Give Up Program Flyer** (PDF)](/docs/NGUFlyer.pdf): Print-ready handout describing our services.
 #    design:
 #      css_class: "bg-white"
+
+  - block: cta-card
+    id: donate
+    content:
+      title: Help us Change Lives
+      text: Donate to Never Give Up through the 501(c)(3) organization, Good Turn Labor, LLC
+      button:
+        text: Support Our Mission
+        url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
+    design:
+      css_class: "bg-white"
+      card:
+        css_class: "bg-primary-700"
+        css_style: ""
 
   - block: markdown
     id: sponsors
