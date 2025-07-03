@@ -186,25 +186,6 @@ sections:
     content:
       title: Our Sponsors
       text: >
-        <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 2rem 0;">
-          <img src="/media/sherwood.png" alt="Sherwood Foundation" style="max-height: 100px; width: auto;">
-        <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 2rem 0;">
-          <img src="/media/omahacommunityfoundation.png" alt="Omaha Community Foundation" style="max-height: 100px; width: auto;">
-        <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 2rem 0;">
-          <img src="/media/johnscottfoundation.png" alt="John L. Scott Foundation" style="max-height: 100px; width: auto;">
-        <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 2rem 0;">
-          <img src="/media/scottfamilyfoundation.png" alt="William and Ruth Scott Family Foundation" style="max-height: 100px; width: auto;">
-        <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 2rem 0;">
-          <img src="/media/lozierfoundation.png" alt="Lozier Foundation" style="max-height: 100px; width: auto;">
-        </div>
-    design:
-      css_class: "bg-white"
-
-  - block: markdown
-    id: sponsors
-    content:
-      title: Our Sponsors
-      text: >
         <div style="display: flex; justify-content: center; padding: 2rem 0;">
           <video autoplay loop muted playsinline style="max-width: 100%; border-radius: 12px;">
             <source src="/media/sponsors.mp4" type="video/mp4">
