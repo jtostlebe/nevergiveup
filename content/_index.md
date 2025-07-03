@@ -154,23 +154,6 @@ sections:
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"        
 
-  - block: cta-image-paragraph
-    content:
-      items:
-        - title: '<span style="color:#141436;">What Makes NGU Unique?</span>'
-          text: '<span style="color:#4d4d4d;">Rooted in experience. Driven by hope.</span>'
-          feature_icon: bolt
-          features:
-            - '<span style="color:#36454F;"><strong>Out-of-the-box.</strong> Innovative methods tailored for lasting impact.</span>'
-            - '<span style="color:#36454F;"><strong>Built for real change.</strong> Helping people rebuild lives -- not just get by.</span>'
-            - '<span style="color:#36454F;"><strong>We''ve been there.</strong> Our staff have done time, and changed their lives.</span>'
-            - '<span style="color:#36454F;"><strong>We don''t give up.</strong> No matter your past, we believe in your future.</span>'
-          image: groupphoto1.jpeg
-          button:
-            text: Meet the NGU Team
-            url: /people
-            style: "background-color: #FECA1B; color: #0E2240; font-weight: 700; display: block; margin: 0 auto;"
-
 #  - block: markdown
 #    id: documentation
 #    content:
