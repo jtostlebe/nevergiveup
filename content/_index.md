@@ -193,6 +193,28 @@ sections:
       css_class: "bg-white"
 
   - block: markdown
+    id: donate-and-sponsors
+    content:
+      title: Help Us Change Lives
+      text: >
+        <div style="text-align: center; padding: 2rem 0;">
+          <p style="font-size: 1.125rem; color: #1F2937; max-width: 600px; margin: 0 auto 1.5rem auto;">
+            Donate to Never Give Up through the 501(c)(3) organization, Good Turn Labor, LLC.
+          </p>
+          <a href="https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method"
+             style="background-color: #003366; color: white; padding: 0.75rem 1.5rem; border-radius: 0.375rem; font-weight: 600; display: inline-block; text-decoration: none;">
+            Support Our Mission
+          </a>
+        </div>
+
+        <h2 style="text-align: center; margin-top: 3rem; color: #1F2937;">Our Sponsors</h2>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 2rem 0;">
+          <img src="/media/sherwood.png" alt="Sponsor: Sherwood Foundation" style="max-height: 100px; width: auto;">
+        </div>
+    design:
+      css_class: "bg-white"
+
+  - block: markdown
     content:
       title: Moments at NGU
       text: >
