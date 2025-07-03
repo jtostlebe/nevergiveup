@@ -246,6 +246,11 @@ sections:
             <div class="gallery-caption">Saturday Group Outing</div>
           </div>
 
+          <div class="gallery-item">
+            <img src="/media/news_interview_2025.jpeg" alt="KETV Interview">
+            <div class="gallery-caption">KETV Interview</div>
+          </div>
+
         </div>
     design:
       css_class: bg-[#F5F5DC]
