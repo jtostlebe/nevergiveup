@@ -62,10 +62,15 @@ sections:
       button:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=hZimVnstSY2Sr9jySrL%2FjAAAAZZEoSpl#!/payment-method
+#    design:
+#      css_class: "bg-white"
+#      card:
+#        css_class: "bg-primary-700"
+#        css_style: ""
     design:
-      css_class: "bg-white"
+      css_class: "bg-primary-700"
       card:
-        css_class: "bg-primary-700"
+        css_class: "bg-white"
         css_style: ""
         
   - block: markdown
