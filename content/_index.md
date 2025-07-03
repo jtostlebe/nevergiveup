@@ -201,6 +201,20 @@ sections:
       css_class: "bg-white"
 
   - block: markdown
+    id: sponsors
+    content:
+      title: Our Sponsors
+      text: >
+        <div style="display: flex; justify-content: center; padding: 2rem 0;">
+          <video autoplay loop muted playsinline style="max-width: 100%; border-radius: 12px;">
+            <source src="/media/test3sponsors.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+    design:
+      css_class: "bg-white"
+
+  - block: markdown
     content:
       title: Moments at NGU
       text: >
