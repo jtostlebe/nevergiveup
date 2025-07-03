@@ -207,7 +207,7 @@ sections:
       text: >
         <div style="display: flex; justify-content: center; padding: 2rem 0;">
           <video autoplay loop muted playsinline style="max-width: 100%; border-radius: 12px;">
-            <source src="/media/test3sponsors.mp4" type="video/mp4">
+            <source src="/media/sponsors.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>
