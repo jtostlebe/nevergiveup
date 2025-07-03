@@ -272,6 +272,18 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
 
+  - block: markdown
+    id: sponsors
+    content:
+      title: Our Sponsors
+      text: >
+        <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 2rem 0;">
+          <img src="/media/sponsor1.png" alt="Sponsor 1" style="max-height: 100px; width: auto;">
+          <img src="/media/sponsor2.png" alt="Sponsor 2" style="max-height: 100px; width: auto;">
+        </div>
+    design:
+      css_class: "bg-white"
+
   - block: features
     id: contact
     content:
