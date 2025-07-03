@@ -129,7 +129,7 @@ sections:
           description: Evidence-based group therapy focused on emotional regulation, distress tolerance, and interpersonal skills.
         - name: Intensive Outpatient Programming (IOP)
           icon: chat-bubble-oval-left-ellipsis
-          description: Structured clinical treatment that includes group sessions, relapse prevention, and coping strategies.
+          description: Structured in-house clinical treatment that includes group sessions, relapse prevention, and coping strategies.
         - name: Individual Counseling
           icon: user
           description: One-on-one sessions with licensed counselors to address trauma, mental health, substance use, and personal growth.
