@@ -241,8 +241,8 @@ sections:
         <div class="gallery-container">
 
           <div class="gallery-item">
-            <img src="/media/house_flowers.jpeg" alt="House Flowers">
-            <div class="gallery-caption">House Flowers</div>
+            <img src="/media/IOP3_62525.jpg" alt="Intensive Outpatient Programming">
+            <div class="gallery-caption">Intensive Outpatient Programming</div>
           </div>
 
           <div class="gallery-item">
@@ -251,8 +251,8 @@ sections:
           </div>
 
           <div class="gallery-item">
-            <img src="/media/IOP3_62525.jpg" alt="Intensive Outpatient Programming">
-            <div class="gallery-caption">Intensive Outpatient Programming</div>
+            <img src="/media/july42025_1.jpeg" alt="744045_1">
+            <div class="gallery-caption">2025 July Fourth Extravaganza</div>
           </div>
 
           <div class="gallery-item">
@@ -271,8 +271,28 @@ sections:
           </div>
 
           <div class="gallery-item">
+            <img src="/media/july42025_4.jpeg" alt="744045_4">
+            <div class="gallery-caption">2025 July Fourth Extravaganza</div>
+          </div>
+
+          <div class="gallery-item">
             <img src="/media/news_interview_2025.jpeg" alt="KETV Interview">
             <div class="gallery-caption">KETV Interview</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/media/july42025_2.jpeg" alt="744045_2">
+            <div class="gallery-caption">2025 July Fourth Extravaganza</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/media/house_flowers.jpeg" alt="House Flowers">
+            <div class="gallery-caption">House Flowers</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/media/july42025_3.jpeg" alt="744045_3">
+            <div class="gallery-caption">2025 July Fourth Extravaganza</div>
           </div>
 
         </div>
