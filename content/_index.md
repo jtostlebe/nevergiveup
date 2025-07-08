@@ -276,13 +276,13 @@ sections:
           </div>
 
           <div class="gallery-item">
-            <img src="/media/news_interview_2025.jpeg" alt="KETV Interview">
-            <div class="gallery-caption">KETV Interview</div>
+            <img src="/media/july42025_2.jpeg" alt="744045_2">
+            <div class="gallery-caption">2025 July Fourth Extravaganza</div>
           </div>
 
           <div class="gallery-item">
-            <img src="/media/july42025_2.jpeg" alt="744045_2">
-            <div class="gallery-caption">2025 July Fourth Extravaganza</div>
+            <img src="/media/news_interview_2025.jpeg" alt="KETV Interview">
+            <div class="gallery-caption">KETV Interview</div>
           </div>
 
           <div class="gallery-item">
