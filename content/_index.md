@@ -67,7 +67,7 @@ sections:
         <br>
         (a) are approved for community supervision or parole,<br>
         (b) are motivated to participate in structured reentry support, and<br>
-        (c) have applied to the program and completed a phone interview and background review (individuals convicted of sex offenses are not eligible).
+        (c) have applied to the program and completed a phone interview and background review (people convicted of sex offenses are not eligible).
         <br><br>
         The <strong>overarching goal</strong> of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</span>
     
