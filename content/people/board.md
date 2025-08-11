@@ -19,3 +19,45 @@ user_groups:
 The Board of Directors of Good Turn Labor LLC provides strategic leadership, governance, and oversight to ensure NGU’s mission is fulfilled with integrity and effectiveness. 
 
 The Board is responsible for fiduciary stewardship, long-term visioning, organizational policy, and supporting the Executive Director, program leadership, and program staff.
+
+---
+
+## Meet Our Board
+
+<div class="board-grid">
+
+<div class="board-member">
+<img src="/images/purnell.jpeg" alt="Mark Purnell" />
+**Dr. Mark Purnell**  
+*Chairman of the Board*  
+</div>
+
+<div class="board-member">
+<img src="/images/cotton.jpeg" alt="Rosalyn Cotton" />
+**Rosalyn Cotton**  
+*Board Member*  
+Rosalyn is the Former Chair of the Board of Parole.
+</div>
+
+<div class="board-member">
+<img src="/images/key.jpeg" alt="Greg Key" />
+**Greg Key**  
+*Board Member*  
+Greg is the owner of Lueder Construction.
+</div>
+
+<div class="board-member">
+<img src="/images/velasquez.jpeg" alt="John Velasquez" />
+**John Velasquez**  
+*Board Member*  
+John is a Federal Public Defender.
+</div>
+
+<div class="board-member">
+<img src="/images/freeburg.jpeg" alt="Tim Freeburg" />
+**Tim Freeburg**  
+*Board Member*  
+</div>
+
+
+</div>
