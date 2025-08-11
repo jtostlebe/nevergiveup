@@ -5,7 +5,7 @@ last_name: Velasquez
 role: "Board Member"
 image: "/images/velasquez.jpg"
 user_groups:
-  - Board of Directors
+  - Board
 #bio: John is a Federal Public Defender.
 #social:
 #  - icon: envelope
