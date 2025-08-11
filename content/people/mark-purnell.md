@@ -1,5 +1,5 @@
 ---
-title: "Dr. Mark Purnell"
+title: "Mark Purnell, PhD"
 first_name: Mark
 last_name: Purnell
 role: "Chairman"
