@@ -16,6 +16,23 @@
 
 {{ $people := where site.Pages "Section" "people" }}
 
+<!-- Board of Directors Section -->
+<h2 class="section-title">Board of Directors</h2>
+<div class="team-grid">
+  {{ $boardOrder := slice "Board of Directors" "Mark" }}
+  {{ range $name := $boardOrder }}
+    {{ range where $people "Params.first_name" "eq" $name }}
+      <div class="team-card">
+        <a href="{{ .RelPermalink }}">
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
+          <h3 class="team-name">{{ .Title }}</h3>
+          <p>{{ .Params.role }}</p>
+        </a>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
+
 <!-- Leadership Section -->
 <h2 class="section-title">Leadership</h2>
 <div class="team-grid">
