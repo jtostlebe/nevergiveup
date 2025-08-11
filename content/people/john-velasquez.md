@@ -1,5 +1,5 @@
 ---
-title: "John Velasquez"
+title: "John Velasquez, JD"
 first_name: John
 last_name: Velasquez
 role: "Board Member"
