@@ -19,3 +19,5 @@ user_groups:
 The Board of Directors of Good Turn Labor LLC provides strategic leadership, governance, and oversight to ensure NGU’s mission is fulfilled with integrity and effectiveness. 
 
 The Board is responsible for fiduciary stewardship, long-term visioning, organizational policy, and supporting the Executive Director, program leadership, and program staff.
+
+Tim is an active member of Brookside Church and previous owner of CR Gutters.
