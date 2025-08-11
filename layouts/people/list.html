@@ -53,8 +53,13 @@
 <!-- Staff Section -->
 <h2 class="section-title" style="margin-top: 5rem;">Staff</h2>
 <div class="team-grid">
+  {{/* Exclude both board + leadership first names */}}
+  {{ $boardFirstNames := slice "Mark" "Rosalyn" "Tim" "Greg" "John" }}
   {{ $leadershipFirstNames := slice "Julie" "Shane" "Jimmy" }}
-  {{ $staff := where $people "Params.first_name" "not in" $leadershipFirstNames }}
+  {{ $excludeFirstNames := union $boardFirstNames $leadershipFirstNames }}
+
+  {{ $staff := where $people "Params.first_name" "not in" $excludeFirstNames }}
+  
   {{ range sort $staff "Params.last_name" }}
     {{ if eq .Params.first_name "Brian" }}
       <div class="team-card">
@@ -66,6 +71,7 @@
       </div>
     {{ end }}
   {{ end }}
+
   {{ range sort $staff "Params.last_name" }}
     {{ if ne .Params.first_name "Brian" }}
       <div class="team-card">
