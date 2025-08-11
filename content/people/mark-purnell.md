@@ -13,7 +13,7 @@ user_groups:
 #    link: 'mailto:shane@example.com'
 #  - icon: linkedin
 #    icon_pack: fab
-    link: 'https://www.linkedin.com/in/mark-purnell-ph-d-7297368/'
+   - link: 'https://www.linkedin.com/in/mark-purnell-ph-d-7297368/'
 ---
 
 The Board of Directors of Good Turn Labor LLC provides strategic leadership, governance, and oversight to ensure NGU’s mission is fulfilled with integrity and effectiveness. 
