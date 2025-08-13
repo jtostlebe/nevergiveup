@@ -21,7 +21,7 @@ marketing:
     description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
     twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-PQCVCNBNEX'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
