@@ -15,6 +15,9 @@ main:
   - name: Donate to the Program
     url: /#donate
     weight: 40
+  - name: NGU in the News
+    url: /#news
+    weight: 50
   - name: Contact Us
     url: /#contact
-    weight: 50
+    weight: 60
