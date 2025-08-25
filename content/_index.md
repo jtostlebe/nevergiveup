@@ -196,6 +196,24 @@ sections:
       css_class: "bg-white"
 
   - block: markdown
+    id: news
+    content:
+      title: NGU in the News
+      text: >
+        <div style="display: flex; justify-content: center; padding: 2rem 0;">
+          <iframe width="100%" height="480"
+                  src="https://www.youtube.com/embed/FeUuBwGDzQw"
+                  title="NGU in the News"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  style="max-width: 960px; border-radius: 12px;">
+          </iframe>
+        </div>
+    design:
+      css_class: "bg-gray-100"
+
+  - block: markdown
     content:
       title: Moments at NGU
       text: >
