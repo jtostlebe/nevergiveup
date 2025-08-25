@@ -200,15 +200,44 @@ sections:
     content:
       title: NGU in the News
       text: >
-        <div style="display: flex; justify-content: center; padding: 2rem 0;">
-          <iframe width="100%" height="480"
-                  src="https://www.youtube.com/embed/FeUuBwGDzQw"
-                  title="NGU in the News"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                  style="max-width: 960px; border-radius: 12px;">
-          </iframe>
+        <style>
+          .news-videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+          }
+          .news-video {
+            flex: 1 1 480px;
+            max-width: 480px;
+          }
+          iframe {
+            width: 100%;
+            height: 270px;
+            border-radius: 12px;
+          }
+        </style>
+
+        <div class="news-videos">
+          <div class="news-video">
+            <iframe 
+              src="https://www.youtube.com/embed/FeUuBwGDzQw" 
+              title="NGU in the News - KETV"
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <div class="news-video">
+            <iframe 
+              src="https://www.youtube.com/embed/KwdsjcoviiE" 
+              title="NGU in the News - Second Video"
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
         </div>
     design:
       css_class: "bg-gray-100"
