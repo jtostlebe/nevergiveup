@@ -37,7 +37,7 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "29"
+        - statistic: "31"
           description: |
             Men Admitted     
             Since March 2025
