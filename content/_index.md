@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: Never Give Up Transitional Living
+      title: Good Turn Labor's Never Give Up Transitional Living
       text: An 84-day structured transitional housing program in Omaha, Nebraska operated under the nonprofit 501(c)(3) organization, Good Turn Labor, to support formerly incarcerated individuals as they reintegrate into the community.
       primary_action:
         text: Support The Program
