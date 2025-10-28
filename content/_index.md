@@ -167,6 +167,30 @@ sections:
 #    design:
 #      css_class: "bg-white"
 
+  - block: testimonials
+    id: testimonials
+    content:
+      title: Voices from NGU
+      text: >
+        Real words from participants, family, and partners who’ve seen the impact up close.
+      items:
+        - name: "Jason G."
+          role: "Program Participant"
+          text: "Be ready for a life changing experience. This program is very motivating. It's very uplifting...What you put into this program is what you're gonna get out of it. There's great qualities in the program that enabled me to become self-sufficient, maintain good employment, work on my credit, and just become an all-around productive member of society and a good person."
+        - name: "Brian Bencker"
+          role: "Assistant Program Director, NDCS Community Supervision Service"
+          text: "I've had the opportunity to work with numerous transitional living programs...NGU stands out as a model of excellence. Shane's commitment to structured support, accountability, and genuine care creates real opportunities for lasting change."
+        - name: "Allison D."
+          role: "Participant's Mother"
+          text: "This! Is the real deal. I am so impressed with Never Give Up home. I had the honor of visiting yesterday when I visited my son. It was hard to keep the tears back. Shane's commitment to re-entry is phenomenal."
+        - name: "Yvonne"
+          role: "Financial Sales Manager, Centris Bank"
+          text: "It is great to see [the men] come in and start their financial journey with us...Some of them have been able to do things they hadn't done before such as purchase a car from a dealership or...a home. It is the confidence that comes from being able to accomplish goals in a way they maybe hadn't before that makes this partnership special to all of us!"
+    design:
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      spacing:
+        padding: ["3rem", 0, "3rem", 0]
+
   - block: cta-card
     id: donate
     content:
