@@ -42,16 +42,9 @@ sections:
           .testimonial-card strong { display:block; margin-top:0.5rem; font-size:0.9rem; color:#4D3B2F; }
           .testimonials-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.25rem; max-width:1100px; margin:0 auto; }
           .sponsor-item { background:#FFF8E1; border-left:4px solid #FECA1B; }
-
-          /* Gold divider appears ABOVE any section whose wrapper has .section-divider */
-          .section-divider:before {
-            content:"";
-            display:block;
-            width:60px; height:4px;
-            background:#FECA1B;
-            margin:1rem auto 1rem;
-            border-radius:2px;
-          }
+          /* On-dark helpers for CTA card */
+          .title-on-dark { color:#FFFFFF !important; }
+          .text-on-dark { color:#FFFFFF !important; }
         </style>
     design:
       css_class: "hidden"
@@ -94,13 +87,13 @@ sections:
         <br><br>
         The <strong>overarching goal</strong> of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</span>
     design:
-      css_class: "bg-gray-100 section-divider"
+      css_class: "bg-gray-100"
 
   - block: cta-image-paragraph
     content:
       items:
         - title: '<span class="section-title"><span class="section-underline">The NGU Approach</span></span>'
-          text: '<span style="color:#4d4d4d;">Never Give Up Transitional Living creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration.</span>'
+          text: '<span style="color:#4d4d4d;">Never Give Up Transitional Living creates a supportive space where individuals with lived experiences (i.e., previously incarcerated) serve as mentors, helping participants navigate challenges related to addiction, antisocial thinking patterns, employment, and prosocial and community reintegration.<br><br>By offering structured support, the program seeks to empower participants to rebuild their lives and achieve long-term stability.</span>'
           feature_icon: bolt
           features:
             - '<span style="color:#36454F;">84 days of programming</span>'
@@ -163,7 +156,7 @@ sections:
           icon: users
           description: Organized social outings, volunteer experiences, and family visitation days to help participants rebuild connections with loved ones and the community.
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900 section-divider"
+      css_class: "bg-gray-100 dark:bg-gray-900"
 
   - block: markdown
     id: testimonials
@@ -196,17 +189,17 @@ sections:
   - block: cta-card
     id: donate
     content:
-      title: '<span class="section-title"><span class="section-underline">Help us Change Lives</span></span>'
+      title: '<span class="section-title title-on-dark"><span class="section-underline">Help us Change Lives</span></span>'
       text: >
-        <p class="highlight-text">Donate to Never Give Up through the 501(c)(3) organization, Good Turn Labor, LLC.</p>
+        <p class="text-on-dark">Donate to Never Give Up through the 501(c)(3) organization, Good Turn Labor, LLC.</p>
       button:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments?ssl_txn_auth_token=QVQ%2BZQDeRS%2Bl9WmNDygSkQAAAZgfevef
         style: "background-color:#FECA1B; color:#0E2240; font-weight:700; border-radius:8px; padding:.6rem 1.2rem;"
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900 section-divider"
+      css_class: "bg-gray-100 dark:bg-gray-900"
       card:
-        css_class: "bg-primary-700"
+        css_class: "bg-primary-700 text-white"
         css_style: ""
 
   - block: markdown
@@ -249,7 +242,7 @@ sections:
           </div>
         </div>
     design:
-      css_class: "bg-gray-100 section-divider"
+      css_class: "bg-gray-100"
 
   - block: markdown
     content:
@@ -301,5 +294,5 @@ sections:
             <br>
             Share it with someone who might benefit or want to support us!
     design:
-      css_class: "bg-gray-100 section-divider"
+      css_class: "bg-gray-100"
 ---
