@@ -357,11 +357,6 @@ sections:
           </div>
 
           <div class="gallery-item">
-            <img src="/media/news_interview_2025.jpeg" alt="KETV Interview">
-            <div class="gallery-caption">KETV Interview</div>
-          </div>
-
-          <div class="gallery-item">
             <img src="/media/house_flowers.jpeg" alt="House Flowers">
             <div class="gallery-caption">House Flowers</div>
           </div>
