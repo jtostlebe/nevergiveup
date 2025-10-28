@@ -169,7 +169,7 @@ sections:
             url: /docs/NGUProgramDescription.pdf
             style: "background-color:#FECA1B;color:#0E2240;font-weight:700;border-radius:8px;padding:.5rem 1rem;"
         - title: '<span class="section-title"><span class="section-underline">What Makes NGU Unique?</span></span>'
-          text: '<span style="color:#4d4d4d;">Rooted in experience. Driven by hope.</span>'
+          text: '<span style="color:#4d4d4d;">Rooted in experience. Strengthened by research. Driven by hope.</span>'
           feature_icon: bolt
           features:
             - '<span style="color:#36454F;"><strong>Built for real change.</strong> Helping people rebuild lives -- not just get by.</span>'
