@@ -176,7 +176,7 @@ sections:
             - '<span style="color:#36454F;"><strong>Out-of-the-box.</strong> Innovative methods tailored for lasting impact.</span>'
             - '<span style="color:#36454F;"><strong>We&apos;ve been there.</strong> Our staff have done time, and changed their lives.</span>'
             - '<span style="color:#36454F;"><strong>We don&apos;t give up.</strong> No matter your past, we believe in your future.</span>'
-            - '<span style="color:#36454F;"><strong>Evidence-based and accountable.</strong> NGU is partnering with university researchers to standardize programming, track outcomes, and build a long-term research–practitioner collaboration for rigorous evaluation.</span>'
+            - '<span style="color:#36454F;"><strong>Evidence-based.</strong> Built with university partners to refine our model, measure impact, and keep improving what works.</span>'
           image: groupphoto1.jpeg
           button:
             text: Meet the NGU Team
