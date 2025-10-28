@@ -165,19 +165,19 @@ sections:
       text: >
         <div class="testimonials-grid">
           <div class="testimonial-card">
-            “Be ready for a life-changing experience. NGU helped me become self-sufficient and a better man.”
+            “Be ready for a life-changing experience. This program is very motivating. It's very uplifting...[NGU] enabled me to become self-sufficient, maintain good employment, work on my credit, and just become an all-around productive member of society and a good person.”
             <strong>— Jason G., Program Participant</strong>
           </div>
           <div class="testimonial-card">
-            “NGU stands out as a model of excellence. Structured support and genuine care create lasting change.”
+            “I've had the opportunity to work with numerous transitional living programs...NGU stands out as a model of excellence. Shane's commitment to structured support, accountability, and genuine care creates real opportunities for lasting change.”
             <strong>— Brian Bencker, Assistant Program Director, NDCS</strong>
           </div>
           <div class="testimonial-card">
-            “This is the real deal. I visited my son at NGU — Shane’s commitment to re-entry is phenomenal.”
+            “This is the real deal. I am so impressed with Never Give Up. I had the honor of visiting with Shane yesterday when I visited my son. It was hard to keep the tears back. Shane's commitment to reentry is phenomenal.”
             <strong>— Allison D., Participant’s Mother</strong>
           </div>
           <div class="testimonial-card">
-            “Watching these men build financial confidence is inspiring — they’re achieving things many never thought possible.”
+            “It is great to see [the men] come in and start their financial journey with us...Some of them have been able to do things they hadn't done before such as purchase a car from a dealership or a home. It is the confidence that comes from being able to accomplish goals...that makes this partnership special to all of us!”
             <strong>— Yvonne, Financial Sales Manager, Centris Bank</strong>
           </div>
         </div>
