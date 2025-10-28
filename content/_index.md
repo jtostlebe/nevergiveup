@@ -223,7 +223,10 @@ sections:
     content:
       title: '<span class="section-title"><span class="section-underline">Voices from NGU</span></span>'
       text: >
-        <div class="container-pad no-overflow">
+        <div class="container-pad no-overflow" style="max-width:1100px;margin:0 auto;text-align:center;">
+          <p style="font-size:1.125rem;color:#4D3B2F;margin-bottom:2rem;">
+            Real words from participants, family, and community partners who’ve seen the impact up close.
+          </p>
           <div class="testimonials-grid">
             <div class="testimonial-card">
               “Be ready for a life changing experience. This program is very motivating. It's very uplifting...What you put into this program is what you're gonna get out of it. There's great qualities in the program that enabled me to become self-sufficient, maintain good employment, work on my credit, and just become an all-around productive member of society and a good person.”
@@ -246,7 +249,7 @@ sections:
     design:
       css_class: "bg-white"
       spacing:
-        padding: ["1.5rem", 0, "1.5rem", 0]
+        padding: ["3rem", "1rem", "3rem", "1rem"]
 
   - block: cta-card
     id: donate
