@@ -449,17 +449,17 @@ sections:
     design:
       css_class: "bg-white features-contact-items"
       
-#  - block: testimonials
-#    content:
-#      title: "Testimonials"
-#      text: ""
-#      items:
-#        - name: "Hugo Smith"
-#          role: "Marketing Executive at X"
-#          image: "testimonial-1.jpg"
-#          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
-#    design:
-#      spacing:
-#        padding: ["6rem", 0, 0, 0]
+  - block: testimonials
+    content:
+      title: "Testimonials"
+      text: ""
+      items:
+        - name: "Hugo Smith"
+          role: "Marketing Executive at X"
+          image: "testimonial-1.jpg"
+          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+    design:
+      spacing:
+        padding: ["6rem", 0, 0, 0]
         
 ---
