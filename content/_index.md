@@ -106,6 +106,38 @@ sections:
           /* Donate card helpers */
           .title-on-dark { color:#FFFFFF !important; }
           .text-on-dark { color:#FFFFFF !important; }
+
+          /* -----------------------------------------------
+             FIX: Align cta-image-paragraph feature bullets so
+             wrapped lines line up with the start of text,
+             not under the icon.
+          ------------------------------------------------- */
+          [data-block="cta-image-paragraph"] ul,
+          [data-block="cta-image-paragraph"] .features,
+          [data-block="cta-image-paragraph"] .feature-list {
+            margin: 0;
+            padding: 0 1rem; /* keep mobile gutters */
+          }
+          [data-block="cta-image-paragraph"] li {
+            list-style: none;
+            position: relative;
+            padding-left: 1.75rem;    /* gutter for icon */
+            margin: .4rem 0;
+            line-height: 1.5;
+          }
+          /* Place the icon in the left gutter so text wraps at 1.75rem */
+          [data-block="cta-image-paragraph"] li .feature-icon,
+          [data-block="cta-image-paragraph"] li svg,
+          [data-block="cta-image-paragraph"] li i {
+            position: absolute;
+            left: 0;
+            top: .15rem;              /* tweak if needed */
+            width: 1.1rem; height: 1.1rem;
+          }
+          /* Ensure text stays inline so wrapping respects padding-left */
+          [data-block="cta-image-paragraph"] li span {
+            display: inline !important;
+          }
         </style>
     design:
       css_class: "hidden"
