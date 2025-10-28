@@ -12,12 +12,15 @@ main:
   - name: The NGU Team
     url: /people
     weight: 30
+  - name: Testimonials
+    url: /#testimonials
+    weight: 40
   - name: Donate to the Program
     url: /#donate
-    weight: 40
+    weight: 50
   - name: NGU in the News
     url: /#news
-    weight: 50
+    weight: 60
   - name: Contact Us
     url: /#contact
-    weight: 60
+    weight: 70
