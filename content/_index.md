@@ -163,7 +163,7 @@ sections:
             - '<span style="color:#36454F;">Employment and workforce development</span>'
             - '<span style="color:#36454F;">Therapy and life skills development</span>'
             - '<span style="color:#36454F;">Family, prosocial peers, and community network (re)development</span>'
-          image: groupphoto2.jpeg
+          image: GroupPhoto_2.jpg
           button:
             text: Program Overview (PDF)
             url: /docs/NGUProgramDescription.pdf
