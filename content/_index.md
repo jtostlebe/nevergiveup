@@ -229,7 +229,7 @@ sections:
           </p>
           <div class="testimonials-grid">
             <div class="testimonial-card">
-              “Be ready for a life changing experience. This program is very motivating. It's very uplifting...What you put into this program is what you're gonna get out of it. There's great qualities in the program that enabled me to become self-sufficient, maintain good employment, work on my credit, and just become an all-around productive member of society and a good person.”
+              “Be ready for a life changing experience. This program is very motivating. It's very uplifting. NGU enabled me to become self-sufficient, maintain good employment, work on my credit, and just become an all-around productive member of society and a good person.”
               <strong>— Jason G., Program Participant</strong>
             </div>
             <div class="testimonial-card">
@@ -237,7 +237,7 @@ sections:
               <strong>— Allison D., Participant’s Mother</strong>
             </div>
             <div class="testimonial-card">
-              “I've had the opportunity to work with numerous transitional living programs...NGU stands out as a model of excellence. Shane's commitment to structured support, accountability, and genuine care creates real opportunities for lasting change.”
+              “I've had the opportunity to work with numerous transitional living programs. NGU stands out as a model of excellence. Shane's commitment to structured support, accountability, and genuine care creates real opportunities for lasting change.”
               <strong>— Brian Bencker, Assistant Program Director, NDCS Community Supervision Service</strong>
             </div>
             <div class="testimonial-card">
