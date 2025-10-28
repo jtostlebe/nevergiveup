@@ -33,7 +33,7 @@ sections:
     content:
       text: >
         <style>
-          /* Headings + accents */
+          /* Titles + accents */
           .section-title { color:#0E2240; font-weight:700; text-align:center; margin-bottom:.5rem; }
           .section-underline { display:inline-block; border-bottom:4px solid #FECA1B; border-radius:2px; padding-bottom:.25rem; }
           .highlight-text { color:#4D3B2F; }
@@ -47,25 +47,12 @@ sections:
           }
           .button-gold:hover { background-color:#FFD84A; }
 
-          /* Layout helpers */
-          .container-pad {
-            padding-left:1rem; padding-right:1rem;
-            box-sizing:border-box;
-            max-width:100%;
-          }
-          .no-overflow {
-            overflow-x:hidden !important;
-            max-width:100vw;
-          }
-
-          /* Prevent grid overflow on mobile */
-          * {
-            box-sizing:border-box;
-          }
-          img, iframe, video {
-            max-width:100%;
-            height:auto;
-          }
+          /* Layout + containers */
+          * { box-sizing:border-box; }
+          html, body { width:100%; overflow-x:hidden; }
+          .container-pad { padding-left:1rem; padding-right:1rem; box-sizing:border-box; max-width:100%; }
+          .no-overflow { overflow-x:hidden !important; max-width:100vw; }
+          img, iframe, video { max-width:100%; height:auto; display:block; }
 
           /* Testimonials */
           .testimonials-grid {
@@ -74,8 +61,7 @@ sections:
             gap:1.25rem;
             max-width:1100px;
             margin:0 auto;
-            padding-left:1rem;
-            padding-right:1rem;
+            padding:0 1rem;
           }
           @media (max-width:430px){ .testimonials-grid{grid-template-columns:1fr;} }
           .testimonial-card {
@@ -86,35 +72,40 @@ sections:
             font-size:0.95rem; line-height:1.5;
             overflow-wrap:anywhere; word-break:normal;
           }
-          .testimonial-card strong {
-            display:block; margin-top:0.5rem;
-            font-size:0.9rem; color:#4D3B2F;
-          }
+          .testimonial-card strong { display:block; margin-top:0.5rem; font-size:0.9rem; color:#4D3B2F; }
 
-          /* Sponsors */
+          /* Sponsors — fixed width + padding */
           .sponsor-wrap {
             text-align:center;
-            padding:2rem 1rem;
+            padding:2.5rem 1rem;
             max-width:900px; margin:0 auto;
-            box-sizing:border-box;
+            width:100%;
+          }
+          .sponsor-list {
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(180px,1fr));
+            gap:1rem;
+            list-style:none;
+            padding:0;
+            margin:0 auto;
+            width:100%;
+            max-width:700px;
+          }
+          @media (max-width: 400px){
+            .sponsor-list{ grid-template-columns:1fr; }
           }
           .sponsor-item {
-            background:#FFF8E1; border-left:4px solid #FECA1B;
+            background:#FFF8E1;
+            border-left:4px solid #FECA1B;
+            border-radius:8px;
+            padding:.75rem;
+            color:#0E2240;
+            word-break:break-word; overflow-wrap:anywhere;
           }
 
           /* Donate card helpers */
           .title-on-dark { color:#FFFFFF !important; }
           .text-on-dark { color:#FFFFFF !important; }
-
-          /* Ensure nothing exceeds phone width */
-          html, body {
-            overflow-x:hidden;
-            width:100%;
-          }
-          section.block {
-            width:100%;
-            overflow-x:hidden;
-          }
         </style>
     design:
       css_class: "hidden"
@@ -282,7 +273,7 @@ sections:
           <p style="font-size:1.125rem;color:#0E2240;max-width:700px;margin:0 auto 2rem auto;">
             We’re deeply grateful to our partners who make the Never Give Up Transitional Living Program possible through their generosity and belief in second chances.
           </p>
-          <ul style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;list-style:none;padding:0;margin:0 auto;max-width:600px;">
+          <ul class="sponsor-list">
             <li class="sponsor-item">Omaha Community Foundation</li>
             <li class="sponsor-item">William & Ruth Scott Family Foundation</li>
             <li class="sponsor-item">The Sherwood Foundation</li>
@@ -292,6 +283,8 @@ sections:
         </div>
     design:
       css_class: "bg-white"
+      spacing:
+        padding: ["3rem", "1rem", "3rem", "1rem"]
 
   - block: markdown
     id: news
