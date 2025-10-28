@@ -377,8 +377,8 @@ sections:
         - name: Want to help us spread the word?
           icon: chat-bubble-oval-left
           description: |
-            <a href="/docs/NGUFlyer.pdf" target="_blank" rel="noopener noreferrer">
-              Click <strong>HERE</strong> to download our flyer.
+            <a href="/docs/NGU Brochure.pdf" target="_blank" rel="noopener noreferrer">
+              Click <strong>HERE</strong> to download our brochure.
             </a>
 
             Share it with someone who might benefit or want to support us!
