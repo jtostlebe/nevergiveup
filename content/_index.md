@@ -241,7 +241,7 @@ sections:
               <strong>— Brian Bencker, Assistant Program Director, NDCS Community Supervision Service</strong>
             </div>
             <div class="testimonial-card">
-              “It is great to see [the men] come in and start their financial journey with us...Some of them have been able to do things they hadn't done before such as purchase a car from a dealership or...a home. It is the confidence that comes from being able to accomplish goals in a way they maybe hadn't before that makes this partnership special to all of us!”
+              “It is great to see [the men] come in and start their financial journey with us...Some of them have been able to do things they hadn't done before such as purchase a car from a dealership or a home. It is the confidence that comes from being able to accomplish goals in a way they maybe hadn't before that makes this partnership special to all of us!”
               <strong>— Yvonne, Financial Sales Manager, Centris Bank</strong>
             </div>
           </div>
