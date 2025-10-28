@@ -163,7 +163,7 @@ sections:
             - '<span style="color:#36454F;">Employment and workforce development</span>'
             - '<span style="color:#36454F;">Therapy and life skills development</span>'
             - '<span style="color:#36454F;">Family, prosocial peers, and community network (re)development</span>'
-          image: unohockey_3_2025.jpeg
+          image: groupphoto2.jpeg
           button:
             text: Program Overview (PDF)
             url: /docs/NGUProgramDescription.pdf
