@@ -172,7 +172,7 @@ sections:
     content:
       title: Voices from NGU
       text: >
-        Real words from participants, family, and partners who’ve seen the impact up close.
+        Real words from participants, family, and community partners who’ve seen the impact up close.
       items:
         - name: "Jason G."
           role: "Program Participant"
