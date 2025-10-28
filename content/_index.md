@@ -213,9 +213,9 @@ sections:
           </p>
           <ul style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1rem; list-style:none; padding:0; margin:0 auto; max-width:600px;">
             <li class="sponsor-item">Omaha Community Foundation</li>
-            <li class="sponsor-item">John L. Scott Foundation</li>
-            <li class="sponsor-item">The Sherwood Foundation</li>
             <li class="sponsor-item">William & Ruth Scott Family Foundation</li>
+            <li class="sponsor-item">The Sherwood Foundation</li>
+            <li class="sponsor-item">John L. Scott Foundation</li>
             <li class="sponsor-item">Lozier Foundation</li>
           </ul>
         </div>
