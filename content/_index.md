@@ -318,7 +318,7 @@ sections:
 
           <div class="gallery-item">
             <img src="/media/unohockey_3_2025.jpeg" alt="UNO Hockey">
-            <div class="gallery-caption">UNO Hockey Game 2025</div>
+            <div class="gallery-caption">2025 UNO Hockey Game</div>
           </div>
 
           <div class="gallery-item">
