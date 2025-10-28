@@ -44,12 +44,12 @@ sections:
           .no-overflow { overflow-x:hidden; }
 
           /* Testimonials */
-          .testimonials-grid { 
-            display:grid; 
-            grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); 
-            gap:1.25rem; 
-            max-width:1100px; 
-            margin:0 auto; 
+          .testimonials-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+            gap:1.25rem;
+            max-width:1100px;
+            margin:0 auto;
           }
           @media (max-width:430px){ .testimonials-grid{grid-template-columns:1fr;} }
           .testimonial-card {
@@ -63,7 +63,7 @@ sections:
           .testimonial-card strong { display:block; margin-top:0.5rem; font-size:0.9rem; color:#4D3B2F; }
 
           /* Sponsors */
-          .sponsor-wrap { 
+          .sponsor-wrap {
             text-align:center; padding:2rem 1rem;
             max-width:900px; margin:0 auto;
             box-sizing:border-box;
@@ -193,19 +193,19 @@ sections:
         <div class="container-pad no-overflow">
           <div class="testimonials-grid">
             <div class="testimonial-card">
-              “Be ready for a life-changing experience. This program is very motivating... NGU helped me become self-sufficient and a better man.”
+              “Be ready for a life changing experience. This program is very motivating. It's very uplifting...What you put into this program is what you're gonna get out of it. There's great qualities in the program that enabled me to become self-sufficient, maintain good employment, work on my credit, and just become an all-around productive member of society and a good person.”
               <strong>— Jason G., Program Participant</strong>
             </div>
             <div class="testimonial-card">
-              “This is the real deal. I visited my son at NGU and it was hard to keep the tears back. Shane's commitment to reentry is phenomenal.”
+              “This! Is the real deal. I am so impressed with Never Give Up home. I had the honor of visiting yesterday when I visited my son. It was hard to keep the tears back. Shane's commitment to re-entry is phenomenal.”
               <strong>— Allison D., Participant’s Mother</strong>
             </div>
             <div class="testimonial-card">
-              “NGU stands out as a model of excellence. Structured support and genuine care create lasting change.”
-              <strong>— Brian Bencker, Assistant Program Director, NDCS</strong>
+              “I've had the opportunity to work with numerous transitional living programs...NGU stands out as a model of excellence. Shane's commitment to structured support, accountability, and genuine care creates real opportunities for lasting change.”
+              <strong>— Brian Bencker, Assistant Program Director, NDCS Community Supervision Service</strong>
             </div>
             <div class="testimonial-card">
-              “Watching these men build financial confidence is inspiring — they’re achieving things many never thought possible.”
+              “It is great to see [the men] come in and start their financial journey with us...Some of them have been able to do things they hadn't done before such as purchase a car from a dealership or...a home. It is the confidence that comes from being able to accomplish goals in a way they maybe hadn't before that makes this partnership special to all of us!”
               <strong>— Yvonne, Financial Sales Manager, Centris Bank</strong>
             </div>
           </div>
@@ -227,9 +227,9 @@ sections:
         style: "background-color:#FECA1B;color:#0E2240;font-weight:700;border-radius:8px;padding:.6rem 1.2rem;"
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
-    card:
-      css_class: "bg-primary-700 text-white"
-      css_style: ""
+      card:
+        css_class: "text-white"
+        css_style: "background-color:#0E2240 !important; color:#FFFFFF !important; border-radius:14px;"
 
   - block: markdown
     id: sponsors
