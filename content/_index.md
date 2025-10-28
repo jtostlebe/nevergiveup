@@ -282,6 +282,7 @@ sections:
             <li class="sponsor-item">The Sherwood Foundation</li>
             <li class="sponsor-item">John L. Scott Foundation</li>
             <li class="sponsor-item">Lozier Foundation</li>
+            <li class="sponsor-item">Don Scott Foundation</li>
           </ul>
         </div>
     design:
