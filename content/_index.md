@@ -233,7 +233,7 @@ sections:
               <strong>— Jason G., Program Participant</strong>
             </div>
             <div class="testimonial-card">
-              “This! Is the real deal. I am so impressed with Never Give Up home. I had the honor of visiting yesterday when I visited my son. It was hard to keep the tears back. Shane's commitment to re-entry is phenomenal.”
+              “This! Is the real deal. I am so impressed with Never Give Up home. I had the honor of visiting with Shane yesterday when I visited my son. It was hard to keep the tears back. Shane's commitment to re-entry is phenomenal.”
               <strong>— Allison D., Participant’s Mother</strong>
             </div>
             <div class="testimonial-card">
