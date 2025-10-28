@@ -210,11 +210,56 @@ sections:
     content:
       title: Our Sponsors
       text: >
-        <div style="display: flex; justify-content: center; padding: 2rem 0;">
-          <video autoplay loop muted playsinline style="max-width: 100%; border-radius: 12px;">
-            <source src="/media/sponsors.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+        <style>
+          .sponsor-section {
+            text-align: center;
+            padding: 2rem 0;
+          }
+
+          .sponsor-intro {
+            font-size: 1.125rem;
+            color: #4D3B2F;
+            max-width: 700px;
+            margin: 0 auto 2rem auto;
+          }
+
+          .sponsor-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            list-style-type: none;
+            padding: 0;
+            margin: 0 auto;
+            max-width: 600px;
+          }
+
+          .sponsor-item {
+            font-size: 1.1rem;
+            color: #0E2240;
+            background: #F9FAFB;
+            border-radius: 8px;
+            padding: 0.75rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+          }
+
+          @media (max-width: 640px) {
+            .sponsor-item {
+              font-size: 1rem;
+            }
+          }
+        </style>
+
+        <div class="sponsor-section">
+          <p class="sponsor-intro">
+            We’re deeply grateful to our partners who make the Never Give Up Transitional Living Program possible through their generosity and belief in second chances.
+          </p>
+          <ul class="sponsor-list">
+            <li class="sponsor-item">The Sherwood Foundation</li>
+            <li class="sponsor-item">Omaha Community Foundation</li>
+            <li class="sponsor-item">John L. Scott Foundation</li>
+            <li class="sponsor-item">William & Ruth Scott Family Foundation</li>
+            <li class="sponsor-item">Lozier Foundation</li>
+          </ul>
         </div>
     design:
       css_class: "bg-white"
