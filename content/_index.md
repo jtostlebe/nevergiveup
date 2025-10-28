@@ -38,11 +38,39 @@ sections:
           .highlight-text { color:#4D3B2F; }
           .button-gold { background-color:#FECA1B; color:#0E2240; font-weight:700; border-radius:8px; padding:.6rem 1.2rem; text-decoration:none; display:inline-block; }
           .button-gold:hover { background-color:#FFD84A; }
-          .testimonial-card { background:#F9FAFB; border-left:4px solid #FECA1B; border-radius:8px; padding:1rem 1.25rem; box-shadow:0 2px 5px rgba(0,0,0,0.05); text-align:left; color:#0E2240; font-size:0.95rem; line-height:1.5; }
+
+          /* Layout helpers */
+          .container-pad { padding-left:1rem; padding-right:1rem; box-sizing:border-box; }
+          .no-overflow { overflow-x:hidden; }
+
+          /* Testimonials */
+          .testimonials-grid { 
+            display:grid; 
+            grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); 
+            gap:1.25rem; 
+            max-width:1100px; 
+            margin:0 auto; 
+          }
+          @media (max-width:430px){ .testimonials-grid{grid-template-columns:1fr;} }
+          .testimonial-card {
+            background:#F9FAFB; border-left:4px solid #FECA1B;
+            border-radius:8px; padding:1rem 1.25rem;
+            box-shadow:0 2px 5px rgba(0,0,0,0.05);
+            text-align:left; color:#0E2240;
+            font-size:0.95rem; line-height:1.5;
+            overflow-wrap:anywhere; word-break:normal;
+          }
           .testimonial-card strong { display:block; margin-top:0.5rem; font-size:0.9rem; color:#4D3B2F; }
-          .testimonials-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.25rem; max-width:1100px; margin:0 auto; }
+
+          /* Sponsors */
+          .sponsor-wrap { 
+            text-align:center; padding:2rem 1rem;
+            max-width:900px; margin:0 auto;
+            box-sizing:border-box;
+          }
           .sponsor-item { background:#FFF8E1; border-left:4px solid #FECA1B; }
-          /* On-dark helpers for CTA card */
+
+          /* Donate card helpers */
           .title-on-dark { color:#FFFFFF !important; }
           .text-on-dark { color:#FFFFFF !important; }
         </style>
@@ -77,11 +105,10 @@ sections:
     content:
       title: '<span class="section-title"><span class="section-underline">About the Program</span></span>'
       text: >
-        <img src="/media/logo.png" alt="NGU Logo" style="max-height: 200px; display: block; margin: 0 auto 1rem auto;">
-        <span class="highlight-text" style="font-size:1.125rem; text-align:center; display:block;">
+        <img src="/media/logo.png" alt="NGU Logo" style="max-height:200px;display:block;margin:0 auto 1rem auto;">
+        <span class="highlight-text" style="font-size:1.125rem;text-align:center;display:block;">
         Never Give Up (NGU) Transitional Living serves <strong>men released from prison</strong> in Nebraska who:
-        <br>
-        (a) are approved for community supervision or parole,<br>
+        <br>(a) are approved for community supervision or parole,<br>
         (b) are motivated to participate in structured reentry support, and<br>
         (c) have applied to the program and completed a phone interview and background review (people convicted of sex offenses are not eligible).
         <br><br>
@@ -107,7 +134,7 @@ sections:
           button:
             text: Program Overview (PDF)
             url: /docs/NGUProgramDescription.pdf
-            style: "background-color:#FECA1B; color:#0E2240; font-weight:700; border-radius:8px; padding:.5rem 1rem;"
+            style: "background-color:#FECA1B;color:#0E2240;font-weight:700;border-radius:8px;padding:.5rem 1rem;"
         - title: '<span class="section-title"><span class="section-underline">What Makes NGU Unique?</span></span>'
           text: '<span style="color:#4d4d4d;">Rooted in experience. Driven by hope.</span>'
           feature_icon: bolt
@@ -120,7 +147,7 @@ sections:
           button:
             text: Meet the NGU Team
             url: /people
-            style: "background-color:#FECA1B; color:#0E2240; font-weight:700; border-radius:8px; padding:.5rem 1rem; display:block; margin:0 auto;"
+            style: "background-color:#FECA1B;color:#0E2240;font-weight:700;border-radius:8px;padding:.5rem 1rem;display:block;margin:0 auto;"
     design:
       css_class: "bg-white"
 
@@ -163,22 +190,24 @@ sections:
     content:
       title: '<span class="section-title"><span class="section-underline">Voices from NGU</span></span>'
       text: >
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            “Be ready for a life-changing experience. This program is very motivating. It's very uplifting...[NGU] enabled me to become self-sufficient, maintain good employment, work on my credit, and just become an all-around productive member of society and a good person.”
-            <strong>— Jason G., Program Participant</strong>
-          </div>
-          <div class="testimonial-card">
-            “This is the real deal. I am so impressed with Never Give Up. I had the honor of visiting with Shane yesterday when I visited my son. It was hard to keep the tears back. Shane's commitment to reentry is phenomenal.”
-            <strong>— Allison D., Participant’s Mother</strong>
-          </div>
-          <div class="testimonial-card">
-            “I've had the opportunity to work with numerous transitional living programs...NGU stands out as a model of excellence. Shane's commitment to structured support, accountability, and genuine care creates real opportunities for lasting change.”
-            <strong>— Brian Bencker, Assistant Program Director, NDCS</strong>
-          </div>
-          <div class="testimonial-card">
-            “It is great to see [the men] come in and start their financial journey with us...Some of them have been able to do things they hadn't done before such as purchase a car from a dealership or a home. It is the confidence that comes from being able to accomplish goals...that makes this partnership special to all of us!”
-            <strong>— Yvonne, Financial Sales Manager, Centris Bank</strong>
+        <div class="container-pad no-overflow">
+          <div class="testimonials-grid">
+            <div class="testimonial-card">
+              “Be ready for a life-changing experience. This program is very motivating... NGU helped me become self-sufficient and a better man.”
+              <strong>— Jason G., Program Participant</strong>
+            </div>
+            <div class="testimonial-card">
+              “This is the real deal. I visited my son at NGU and it was hard to keep the tears back. Shane's commitment to reentry is phenomenal.”
+              <strong>— Allison D., Participant’s Mother</strong>
+            </div>
+            <div class="testimonial-card">
+              “NGU stands out as a model of excellence. Structured support and genuine care create lasting change.”
+              <strong>— Brian Bencker, Assistant Program Director, NDCS</strong>
+            </div>
+            <div class="testimonial-card">
+              “Watching these men build financial confidence is inspiring — they’re achieving things many never thought possible.”
+              <strong>— Yvonne, Financial Sales Manager, Centris Bank</strong>
+            </div>
           </div>
         </div>
     design:
@@ -195,23 +224,23 @@ sections:
       button:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments?ssl_txn_auth_token=QVQ%2BZQDeRS%2Bl9WmNDygSkQAAAZgfevef
-        style: "background-color:#FECA1B; color:#0E2240; font-weight:700; border-radius:8px; padding:.6rem 1.2rem;"
+        style: "background-color:#FECA1B;color:#0E2240;font-weight:700;border-radius:8px;padding:.6rem 1.2rem;"
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
-      card:
-        css_class: "bg-primary-700 text-white"
-        css_style: ""
+    card:
+      css_class: "bg-primary-700 text-white"
+      css_style: ""
 
   - block: markdown
     id: sponsors
     content:
       title: '<span class="section-title"><span class="section-underline">Our Sponsors</span></span>'
       text: >
-        <div style="text-align:center; padding:2rem 0;">
-          <p style="font-size:1.125rem; color:#0E2240; max-width:700px; margin:0 auto 2rem auto;">
+        <div class="sponsor-wrap no-overflow">
+          <p style="font-size:1.125rem;color:#0E2240;max-width:700px;margin:0 auto 2rem auto;">
             We’re deeply grateful to our partners who make the Never Give Up Transitional Living Program possible through their generosity and belief in second chances.
           </p>
-          <ul style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1rem; list-style:none; padding:0; margin:0 auto; max-width:600px;">
+          <ul style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;list-style:none;padding:0;margin:0 auto;max-width:600px;">
             <li class="sponsor-item">Omaha Community Foundation</li>
             <li class="sponsor-item">William & Ruth Scott Family Foundation</li>
             <li class="sponsor-item">The Sherwood Foundation</li>
@@ -228,11 +257,10 @@ sections:
       title: '<span class="section-title"><span class="section-underline">NGU in the News</span></span>'
       text: >
         <style>
-          .news-videos { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; }
-          .news-video { flex: 1 1 480px; max-width: 480px; }
-          iframe { width:100%; height:270px; border-radius:12px; }
+          .news-videos{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;}
+          .news-video{flex:1 1 480px;max-width:480px;}
+          iframe{width:100%;height:270px;border-radius:12px;}
         </style>
-
         <div class="news-videos">
           <div class="news-video">
             <iframe src="https://www.youtube.com/embed/FeUuBwGDzQw" title="NGU in the News - KETV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -249,22 +277,21 @@ sections:
       title: '<span class="section-title"><span class="section-underline">Moments at NGU</span></span>'
       text: >
         <style>
-          .gallery-container { display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; }
-          .gallery-item { flex: 1 1 calc(48% - 1rem); max-width: calc(48% - 1rem); box-shadow: 0 4px 10px rgba(0,0,0,0.2); border-radius: 12px; overflow: hidden; background: white; text-align: center; }
-          .gallery-item img { width: 100%; height: auto; display: block; }
-          .gallery-caption { padding: 0.5rem; font-size: 1rem; color: #0E2240; }
-          @media (max-width: 640px) { .gallery-item { flex: 1 1 100%; max-width: 100%; } }
+          .gallery-container{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;}
+          .gallery-item{flex:1 1 calc(48% - 1rem);max-width:calc(48% - 1rem);box-shadow:0 4px 10px rgba(0,0,0,0.2);border-radius:12px;overflow:hidden;background:white;text-align:center;}
+          .gallery-item img{width:100%;height:auto;display:block;}
+          .gallery-caption{padding:0.5rem;font-size:1rem;color:#0E2240;}
+          @media(max-width:640px){.gallery-item{flex:1 1 100%;max-width:100%;}}
         </style>
-
         <div class="gallery-container">
-          <div class="gallery-item"><img src="/media/IOP3_62525.jpg"><div class="gallery-caption">Intensive Outpatient Programming</div></div>
-          <div class="gallery-item"><img src="/media/unohockey_3_2025.jpeg"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
-          <div class="gallery-item"><img src="/media/kickball_5.jpeg"><div class="gallery-caption">Kickball Tournament</div></div>
-          <div class="gallery-item"><img src="/media/trunkortreat2025.jpeg"><div class="gallery-caption">2025 Trunk or Treat</div></div>
-          <div class="gallery-item"><img src="/media/july42025_1.jpeg"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
-          <div class="gallery-item"><img src="/media/house_garden.jpg"><div class="gallery-caption">House Garden</div></div>
-          <div class="gallery-item"><img src="/media/beavercreek_saturday_2.jpg"><div class="gallery-caption">Saturday Group Outing</div></div>
-          <div class="gallery-item"><img src="/media/house_flowers.jpeg"><div class="gallery-caption">House Flowers</div></div>
+          <div class="gallery-item"><img src="/media/IOP3_62525.jpg" alt="Intensive Outpatient Programming"><div class="gallery-caption">Intensive Outpatient Programming</div></div>
+          <div class="gallery-item"><img src="/media/unohockey_3_2025.jpeg" alt="UNO Hockey"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
+          <div class="gallery-item"><img src="/media/kickball_5.jpeg" alt="Kickball Tournament"><div class="gallery-caption">Kickball Tournament</div></div>
+          <div class="gallery-item"><img src="/media/trunkortreat2025.jpeg" alt="Trunk or Treat"><div class="gallery-caption">2025 Trunk or Treat</div></div>
+          <div class="gallery-item"><img src="/media/july42025_1.jpeg" alt="July 4th 1"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
+          <div class="gallery-item"><img src="/media/house_garden.jpg" alt="House Garden"><div class="gallery-caption">House Garden</div></div>
+          <div class="gallery-item"><img src="/media/beavercreek_saturday_2.jpg" alt="Beavercreek Outing"><div class="gallery-caption">Saturday Group Outing</div></div>
+          <div class="gallery-item"><img src="/media/house_flowers.jpeg" alt="House Flowers"><div class="gallery-caption">House Flowers</div></div>
         </div>
     design:
       css_class: "bg-white"
