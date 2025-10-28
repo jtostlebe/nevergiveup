@@ -106,33 +106,6 @@ sections:
           /* Donate card helpers */
           .title-on-dark { color:#FFFFFF !important; }
           .text-on-dark { color:#FFFFFF !important; }
-
-          /* ------------------------------------------------ */
-          /* FIX: Align feature list text so wrapped lines don't fall under the icon */
-          /* ------------------------------------------------ */
-          .features-item,
-          .feature-item,
-          [data-block="cta-image-paragraph"] li {
-            display: flex;
-            align-items: flex-start;
-          }
-
-          .features-item i,
-          .feature-item i,
-          [data-block="cta-image-paragraph"] li svg,
-          [data-block="cta-image-paragraph"] li .feature-icon {
-            margin-right: 0.75rem;
-            flex-shrink: 0;
-          }
-
-          .features-item span,
-          .feature-item span,
-          [data-block="cta-image-paragraph"] li span {
-            display: block;
-            line-height: 1.5;
-            margin: 0;
-            padding: 0;
-          }
         </style>
     design:
       css_class: "hidden"
