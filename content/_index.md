@@ -26,22 +26,46 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
-
+        
   # GLOBAL STYLES (hidden, zero spacing)
   - block: markdown
     id: global-styles
     content:
       text: >
         <style>
+          /* Headings + accents */
           .section-title { color:#0E2240; font-weight:700; text-align:center; margin-bottom:.5rem; }
           .section-underline { display:inline-block; border-bottom:4px solid #FECA1B; border-radius:2px; padding-bottom:.25rem; }
           .highlight-text { color:#4D3B2F; }
-          .button-gold { background-color:#FECA1B; color:#0E2240; font-weight:700; border-radius:8px; padding:.6rem 1.2rem; text-decoration:none; display:inline-block; }
+
+          /* Buttons */
+          .button-gold {
+            background-color:#FECA1B; color:#0E2240;
+            font-weight:700; border-radius:8px;
+            padding:.6rem 1.2rem; text-decoration:none;
+            display:inline-block;
+          }
           .button-gold:hover { background-color:#FFD84A; }
 
           /* Layout helpers */
-          .container-pad { padding-left:1rem; padding-right:1rem; box-sizing:border-box; }
-          .no-overflow { overflow-x:hidden; }
+          .container-pad {
+            padding-left:1rem; padding-right:1rem;
+            box-sizing:border-box;
+            max-width:100%;
+          }
+          .no-overflow {
+            overflow-x:hidden !important;
+            max-width:100vw;
+          }
+
+          /* Prevent grid overflow on mobile */
+          * {
+            box-sizing:border-box;
+          }
+          img, iframe, video {
+            max-width:100%;
+            height:auto;
+          }
 
           /* Testimonials */
           .testimonials-grid {
@@ -50,6 +74,8 @@ sections:
             gap:1.25rem;
             max-width:1100px;
             margin:0 auto;
+            padding-left:1rem;
+            padding-right:1rem;
           }
           @media (max-width:430px){ .testimonials-grid{grid-template-columns:1fr;} }
           .testimonial-card {
@@ -60,19 +86,35 @@ sections:
             font-size:0.95rem; line-height:1.5;
             overflow-wrap:anywhere; word-break:normal;
           }
-          .testimonial-card strong { display:block; margin-top:0.5rem; font-size:0.9rem; color:#4D3B2F; }
+          .testimonial-card strong {
+            display:block; margin-top:0.5rem;
+            font-size:0.9rem; color:#4D3B2F;
+          }
 
           /* Sponsors */
           .sponsor-wrap {
-            text-align:center; padding:2rem 1rem;
+            text-align:center;
+            padding:2rem 1rem;
             max-width:900px; margin:0 auto;
             box-sizing:border-box;
           }
-          .sponsor-item { background:#FFF8E1; border-left:4px solid #FECA1B; }
+          .sponsor-item {
+            background:#FFF8E1; border-left:4px solid #FECA1B;
+          }
 
           /* Donate card helpers */
           .title-on-dark { color:#FFFFFF !important; }
           .text-on-dark { color:#FFFFFF !important; }
+
+          /* Ensure nothing exceeds phone width */
+          html, body {
+            overflow-x:hidden;
+            width:100%;
+          }
+          section.block {
+            width:100%;
+            overflow-x:hidden;
+          }
         </style>
     design:
       css_class: "hidden"
