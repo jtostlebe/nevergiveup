@@ -200,7 +200,7 @@ sections:
         text: Support Our Mission
         url: https://www.convergepay.com/hosted-payments?ssl_txn_auth_token=QVQ%2BZQDeRS%2Bl9WmNDygSkQAAAZgfevef
     design:
-      css_class: "bg-white"
+      css_class: "bg-gray-100 dark:bg-gray-900"
       card:
         css_class: "bg-primary-700"
         css_style: ""
@@ -262,7 +262,7 @@ sections:
           </ul>
         </div>
     design:
-      css_class: "bg-white"
+      css_class: "bg-gray-100 dark:bg-gray-900"
 
   - block: markdown
     id: news
@@ -309,7 +309,7 @@ sections:
           </div>
         </div>
     design:
-      css_class: "bg-gray-100"
+      css_class: "bg-white"
 
   - block: markdown
     content:
@@ -411,7 +411,7 @@ sections:
       css_class: bg-[#F5F5DC]
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
-      css_class: "bg-gray-100 dark:bg-gray-900"        
+      css_class: "bg-white"        
 
   - block: features
     id: contact
@@ -447,7 +447,7 @@ sections:
 
             Share it with someone who might benefit or want to support us!
     design:
-      css_class: "bg-white features-contact-items"
+      css_class: "bg-gray-100 dark:bg-gray-900 features-contact-items"
       
 #  - block: testimonials
 #    content:
