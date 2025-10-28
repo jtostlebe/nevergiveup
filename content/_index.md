@@ -26,14 +26,14 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
-
-  # GLOBAL STYLES (hidden)
+        
+  # GLOBAL STYLES (hidden, zero spacing)
   - block: markdown
     id: global-styles
     content:
       text: >
         <style>
-          /* Titles + accents */
+          /* Headings + accents */
           .section-title { color:#0E2240; font-weight:700; text-align:center; margin-bottom:.5rem; }
           .section-underline { display:inline-block; border-bottom:4px solid #FECA1B; border-radius:2px; padding-bottom:.25rem; }
           .highlight-text { color:#4D3B2F; }
@@ -47,12 +47,25 @@ sections:
           }
           .button-gold:hover { background-color:#FFD84A; }
 
-          /* Layout + containers */
-          * { box-sizing:border-box; }
-          html, body { width:100%; overflow-x:hidden; }
-          .container-pad { padding-left:1rem; padding-right:1rem; box-sizing:border-box; max-width:100%; }
-          .no-overflow { overflow-x:hidden !important; max-width:100vw; }
-          img, iframe, video { max-width:100%; height:auto; display:block; }
+          /* Layout helpers */
+          .container-pad {
+            padding-left:1rem; padding-right:1rem;
+            box-sizing:border-box;
+            max-width:100%;
+          }
+          .no-overflow {
+            overflow-x:hidden !important;
+            max-width:100vw;
+          }
+
+          /* Prevent grid overflow on mobile */
+          * {
+            box-sizing:border-box;
+          }
+          img, iframe, video {
+            max-width:100%;
+            height:auto;
+          }
 
           /* Testimonials */
           .testimonials-grid {
@@ -61,7 +74,8 @@ sections:
             gap:1.25rem;
             max-width:1100px;
             margin:0 auto;
-            padding:0 1rem;
+            padding-left:1rem;
+            padding-right:1rem;
           }
           @media (max-width:430px){ .testimonials-grid{grid-template-columns:1fr;} }
           .testimonial-card {
@@ -72,40 +86,35 @@ sections:
             font-size:0.95rem; line-height:1.5;
             overflow-wrap:anywhere; word-break:normal;
           }
-          .testimonial-card strong { display:block; margin-top:0.5rem; font-size:0.9rem; color:#4D3B2F; }
+          .testimonial-card strong {
+            display:block; margin-top:0.5rem;
+            font-size:0.9rem; color:#4D3B2F;
+          }
 
-          /* Sponsors — fixed width + padding */
+          /* Sponsors */
           .sponsor-wrap {
             text-align:center;
-            padding:2.5rem 1rem;
+            padding:2rem 1rem;
             max-width:900px; margin:0 auto;
-            width:100%;
-          }
-          .sponsor-list {
-            display:grid;
-            grid-template-columns:repeat(auto-fit, minmax(180px,1fr));
-            gap:1rem;
-            list-style:none;
-            padding:0;
-            margin:0 auto;
-            width:100%;
-            max-width:700px;
-          }
-          @media (max-width: 400px){
-            .sponsor-list{ grid-template-columns:1fr; }
+            box-sizing:border-box;
           }
           .sponsor-item {
-            background:#FFF8E1;
-            border-left:4px solid #FECA1B;
-            border-radius:8px;
-            padding:.75rem;
-            color:#0E2240;
-            word-break:break-word; overflow-wrap:anywhere;
+            background:#FFF8E1; border-left:4px solid #FECA1B;
           }
 
           /* Donate card helpers */
           .title-on-dark { color:#FFFFFF !important; }
           .text-on-dark { color:#FFFFFF !important; }
+
+          /* Ensure nothing exceeds phone width */
+          html, body {
+            overflow-x:hidden;
+            width:100%;
+          }
+          section.block {
+            width:100%;
+            overflow-x:hidden;
+          }
         </style>
     design:
       css_class: "hidden"
@@ -131,7 +140,7 @@ sections:
     design:
       css_class: "bg-white"
       spacing:
-        padding: ["1.5rem", 0, "1.5rem", 0]
+        padding: ["1rem", 0, "1rem", 0]
 
   - block: markdown
     id: program
@@ -148,8 +157,6 @@ sections:
         The <strong>overarching goal</strong> of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</span>
     design:
       css_class: "bg-gray-100"
-      spacing:
-        padding: ["3rem", "1rem", "3rem", "1rem"]
 
   - block: cta-image-paragraph
     content:
@@ -185,8 +192,6 @@ sections:
             style: "background-color:#FECA1B;color:#0E2240;font-weight:700;border-radius:8px;padding:.5rem 1rem;display:block;margin:0 auto;"
     design:
       css_class: "bg-white"
-      spacing:
-        padding: ["3rem", "1rem", "3rem", "1rem"]
 
   - block: features
     content:
@@ -221,8 +226,6 @@ sections:
           description: Organized social outings, volunteer experiences, and family visitation days to help participants rebuild connections with loved ones and the community.
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
-      spacing:
-        padding: ["3rem", "1rem", "3rem", "1rem"]
 
   - block: markdown
     id: testimonials
@@ -252,7 +255,7 @@ sections:
     design:
       css_class: "bg-white"
       spacing:
-        padding: ["3rem", "1rem", "3rem", "1rem"]
+        padding: ["1.5rem", 0, "1.5rem", 0]
 
   - block: cta-card
     id: donate
@@ -269,8 +272,6 @@ sections:
       card:
         css_class: "text-white"
         css_style: "background-color:#0E2240 !important; color:#FFFFFF !important; border-radius:14px;"
-      spacing:
-        padding: ["3rem", "1rem", "3rem", "1rem"]
 
   - block: markdown
     id: sponsors
@@ -281,7 +282,7 @@ sections:
           <p style="font-size:1.125rem;color:#0E2240;max-width:700px;margin:0 auto 2rem auto;">
             We’re deeply grateful to our partners who make the Never Give Up Transitional Living Program possible through their generosity and belief in second chances.
           </p>
-          <ul class="sponsor-list">
+          <ul style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;list-style:none;padding:0;margin:0 auto;max-width:600px;">
             <li class="sponsor-item">Omaha Community Foundation</li>
             <li class="sponsor-item">William & Ruth Scott Family Foundation</li>
             <li class="sponsor-item">The Sherwood Foundation</li>
@@ -291,6 +292,76 @@ sections:
         </div>
     design:
       css_class: "bg-white"
+
+  - block: markdown
+    id: news
+    content:
+      title: '<span class="section-title"><span class="section-underline">NGU in the News</span></span>'
+      text: >
+        <style>
+          .news-videos{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;}
+          .news-video{flex:1 1 480px;max-width:480px;}
+          iframe{width:100%;height:270px;border-radius:12px;}
+        </style>
+        <div class="news-videos">
+          <div class="news-video">
+            <iframe src="https://www.youtube.com/embed/FeUuBwGDzQw" title="NGU in the News - KETV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="news-video">
+            <iframe src="https://www.youtube.com/embed/KwdsjcoviiE" title="NGU in the News - Second Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+    design:
+      css_class: "bg-gray-100"
+
+  - block: markdown
+    content:
+      title: '<span class="section-title"><span class="section-underline">Moments at NGU</span></span>'
+      text: >
+        <style>
+          .gallery-container{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;}
+          .gallery-item{flex:1 1 calc(48% - 1rem);max-width:calc(48% - 1rem);box-shadow:0 4px 10px rgba(0,0,0,0.2);border-radius:12px;overflow:hidden;background:white;text-align:center;}
+          .gallery-item img{width:100%;height:auto;display:block;}
+          .gallery-caption{padding:0.5rem;font-size:1rem;color:#0E2240;}
+          @media(max-width:640px){.gallery-item{flex:1 1 100%;max-width:100%;}}
+        </style>
+        <div class="gallery-container">
+          <div class="gallery-item"><img src="/media/IOP3_62525.jpg" alt="Intensive Outpatient Programming"><div class="gallery-caption">Intensive Outpatient Programming</div></div>
+          <div class="gallery-item"><img src="/media/unohockey_3_2025.jpeg" alt="UNO Hockey"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
+          <div class="gallery-item"><img src="/media/kickball_5.jpeg" alt="Kickball Tournament"><div class="gallery-caption">Kickball Tournament</div></div>
+          <div class="gallery-item"><img src="/media/trunkortreat2025.jpeg" alt="Trunk or Treat"><div class="gallery-caption">2025 Trunk or Treat</div></div>
+          <div class="gallery-item"><img src="/media/july42025_1.jpeg" alt="July 4th 1"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
+          <div class="gallery-item"><img src="/media/house_garden.jpg" alt="House Garden"><div class="gallery-caption">House Garden</div></div>
+          <div class="gallery-item"><img src="/media/beavercreek_saturday_2.jpg" alt="Beavercreek Outing"><div class="gallery-caption">Saturday Group Outing</div></div>
+          <div class="gallery-item"><img src="/media/house_flowers.jpeg" alt="House Flowers"><div class="gallery-caption">House Flowers</div></div>
+        </div>
+    design:
+      css_class: "bg-white"
       spacing:
-        padding: ["3rem", "1rem", "3rem", "1rem"]
+        padding: ["2rem", "0", "2rem", "0"]
+
+  - block: features
+    id: contact
+    content:
+      title: '<span class="section-title"><span class="section-underline">Contact Us</span></span>'
+      items:
+        - name: Program Director Shane Reilly, M.S.
+          icon: phone
+          description: "📞 (402) 359-7404"
+        - name: Email Us
+          icon: envelope
+          description: "[ngutlomaha@gmail.com](mailto:ngutlomaha@gmail.com)"
+        - name: Location
+          icon: map-pin
+          description: "Omaha, Nebraska"
+        - name: Want to help us spread the word?
+          icon: chat-bubble-oval-left
+          description: |
+            <a href="/docs/NGU Brochure.pdf" target="_blank" rel="noopener noreferrer" class="button-gold">
+              Download Our Brochure
+            </a>
+            <br>
+            Share it with someone who might benefit or want to support us!
+    design:
+      css_class: "bg-gray-100"
 ---
