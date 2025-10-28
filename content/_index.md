@@ -189,7 +189,23 @@ sections:
     design:
       css_class: "bg-white"
       spacing:
-        padding: ["3rem", 0, "3rem", 0]
+        padding: ["1.5rem", 0, "1.5rem", 0]
+
+  - block: markdown
+    id: mini-cta
+    content:
+      text: >
+        <div style="text-align: center; padding: 1.5rem 0;">
+          <p style="font-size: 1.25rem; color: #0E2240; font-weight: 600; margin-bottom: 0.75rem;">
+            Ready to back a second chance?
+          </p>
+          <a href="https://www.convergepay.com/hosted-payments?ssl_txn_auth_token=QVQ%2BZQDeRS%2Bl9WmNDygSkQAAAZgfevef"
+             style="background-color: #FECA1B; color: #0E2240; font-weight: 700; padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none; display: inline-block;">
+            Support Our Mission
+          </a>
+        </div>
+    design:
+      css_class: "bg-gray-100 dark:bg-gray-900"
 
   - block: cta-card
     id: donate
