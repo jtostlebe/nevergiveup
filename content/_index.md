@@ -320,7 +320,7 @@ sections:
         </style>
         <div class="gallery-container">
           <div class="gallery-item"><img src="/media/IOP3_62525.jpg" alt="Intensive Outpatient Programming"><div class="gallery-caption">Intensive Outpatient Programming</div></div>
-          <div class="gallery-item"><img src="/media/unohockey_3_2025.jpeg" alt="UNO Hockey"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
+          <div class="gallery-item"><img src="/media/unohockey_1_2025.jpeg" alt="UNO Hockey"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
           <div class="gallery-item"><img src="/media/kickball_5.jpeg" alt="Kickball Tournament"><div class="gallery-caption">Kickball Tournament</div></div>
           <div class="gallery-item"><img src="/media/trunkortreat2025.jpeg" alt="Trunk or Treat"><div class="gallery-caption">2025 Trunk or Treat</div></div>
           <div class="gallery-item"><img src="/media/july42025_1.jpeg" alt="July 4th 1"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
