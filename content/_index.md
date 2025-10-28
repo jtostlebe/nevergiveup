@@ -169,12 +169,12 @@ sections:
             <strong>— Jason G., Program Participant</strong>
           </div>
           <div class="testimonial-card">
-            “I've had the opportunity to work with numerous transitional living programs...NGU stands out as a model of excellence. Shane's commitment to structured support, accountability, and genuine care creates real opportunities for lasting change.”
-            <strong>— Brian Bencker, Assistant Program Director, NDCS</strong>
-          </div>
-          <div class="testimonial-card">
             “This is the real deal. I am so impressed with Never Give Up. I had the honor of visiting with Shane yesterday when I visited my son. It was hard to keep the tears back. Shane's commitment to reentry is phenomenal.”
             <strong>— Allison D., Participant’s Mother</strong>
+          </div>
+          <div class="testimonial-card">
+            “I've had the opportunity to work with numerous transitional living programs...NGU stands out as a model of excellence. Shane's commitment to structured support, accountability, and genuine care creates real opportunities for lasting change.”
+            <strong>— Brian Bencker, Assistant Program Director, NDCS</strong>
           </div>
           <div class="testimonial-card">
             “It is great to see [the men] come in and start their financial journey with us...Some of them have been able to do things they hadn't done before such as purchase a car from a dealership or a home. It is the confidence that comes from being able to accomplish goals...that makes this partnership special to all of us!”
