@@ -411,7 +411,7 @@ sections:
       css_class: bg-[#F5F5DC]
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
-      css_class: "bg-white"        
+      css_class: "bg-gray-100 dark:bg-gray-900"        
 
   - block: features
     id: contact
@@ -447,7 +447,7 @@ sections:
 
             Share it with someone who might benefit or want to support us!
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900 features-contact-items"
+      css_class: "bg-white features-contact-items"
       
 #  - block: testimonials
 #    content:
