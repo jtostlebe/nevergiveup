@@ -344,7 +344,8 @@ sections:
           <div class="gallery-item"><img src="/media/july42025_1.jpeg" alt="July 4th 1"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
           <div class="gallery-item"><img src="/media/house_garden.jpg" alt="House Garden"><div class="gallery-caption">House Garden</div></div>
           <div class="gallery-item"><img src="/media/beavercreek_saturday_2.jpg" alt="Beavercreek Outing"><div class="gallery-caption">Saturday Group Outing</div></div>
-          <div class="gallery-item"><img src="/media/house_flowers.jpeg" alt="House Flowers"><div class="gallery-caption">House Flowers</div></div>
+          <div class="gallery-item"><img src="/media/ufc.jpeg" alt="Houston Alexander"><div class="gallery-caption">2025 UCF Fighter Houston Alexander</div></div>
+          <div class="gallery-item"><img src="/media/quilt.jpeg" alt="Quilting Guild"><div class="gallery-caption">2025 Local Quilting Guild</div></div>
         </div>
     design:
       css_class: "bg-white"
