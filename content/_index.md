@@ -146,6 +146,17 @@ sections:
         (c) have applied to the program and completed a phone interview and background review (people convicted of sex offenses are not eligible).
         <br><br>
         The <strong>overarching goal</strong> of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</span>
+
+        <div style="text-align:center;max-width:800px;margin:2rem auto;">
+          <iframe 
+            src="https://vimeo.com/1127209529/d0dfb556e1?fl=pl&fe=sh" 
+            width="100%" 
+            height="450" 
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
     design:
       css_class: "bg-gray-100"
 
