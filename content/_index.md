@@ -146,15 +146,6 @@ sections:
         (c) have applied to the program and completed a phone interview and background review (people convicted of sex offenses are not eligible).
         <br><br>
         The <strong>overarching goal</strong> of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</span>
-        <style>
-          .news-videos{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;}
-          .news-video{flex:1 1 480px;max-width:480px;}
-          iframe{width:100%;height:270px;border-radius:12px;}
-        </style>
-        <div class="news-videos">
-          <div class="news-video">
-            <iframe src="https://vimeo.com/1127209529/d0dfb556e1?fl=pl&fe=sh" title="Never Give Up Fundraiser Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
     design:
       css_class: "bg-gray-100"
 
