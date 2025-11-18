@@ -151,7 +151,7 @@ sections:
           <iframe 
             src="https://player.vimeo.com/video/1127209529?h=d0dfb556e1" 
             width="100%" 
-            height="450" 
+            height="520" 
             frameborder="0" 
             allow="autoplay; fullscreen; picture-in-picture" 
             allowfullscreen>
