@@ -149,7 +149,7 @@ sections:
 
         <div style="text-align:center;max-width:800px;margin:2rem auto;">
           <iframe 
-            src="https://vimeo.com/1127209529/d0dfb556e1" 
+            src="https://player.vimeo.com/video/1127209529?h=d0dfb556e1" 
             width="100%" 
             height="450" 
             frameborder="0" 
