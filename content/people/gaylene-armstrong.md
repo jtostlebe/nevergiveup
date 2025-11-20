@@ -1,9 +1,9 @@
 ---
-title: "Gaylene Armstrong"
+title: "Gaylene Armstrong, PhD"
 first_name: Gaylene
 last_name: Armstrong
 role: "Board Member"
-image: "/images/freeburg.jpg"
+image: "/images/armstrong.jpg"
 user_groups:
   - Board
 #bio: 
