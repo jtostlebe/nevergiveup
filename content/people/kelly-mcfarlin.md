@@ -1,7 +1,7 @@
 ---
-title: "Kelly McFarland"
+title: "Kelly McFarlin"
 first_name: Kelly
-last_name: McFarland
+last_name: McFarlin
 role: "Peer Support Specialist"
 image: "/images/kelly-mcfarland.jpeg"
 user_groups:
