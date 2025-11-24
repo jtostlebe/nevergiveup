@@ -15,4 +15,4 @@ user_groups:
 
 Joe provides mentorship, guidance, and emotional support to participants, using his firsthand experience with incarceration and successful reentry to foster trust, spark hope, and empower others to envision new possibilities.
 
-#Joe graduated from Shane's previous transitional living program in September 2022.
+Joe graduated from Never Give Up Transitional Living in September 2025.

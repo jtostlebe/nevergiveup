@@ -15,4 +15,4 @@ user_groups:
 
 James offers mentorship, guidance, and emotional support to participants, drawing on his own experiences with incarceration and successful reentry to build trust, inspire hope, and strengthen their sense of possibility.
 
-#James graduated from Shane's previous transitional living program in September 2022.
+James graduated from Never Give Up Transitional Living in September 2025.
