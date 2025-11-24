@@ -14,5 +14,3 @@ user_groups:
 ---
 
 Kelly provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
-
-#Kelly graduated from Shane's previous transitional living program in September 2022.
