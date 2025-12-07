@@ -188,7 +188,7 @@ sections:
             - '<span style="color:#36454F;"><strong>We&apos;ve been there.</strong> Our staff have done time, and changed their lives.</span>'
             - '<span style="color:#36454F;"><strong>Evidence-based.</strong> Built with researchers to refine and prove results.</span>'
             - '<span style="color:#36454F;"><strong>We don&apos;t give up.</strong> No matter your past, we believe in your future.</span>'
-          image: groupphoto1.jpeg
+          image: christmas_church2025.jpeg
           button:
             text: Meet the NGU Team
             url: /people
@@ -339,7 +339,6 @@ sections:
           <div class="gallery-item"><img src="/media/unohockey_1_2025.jpeg" alt="UNO Hockey"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
           <div class="gallery-item"><img src="/media/2025fundraiser.jpg" alt="Never Give Up 2025 Fundraiser"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
           <div class="gallery-item"><img src="/media/IMG_0959.jpeg" alt="Never Give Up 2025 Fundraiser"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
-          <div class="gallery-item"><img src="/media/christmas_church2025.jpeg" alt="Christmas 2025"><div class="gallery-caption">Christmas 2025</div></div>
           <div class="gallery-item"><img src="/media/kickball_5.jpeg" alt="Kickball Tournament"><div class="gallery-caption">Kickball Tournament</div></div>
           <div class="gallery-item"><img src="/media/trunkortreat2025.jpeg" alt="Trunk or Treat"><div class="gallery-caption">2025 Trunk or Treat</div></div>
           <div class="gallery-item"><img src="/media/july42025_1.jpeg" alt="July 4th 1"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
