@@ -1,6 +1,6 @@
 ---
 title: "Mark William Batt, JD"
-first_name: Mark
+first_name: Mark William
 last_name: Batt
 role: "Board Member"
 image: "/images/mark-batt.jpg"
