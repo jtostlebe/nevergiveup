@@ -209,13 +209,13 @@ sections:
         - name: Individual Counseling
           icon: user
           description: One-on-one sessions with licensed counselors to address trauma, mental health, substance use, and personal growth.
-        - name: Alcoholics Anonymous (AA) and Narcotics Anonymous (NA)
+        - name: Alcoholics Anonymous (AA) & Narcotics Anonymous (NA)
           icon: star
           description: Peer-led recovery group attendance offering 12-step support and a strong sober community.
         - name: Financial Literacy Classes
           icon: currency-dollar
           description: Practical education on budgeting, saving, credit, and building long-term financial stability.
-        - name: Job Placement and Workforce Development
+        - name: Job Placement & Workforce Development
           icon: wrench
           description: Assistance with obtaining employment and building vocational skills through NGU Homes.
         - name: Housing & Basic Needs
