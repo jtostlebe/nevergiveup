@@ -1,5 +1,5 @@
 ---
-title: "Emily Hewby"
+title: "Emily Newby"
 first_name: Emily
 last_name: Newby
 role: "\nHealth Support and Counseling Specialist"
