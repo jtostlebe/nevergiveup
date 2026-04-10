@@ -215,9 +215,9 @@ sections:
         - name: Financial Literacy Classes
           icon: currency-dollar
           description: Practical education on budgeting, saving, credit, and building long-term financial stability.
-        - name: Faith-Based Support
-          icon: heart
-          description: Spiritual mentorship and participation in faith-based community activities.
+        - name: Job Placement and Workforce Development
+          icon: wrench
+          description: Assistance with obtaining employment and building vocational skills through NGU Homes.
         - name: Housing & Basic Needs
           icon: home
           description: Safe and stable housing for the program duration, including provision of initial clothing, food, transportation, and cellphones.
