@@ -120,7 +120,7 @@ sections:
           description: |
             Men Admitted     
             Since March 2025
-        - statistic: "--%"
+        - statistic: "63%"
           description: |
             Graduation Rate     
             (Data Not Yet Available) 
