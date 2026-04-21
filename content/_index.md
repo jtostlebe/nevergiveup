@@ -122,7 +122,7 @@ sections:
             Since March 2025
         - statistic: "63%"
           description: |
-            Graduation Rate     
+            Program Completion Rate     
             (As of March 2026) 
         - statistic: "--%"
           description: |
