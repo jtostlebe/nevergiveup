@@ -116,14 +116,14 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "69"
+        - statistic: "64"
           description: |
             Men Admitted     
             Since March 2025
-        - statistic: "63%"
+        - statistic: "--%"
           description: |
-            Program Completion Rate     
-            (As of March 2026) 
+            Graduation Rate     
+            (Data Not Yet Available) 
         - statistic: "--%"
           description: |
             1-Year Recidivism Rate     
