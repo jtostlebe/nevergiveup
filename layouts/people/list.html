@@ -7,6 +7,7 @@
   Together, this team ensures that individuals returning from incarceration receive the comprehensive support needed to rebuild their lives, secure stable employment and housing, and successfully reintegrate into their communities.
 </p>
 
+<!-- Simple text link to Employee Descriptions PDF -->
 <p style="text-align: center; margin-bottom: 2rem;">
   <a href="/docs/NGUStaffRoleDescriptions.pdf" target="_blank" rel="noopener noreferrer" style="font-weight: bold; color: #141436;">
     Click HERE for Detailed Program Staff Descriptions (PDF)
@@ -20,7 +21,7 @@
 <div class="team-grid">
   {{ $boardOrder := slice "Rosalyn" "Tim" "Gaylene" "Mark" "Greg" "Jenny" "John" "Gabe" }}
   {{ range $name := $boardOrder }}
-    {{ range where $people "Params.first_name" $name }}
+    {{ range where $people "Params.first_name" "eq" $name }}
       <div class="team-card">
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
@@ -37,7 +38,7 @@
 <div class="team-grid">
   {{ $leadershipOrder := slice "Julie" "Shane" "Jimmy" }}
   {{ range $name := $leadershipOrder }}
-    {{ range where $people "Params.first_name" $name }}
+    {{ range where $people "Params.first_name" "eq" $name }}
       <div class="team-card">
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
@@ -52,15 +53,15 @@
 <!-- Staff Section -->
 <h2 class="section-title" style="margin-top: 5rem;">NGU Staff</h2>
 <div class="team-grid">
+  {{/* Exclude both board + leadership first names */}}
   {{ $boardFirstNames := slice "Rosalyn" "Tim" "Gaylene" "Mark" "Greg" "Jenny" "John" "Gabe" }}
   {{ $leadershipFirstNames := slice "Julie" "Shane" "Jimmy" }}
   {{ $excludeFirstNames := union $boardFirstNames $leadershipFirstNames }}
-  {{ $priorityNames := slice "Christian" "Susan" "Emily" "Brian" }}
 
   {{ $staff := where $people "Params.first_name" "not in" $excludeFirstNames }}
-
+  
   {{ range sort $staff "Params.last_name" }}
-    {{ if in $priorityNames .Params.first_name }}
+    {{ if eq .Params.first_name "Christian" "Susan" "Emily" "Brian" }}
       <div class="team-card">
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
@@ -72,7 +73,7 @@
   {{ end }}
 
   {{ range sort $staff "Params.last_name" }}
-    {{ if not (in $priorityNames .Params.first_name) }}
+    {{ if ne .Params.first_name "Christian" "Susan" "Emily" "Brian" }}
       <div class="team-card">
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
@@ -105,13 +106,13 @@
   margin-top: 4rem;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #003366;
+  color: #003366; /* Dark Blue */
 }
 
 .team-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center;  /* This centers all lines */
   gap: 1.5rem;
   max-width: 1000px;
   margin: 0 auto;
@@ -126,7 +127,7 @@
 }
 
 .team-card:hover .team-name {
-  color: #007ACC;
+  color: #007ACC; /* subtle blue color on hover */
 }
 
 .team-photo {
