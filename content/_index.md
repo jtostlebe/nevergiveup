@@ -138,7 +138,6 @@ sections:
     content:
       title: '<span class="section-title"><span class="section-underline">About the Program</span></span>'
       text: >
-        <img src="/media/logo.png" alt="NGU Logo" style="max-height:200px;display:block;margin:0 auto 1rem auto;">
         <span class="highlight-text" style="font-size:1.125rem;text-align:center;display:block;">
         Never Give Up (NGU) Transitional Living serves <strong>men released from prison</strong> in Nebraska who:
         <br>(a) are approved for community supervision or parole,<br>
@@ -366,6 +365,12 @@ sections:
         - name: Location
           icon: map-pin
           description: "Omaha, Nebraska"
+        - name: Follow us on Instagram
+          icon: camera
+          description: "[@nguomaha](https://www.instagram.com/nguomaha/)"
+        - name: Follow us on Facebook
+          icon: chat-bubble-left-right
+          description: "[Never Give Up Transitional Living](https://www.facebook.com/profile.php?id=61570743453035)"
         - name: Want to help us spread the word?
           icon: chat-bubble-oval-left
           description: |
