@@ -315,29 +315,75 @@ sections:
       title: '<span class="section-title"><span class="section-underline">NGU in the News</span></span>'
       text: >
         <style>
-          .news-videos{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;}
-          .news-video{flex:1 1 480px;max-width:480px;}
-          iframe{width:100%;height:270px;border-radius:12px;}
+          .news-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:1rem;
+            max-width:1000px;
+            margin:0 auto;
+            padding:0 1rem;
+          }
+          .news-card{
+            background:white;
+            border-radius:12px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.08);
+            overflow:hidden;
+            text-align:center;
+            padding:0.5rem;
+          }
+          .news-card iframe{
+            width:100%;
+            height:220px;
+            border-radius:10px;
+            display:block;
+          }
+          .news-link-card{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            min-height:236px;
+            padding:1.5rem;
+          }
+          .news-link-card a{
+            font-weight:700;
+            font-size:1.1rem;
+            color:#0E2240;
+            text-decoration:none;
+            line-height:1.4;
+          }
+          .news-link-card a:hover{
+            text-decoration:underline;
+          }
+          .news-source{
+            font-size:0.95rem;
+            color:#4D3B2F;
+            margin-top:0.75rem;
+            line-height:1.5;
+          }
         </style>
-        <div class="news-videos">
-          <div class="news-video">
+        <div class="news-grid">
+          <div class="news-card">
             <iframe src="https://www.youtube.com/embed/FeUuBwGDzQw" title="NGU in the News - KETV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="news-video">
+          <div class="news-card">
             <iframe src="https://www.youtube.com/embed/KwdsjcoviiE" title="NGU in the News - Second Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-        </div>
-        <div class="news-links">
-          <p>Also featured in print:</p>
-          <a class="news-article-link"
-             href="https://omaha.com/news/local/article_05e2bf8f-9dad-4144-933d-0a3ce765e037.html#tracking-source=article-related-bottom"
-             target="_blank"
-             rel="noopener noreferrer">
-            Omaha World-Herald article
-          </a>
+          <div class="news-card news-link-card">
+            <a href="https://omaha.com/news/local/article_05e2bf8f-9dad-4144-933d-0a3ce765e037.html#tracking-source=article-related-bottom"
+               target="_blank"
+               rel="noopener noreferrer">
+              NGU Homes Featured in Omaha World-Herald
+            </a>
+            <div class="news-source">
+              Related coverage of our housing initiative
+            </div>
+          </div>
         </div>
     design:
       css_class: "bg-gray-100"
+      spacing:
+        padding: ["3rem", "1rem", "3rem", "1rem"]
 
   - block: markdown
     content:
