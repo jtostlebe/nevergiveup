@@ -73,7 +73,7 @@
   {{ end }}
 
   {{ range sort $staff "Params.last_name" }}
-    {{ if ne .Params.first_name "Brian" "Emily" }}
+    {{ if ne .Params.first_name "Brian" "Christian" "Emily" "Susan" }}
       <div class="team-card">
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
