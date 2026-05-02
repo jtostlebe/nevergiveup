@@ -3,7 +3,7 @@ title: "Gabe Wilcox"
 first_name: Gabe
 last_name: Wilcox
 role: "Board Member"
-image: "/images/logo.png"
+image: "/images/gabe-wilcox.jpg"
 user_groups:
   - Board
 #bio: 
