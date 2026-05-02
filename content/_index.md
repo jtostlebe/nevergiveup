@@ -388,11 +388,42 @@ sections:
       title: '<span class="section-title"><span class="section-underline">Moments at NGU</span></span>'
       text: >
         <style>
-          .gallery-container{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;}
-          .gallery-item{flex:1 1 calc(48% - 1rem);max-width:calc(48% - 1rem);box-shadow:0 4px 10px rgba(0,0,0,0.2);border-radius:12px;overflow:hidden;background:white;text-align:center;}
-          .gallery-item img{width:100%;height:auto;display:block;}
-          .gallery-caption{padding:0.5rem;font-size:1rem;color:#0E2240;}
-          @media(max-width:640px){.gallery-item{flex:1 1 100%;max-width:100%;}}
+          .gallery-container{
+            display:grid;
+            grid-template-columns:repeat(3, minmax(0, 1fr));
+            gap:1rem;
+            max-width:1200px;
+            margin:0 auto;
+            padding:0 1rem;
+          }
+          .gallery-item{
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+            border-radius:12px;
+            overflow:hidden;
+            background:white;
+            text-align:center;
+          }
+          .gallery-item img{
+            width:100%;
+            height:260px;
+            object-fit:cover;
+            display:block;
+          }
+          .gallery-caption{
+            padding:0.5rem;
+            font-size:1rem;
+            color:#0E2240;
+          }
+          @media(max-width:900px){
+            .gallery-container{
+              grid-template-columns:repeat(2, minmax(0, 1fr));
+            }
+          }
+          @media(max-width:640px){
+            .gallery-container{
+              grid-template-columns:1fr;
+            }
+          }
         </style>
         <div class="gallery-container">
           <div class="gallery-item"><img src="/media/IOP3_62525.jpg" alt="Intensive Outpatient Programming"><div class="gallery-caption">Intensive Outpatient Programming</div></div>
