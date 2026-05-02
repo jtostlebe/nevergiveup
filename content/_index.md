@@ -162,6 +162,8 @@ sections:
         </div>
     design:
       css_class: "bg-gray-100"
+      spacing:
+        padding: ["2rem", "1rem", "2rem", "1rem"]
 
   - block: cta-image-paragraph
     content:
