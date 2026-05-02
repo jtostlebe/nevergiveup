@@ -142,7 +142,7 @@ sections:
         <br><br>
         The <strong>overarching goal</strong> of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</span>
 
-        <div style="text-align:center;max-width:800px;margin:2rem auto;">
+        <div style="text-align:center;max-width:800px;margin:1.25rem auto 0.75rem auto;">
           <iframe 
             src="https://player.vimeo.com/video/1127209529?h=d0dfb556e1" 
             width="100%" 
@@ -152,7 +152,7 @@ sections:
             allowfullscreen>
           </iframe>
         </div>
-        <div style="text-align:center; margin-top:1.5rem;">
+        <div style="text-align:center; margin-top:0.5rem;">
           <a href="/docs/GoodTurnLaborAnnualReport.pdf" 
              target="_blank" 
              rel="noopener noreferrer" 
@@ -404,6 +404,7 @@ sections:
           <div class="gallery-item"><img src="/media/beavercreek_saturday_2.jpg" alt="Beavercreek Outing"><div class="gallery-caption">Saturday Group Outing</div></div>
           <div class="gallery-item"><img src="/media/ufc.jpeg" alt="Houston Alexander"><div class="gallery-caption">2025 UCF Fighter Houston Alexander</div></div>
           <div class="gallery-item"><img src="/media/quilt.jpeg" alt="Quilting Guild"><div class="gallery-caption">2025 Local Quilting Guild</div></div>
+          <div class="gallery-item"><img src="/media/NGUBBQ2026.jpeg" alt="Never Give Up"><div class="gallery-caption">2026 NGU BBQ</div></div>
         </div>
     design:
       css_class: "bg-white"
