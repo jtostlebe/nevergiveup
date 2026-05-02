@@ -61,7 +61,7 @@
   {{ $staff := where $people "Params.first_name" "not in" $excludeFirstNames }}
   
   {{ range sort $staff "Params.last_name" }}
-    {{ if eq .Params.first_name "Christian" "Susan" "Emily" "Brian" }}
+    {{ if eq .Params.first_name "Christian" "Emily" "Susan" "Brian" }}
       <div class="team-card">
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
@@ -73,7 +73,7 @@
   {{ end }}
 
   {{ range sort $staff "Params.last_name" }}
-    {{ if ne .Params.first_name "Christian" "Susan" "Emily" "Brian" }}
+    {{ if ne .Params.first_name "Christian" "Emily" "Susan" "Brian" }}
       <div class="team-card">
         <a href="{{ .RelPermalink }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="team-photo" />
