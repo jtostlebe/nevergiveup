@@ -388,13 +388,18 @@ sections:
       title: '<span class="section-title"><span class="section-underline">Moments at NGU</span></span>'
       text: >
         <style>
+          .gallery-outer{
+            width:100vw;
+            margin-left:calc(50% - 50vw);
+            margin-right:calc(50% - 50vw);
+            padding:0 2rem;
+          }
           .gallery-container{
             display:grid;
             grid-template-columns:repeat(3, minmax(0, 1fr));
-            gap:1rem;
-            max-width:1200px;
+            gap:1.25rem;
+            max-width:1400px;
             margin:0 auto;
-            padding:0 1rem;
           }
           .gallery-item{
             box-shadow:0 4px 10px rgba(0,0,0,0.15);
@@ -409,43 +414,45 @@ sections:
           }
           .gallery-item img{
             width:100%;
-            height:auto;
+            aspect-ratio:4 / 3;
+            object-fit:cover;
             display:block;
           }
           .gallery-caption{
-            padding:0.5rem;
+            padding:0.6rem 0.75rem;
             font-size:0.95rem;
             color:#0E2240;
+            line-height:1.4;
           }
-
-          /* Tablet */
-          @media(max-width:900px){
+          @media(max-width:1100px){
             .gallery-container{
               grid-template-columns:repeat(2, minmax(0, 1fr));
             }
           }
-
-          /* Mobile */
           @media(max-width:640px){
+            .gallery-outer{
+              padding:0 1rem;
+            }
             .gallery-container{
               grid-template-columns:1fr;
             }
           }
         </style>
-
-        <div class="gallery-container">
-          <div class="gallery-item"><img src="/media/IOP3_62525.jpg"><div class="gallery-caption">Intensive Outpatient Programming</div></div>
-          <div class="gallery-item"><img src="/media/IMG_0959.jpeg"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
-          <div class="gallery-item"><img src="/media/2025fundraiser.jpg"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
-          <div class="gallery-item"><img src="/media/NGUBBQ2026.jpeg"><div class="gallery-caption">2026 NGU BBQ</div></div>
-          <div class="gallery-item"><img src="/media/trunkortreat2025.jpeg"><div class="gallery-caption">2025 Trunk or Treat</div></div>
-          <div class="gallery-item"><img src="/media/july42025_1.jpeg"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
-          <div class="gallery-item"><img src="/media/house_garden.jpg"><div class="gallery-caption">House Garden</div></div>
-          <div class="gallery-item"><img src="/media/beavercreek_saturday_2.jpg"><div class="gallery-caption">2025 Saturday Group Outing</div></div>
-          <div class="gallery-item"><img src="/media/ufc.jpeg"><div class="gallery-caption">2025 UFC Fighter Houston Alexander</div></div>
-          <div class="gallery-item"><img src="/media/quilt.jpeg"><div class="gallery-caption">2025 Local Quilting Guild</div></div>
-          <div class="gallery-item"><img src="/media/unohockey_1_2025.jpeg"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
-          <div class="gallery-item"><img src="/media/kickball_5.jpeg"><div class="gallery-caption">Kickball Tournament</div></div>
+        <div class="gallery-outer">
+          <div class="gallery-container">
+            <div class="gallery-item"><img src="/media/IOP3_62525.jpg" alt="Intensive Outpatient Programming"><div class="gallery-caption">Intensive Outpatient Programming</div></div>
+            <div class="gallery-item"><img src="/media/IMG_0959.jpeg" alt="Never Give Up 2025 Fundraiser"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
+            <div class="gallery-item"><img src="/media/2025fundraiser.jpg" alt="Never Give Up 2025 Fundraiser"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
+            <div class="gallery-item"><img src="/media/NGUBBQ2026.jpeg" alt="Never Give Up BBQ"><div class="gallery-caption">2026 NGU BBQ</div></div>
+            <div class="gallery-item"><img src="/media/trunkortreat2025.jpeg" alt="Trunk or Treat"><div class="gallery-caption">2025 Trunk or Treat</div></div>
+            <div class="gallery-item"><img src="/media/july42025_1.jpeg" alt="July 4th celebration"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
+            <div class="gallery-item"><img src="/media/house_garden.jpg" alt="House Garden"><div class="gallery-caption">House Garden</div></div>
+            <div class="gallery-item"><img src="/media/beavercreek_saturday_2.jpg" alt="Beavercreek Outing"><div class="gallery-caption">2025 Saturday Group Outing</div></div>
+            <div class="gallery-item"><img src="/media/ufc.jpeg" alt="Houston Alexander"><div class="gallery-caption">2025 UFC Fighter Houston Alexander</div></div>
+            <div class="gallery-item"><img src="/media/quilt.jpeg" alt="Quilting Guild"><div class="gallery-caption">2025 Local Quilting Guild</div></div>
+            <div class="gallery-item"><img src="/media/unohockey_1_2025.jpeg" alt="UNO Hockey"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
+            <div class="gallery-item"><img src="/media/kickball_5.jpeg" alt="Kickball Tournament"><div class="gallery-caption">Kickball Tournament</div></div>
+          </div>
         </div>
     design:
       css_class: "bg-white"
