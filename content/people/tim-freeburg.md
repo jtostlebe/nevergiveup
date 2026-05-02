@@ -2,7 +2,7 @@
 title: "Tim Freeburg"
 first_name: Tim
 last_name: Freeburg
-role: "Board Member"
+role: "Vice President"
 image: "/images/freeburg.jpg"
 user_groups:
   - Board
