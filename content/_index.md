@@ -156,6 +156,14 @@ sections:
             allowfullscreen>
           </iframe>
         </div>
+        <div style="text-align:center; margin-top:1.5rem;">
+          <a href="/docs/GoodTurnLaborAnnualReport.pdf" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="button-gold">
+            View Our Annual Report
+          </a>
+        </div>
     design:
       css_class: "bg-gray-100"
 
