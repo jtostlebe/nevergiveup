@@ -394,10 +394,8 @@ sections:
         </style>
         <div class="gallery-container">
           <div class="gallery-item"><img src="/media/IOP3_62525.jpg" alt="Intensive Outpatient Programming"><div class="gallery-caption">Intensive Outpatient Programming</div></div>
-          <div class="gallery-item"><img src="/media/unohockey_1_2025.jpeg" alt="UNO Hockey"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
           <div class="gallery-item"><img src="/media/2025fundraiser.jpg" alt="Never Give Up 2025 Fundraiser"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
           <div class="gallery-item"><img src="/media/IMG_0959.jpeg" alt="Never Give Up 2025 Fundraiser"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
-          <div class="gallery-item"><img src="/media/kickball_5.jpeg" alt="Kickball Tournament"><div class="gallery-caption">Kickball Tournament</div></div>
           <div class="gallery-item"><img src="/media/trunkortreat2025.jpeg" alt="Trunk or Treat"><div class="gallery-caption">2025 Trunk or Treat</div></div>
           <div class="gallery-item"><img src="/media/july42025_1.jpeg" alt="July 4th 1"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
           <div class="gallery-item"><img src="/media/house_garden.jpg" alt="House Garden"><div class="gallery-caption">House Garden</div></div>
@@ -405,6 +403,8 @@ sections:
           <div class="gallery-item"><img src="/media/ufc.jpeg" alt="Houston Alexander"><div class="gallery-caption">2025 UCF Fighter Houston Alexander</div></div>
           <div class="gallery-item"><img src="/media/quilt.jpeg" alt="Quilting Guild"><div class="gallery-caption">2025 Local Quilting Guild</div></div>
           <div class="gallery-item"><img src="/media/NGUBBQ2026.jpeg" alt="Never Give Up"><div class="gallery-caption">2026 NGU BBQ</div></div>
+          <div class="gallery-item"><img src="/media/unohockey_1_2025.jpeg" alt="UNO Hockey"><div class="gallery-caption">2025 UNO Hockey Game</div></div>
+          <div class="gallery-item"><img src="/media/kickball_5.jpeg" alt="Kickball Tournament"><div class="gallery-caption">Kickball Tournament</div></div>
         </div>
     design:
       css_class: "bg-white"
