@@ -327,15 +327,13 @@ sections:
             <iframe src="https://www.youtube.com/embed/KwdsjcoviiE" title="NGU in the News - Second Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="news-article">
-          <p style="margin-bottom:0.75rem; color:#4D3B2F;">
-            Read more about NGU in the Omaha World-Herald:
-          </p>
-          <a class="news-link"
+        <div class="news-links">
+          <p>Also featured in print:</p>
+          <a class="news-article-link"
              href="https://omaha.com/news/local/article_05e2bf8f-9dad-4144-933d-0a3ce765e037.html#tracking-source=article-related-bottom"
              target="_blank"
              rel="noopener noreferrer">
-            Read the Full Article
+            Omaha World-Herald article
           </a>
         </div>
     design:
