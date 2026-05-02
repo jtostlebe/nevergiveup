@@ -52,7 +52,8 @@ sections:
           html, body { width:100%; overflow-x:hidden; }
           .container-pad { padding-left:1rem; padding-right:1rem; box-sizing:border-box; max-width:100%; }
           .no-overflow { overflow-x:hidden !important; max-width:100vw; }
-          img, iframe, video { max-width:100%; height:auto; display:block; }
+          img, video { max-width:100%; height:auto; display:block; }
+          iframe { max-width:100%; display:block; }
 
           /* Testimonials */
           .testimonials-grid {
@@ -107,11 +108,6 @@ sections:
           .title-on-dark { color:#FFFFFF !important; }
           .text-on-dark { color:#FFFFFF !important; }
         </style>
-    design:
-      css_class: "hidden"
-      spacing:
-        padding: [0,0,0,0]
-        margin: [0,0,0,0]
 
   - block: stats
     content:
