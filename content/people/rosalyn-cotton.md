@@ -2,7 +2,7 @@
 title: "Rosalyn Cotton"
 first_name: Rosalyn
 last_name: Cotton
-role: "Chairperson"
+role: "President"
 image: "/images/cotton.jpg"
 user_groups:
   - Board
