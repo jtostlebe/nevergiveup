@@ -142,7 +142,7 @@ sections:
         <br><br>
         The <strong>overarching goal</strong> of the program is to reduce recidivism and promote successful reintegration by fostering personal accountability, community support, and access to essential resources.</span>
 
-        <div style="text-align:center;max-width:800px;margin:1.25rem auto 0.75rem auto;">
+        <div style="text-align:center;max-width:800px;margin:1rem auto 0.25rem auto;">
           <iframe 
             src="https://player.vimeo.com/video/1127209529?h=d0dfb556e1" 
             width="100%" 
@@ -152,7 +152,7 @@ sections:
             allowfullscreen>
           </iframe>
         </div>
-        <div style="text-align:center; margin-top:0.5rem;">
+        <div style="text-align:center; margin-top:0.25rem;">
           <a href="/docs/GoodTurnLaborAnnualReport.pdf" 
              target="_blank" 
              rel="noopener noreferrer" 
