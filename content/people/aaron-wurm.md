@@ -3,7 +3,7 @@ title: "Aaron Wurm"
 first_name: Aaron
 last_name: Wurm
 role: "Peer Support Specialist"
-image: "/images/logo.png"
+image: "/images/aaron-wurm.jpeg"
 user_groups:
   - Staff
 #bio: Provides mentorship, guidance, and emotional support to participants, using lived experience with incarceration and successful reentry to foster connection and encouragement.
