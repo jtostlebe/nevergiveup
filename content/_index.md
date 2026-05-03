@@ -119,7 +119,7 @@ sections:
         - statistic: "63%"
           description: |
             Program Completion Rate     
-            As of March 2025
+            As of March 2026
         - statistic: "--%"
           description: |
             1-Year Recidivism Rate     
