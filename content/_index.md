@@ -26,8 +26,8 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
-        
-  # GLOBAL STYLES (hidden, zero spacing)
+
+  # GLOBAL STYLES (NOW ACTUALLY ZERO SPACE)
   - block: markdown
     id: global-styles
     content:
@@ -75,7 +75,7 @@ sections:
           }
           .testimonial-card strong { display:block; margin-top:0.5rem; font-size:0.9rem; color:#4D3B2F; }
 
-          /* Sponsors — fixed width + padding */
+          /* Sponsors */
           .sponsor-wrap {
             text-align:center;
             padding:2.5rem 1rem;
@@ -104,10 +104,13 @@ sections:
             word-break:break-word; overflow-wrap:anywhere;
           }
 
-          /* Donate card helpers */
           .title-on-dark { color:#FFFFFF !important; }
           .text-on-dark { color:#FFFFFF !important; }
         </style>
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
 
   - block: stats
     content:
