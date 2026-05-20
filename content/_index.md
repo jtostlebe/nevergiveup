@@ -445,15 +445,15 @@ sections:
           <div class="gallery-container">
             <div class="gallery-item"><img src="/media/baseball_game.jpeg" alt="Werner Park Baseball Game"><div class="gallery-caption">2026 Baseball Game at Werner Park</div></div>
             <div class="gallery-item"><img src="/media/cookie_sunday_brookside.jpeg" alt="NGU Cookie Sunday"><div class="gallery-caption">2026 Cookie Sunday at Brookside Church</div></div>
-            <div class="gallery-item"><img src="/media/NGUBBQ2026.jpeg" alt="Never Give Up BBQ"><div class="gallery-caption">2026 NGU BBQ</div></div>
             <div class="gallery-item"><img src="/media/sunday_cornhole.jpeg" alt="NGU Cornhole Tournament"><div class="gallery-caption">2026 Cornhole Tournament</div></div>
+            <div class="gallery-item"><img src="/media/NGUBBQ2026.jpeg" alt="Never Give Up BBQ"><div class="gallery-caption">2026 NGU BBQ</div></div>
             <div class="gallery-item"><img src="/media/movie_theater.jpeg" alt="NGU Movie Outing"><div class="gallery-caption">2026 NGU Movie Outing</div></div>
             <div class="gallery-item"><img src="/media/ngu_bbq.jpeg" alt="Never Give Up BBQ"><div class="gallery-caption">2026 NGU BBQ</div></div>
             <div class="gallery-item"><img src="/media/easter_egg_police_association.jpeg" alt="NGU Easter Eggs"><div class="gallery-caption">2026 Filling Eggs for the Police Association</div></div>
             <div class="gallery-item"><img src="/media/IOP3_62525.jpg" alt="NGU IOP"><div class="gallery-caption">Intensive Outpatient Program (IOP) at the NGU House</div></div>
-            <div class="gallery-item"><img src="/media/2025fundraiser.jpg" alt="Never Give Up 2025 Fundraiser"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
             <div class="gallery-item"><img src="/media/bbq_bubbles.jpeg" alt="NGU BBQ and Bubbles"><div class="gallery-caption">2026 NGU BBQ and Bubbles</div></div>
             <div class="gallery-item"><img src="/media/raymonds_birthday.jpeg" alt="Birthday Celebration"><div class="gallery-caption">2026 Birthday Celebration</div></div>
+            <div class="gallery-item"><img src="/media/2025fundraiser.jpg" alt="Never Give Up 2025 Fundraiser"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
             <div class="gallery-item"><img src="/media/july42025_1.jpeg" alt="July 4th celebration"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
             <div class="gallery-item"><img src="/media/beavercreek_saturday_2.jpg" alt="Beavercreek Outing"><div class="gallery-caption">2025 Saturday Group Outing</div></div>
             <div class="gallery-item"><img src="/media/ufc.jpeg" alt="Houston Alexander"><div class="gallery-caption">2025 UFC Fighter Houston Alexander</div></div>
