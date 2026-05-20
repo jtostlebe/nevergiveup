@@ -14,3 +14,5 @@ user_groups:
 ---
 
 Aaron is a Peer Support Specialist.
+
+He graduated from Never Give Up Transitional Living in April 2026.

@@ -14,3 +14,5 @@ user_groups:
 ---
 
 Ray is a Peer Support Specialist.
+
+He graduated from Never Give Up Transitional Living in April 2026 and now helps others do the same.
