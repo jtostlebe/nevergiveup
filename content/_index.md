@@ -444,7 +444,7 @@ sections:
         <div class="gallery-outer">
           <div class="gallery-container">
             <div class="gallery-item"><img src="/media/baseball_game.jpeg" alt="Werner Park Baseball Game"><div class="gallery-caption">2026 Baseball Game at Werner Park</div></div>
-            <div class="gallery-item"><img src="/media/cookie_sunday_brookside.jpeg" alt="NGU Cookie Sunday"><div class="gallery-caption">2026 Cookie Sunday at Brookside Church</div></div>
+            <div class="gallery-item"><img src="/media/cookie_sunday_brookside.jpeg" alt="NGU Cookie Sunday"><div class="gallery-caption">2026 Cookie Sunday at Brookside</div></div>
             <div class="gallery-item"><img src="/media/movie_theater.jpeg" alt="NGU Movie Outing"><div class="gallery-caption">2026 NGU Movie Outing</div></div>
             <div class="gallery-item"><img src="/media/NGUBBQ2026.jpeg" alt="Never Give Up BBQ"><div class="gallery-caption">2026 NGU BBQ</div></div>
             <div class="gallery-item"><img src="/media/sunday_cornhole.jpeg" alt="NGU Cornhole Tournament"><div class="gallery-caption">2026 Cornhole Tournament</div></div>
