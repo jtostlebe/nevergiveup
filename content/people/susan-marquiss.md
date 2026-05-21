@@ -19,4 +19,4 @@ Currently, Susan continues to serve her community through volunteer and administ
 
 Susan has a deep passion for helping people who feel lonely, hopeless, or simply need someone to talk to. She believes in embracing others with empathy, welcoming them with dignity and compassion, and advocating for their needs.
 
-Mantra "Kindness Matters" - smile and say hello to someone you don't know - that might be the only kindness shown to them that day. Smile and say thank you to all people you have daily interaction with.
+Her personal mantra is "Kindness Matters." She encourages others to smile and say hello to someone you don't know - that might be the only kindness shown to them that day. Smile and say thank you to all people you have daily interaction with.
