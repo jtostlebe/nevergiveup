@@ -13,9 +13,11 @@ user_groups:
 #    link: 'mailto:brian@example.com'
 ---
 
-Susan Marquiss is a retired professional with a diverse background in corporate administration, banking, customer service, and community support. Throughout her career, she held roles in various corporate settings, including serving as a Personal Banker, Sr. Account Manager at SITEL Corporation, and working through a temp agency where she was placed as a Secretary in an elementary school and as a Receptionist in a doctor’s office. She also served as an Administrative Assistant at Brookside Church, gaining extensive experience in organizing events and managing projects.
+Susan Marquiss serves as the Executive Assistant for Good Turn Labor, Inc. / Never Give Up.
 
-Currently, Susan continues to serve her community through volunteer and administrative work. At Brookside Church, she is a Difference Maker on the First Impression Team at the Receptionist Desk and previously volunteered for a year at Brookside’s Food Center. She also serves as an Administrative Assistant for Good Turn Labor, Inc. / Never Give Up.
+Susan is a retired professional with a diverse background in corporate administration, banking, customer service, and community support. Throughout her career, she held roles in various corporate settings, including serving as a Personal Banker, Sr. Account Manager at SITEL Corporation, and working through a temp agency where she was placed as a Secretary in an elementary school and as a Receptionist in a doctor’s office. She also served as an Administrative Assistant at Brookside Church, gaining extensive experience in organizing events and managing projects.
+
+Currently, Susan continues to serve her community through volunteer and administrative work. At Brookside Church, she is a Difference Maker on the First Impression Team at the Receptionist Desk and previously volunteered for a year at Brookside’s Food Center.
 
 Susan has a deep passion for helping people who feel lonely, hopeless, or simply need someone to talk to. She believes in embracing others with empathy, welcoming them with dignity and compassion, and advocating for their needs.
 
