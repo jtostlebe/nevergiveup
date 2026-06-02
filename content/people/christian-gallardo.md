@@ -3,7 +3,7 @@ title: "Christian Gallardo"
 first_name: Christian
 last_name: Gallardo
 role: "Case Manager"
-image: "/images/logo.png"
+image: "/images/christian-gallardo.jpeg"
 user_groups:
   - Staff
 #bio: The Case Manager provides individualized support to participants, helping them navigate employment and reentry challenges.
