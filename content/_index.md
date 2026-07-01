@@ -443,6 +443,7 @@ sections:
         </style>
         <div class="gallery-outer">
           <div class="gallery-container">
+            <div class="gallery-item"><img src="/media/kickball2026.jpg" alt="Fourth Annual NGU Kickball Tournament"><div class="gallery-caption">2026 NGU Kickball Tournament</div></div>
             <div class="gallery-item"><img src="/media/baseball_game.jpeg" alt="Werner Park Baseball Game"><div class="gallery-caption">2026 Baseball Game at Werner Park</div></div>
             <div class="gallery-item"><img src="/media/cookie_sunday_brookside.jpeg" alt="NGU Cookie Sunday"><div class="gallery-caption">2026 Cookie Sunday at Brookside</div></div>
             <div class="gallery-item"><img src="/media/movie_theater.jpeg" alt="NGU Movie Outing"><div class="gallery-caption">2026 NGU Movie Outing</div></div>
@@ -456,7 +457,6 @@ sections:
             <div class="gallery-item"><img src="/media/2025fundraiser.jpg" alt="Never Give Up 2025 Fundraiser"><div class="gallery-caption">2025 NGU Fundraiser</div></div>
             <div class="gallery-item"><img src="/media/july42025_1.jpeg" alt="July 4th celebration"><div class="gallery-caption">2025 July Fourth Extravaganza</div></div>
             <div class="gallery-item"><img src="/media/beavercreek_saturday_2.jpg" alt="Beavercreek Outing"><div class="gallery-caption">2025 Saturday Group Outing</div></div>
-            <div class="gallery-item"><img src="/media/ufc.jpeg" alt="Houston Alexander"><div class="gallery-caption">2025 UFC Fighter Houston Alexander</div></div>
             <div class="gallery-item"><img src="/media/quilt.jpeg" alt="Quilting Guild"><div class="gallery-caption">2025 Local Quilting Guild</div></div>
           </div>
         </div>
