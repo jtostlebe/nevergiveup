@@ -19,7 +19,11 @@
 <!-- Board of Directors Section -->
 <h2 class="section-title">Good Turn Labor Board of Directors</h2>
 <div class="team-grid">
+<<<<<<< HEAD
   {{ $boardOrder := slice "Gaylene" "Mark" "Greg" "Jenny" "John" "Gabe" }}
+=======
+  {{ $boardOrder := slice "Rosalyn" "Tim" "Gaylene" "Mark" "Greg" "Jenny" "John" "Gabe" }}
+>>>>>>> parent of 758d7b6 (Update list.html)
   {{ range $name := $boardOrder }}
     {{ range where $people "Params.first_name" "eq" $name }}
       <div class="team-card">
@@ -54,7 +58,11 @@
 <h2 class="section-title" style="margin-top: 5rem;">NGU Staff</h2>
 <div class="team-grid">
   {{/* Exclude both board + leadership first names */}}
+<<<<<<< HEAD
   {{ $boardFirstNames := slice "Gaylene" "Mark" "Greg" "Jenny" "John" "Gabe" }}
+=======
+  {{ $boardFirstNames := slice "Rosalyn" "Tim" "Gaylene" "Mark" "Greg" "Jenny" "John" "Gabe" }}
+>>>>>>> parent of 758d7b6 (Update list.html)
   {{ $leadershipFirstNames := slice "Julie" "Shane" "Jimmy" }}
   {{ $excludeFirstNames := union $boardFirstNames $leadershipFirstNames }}
 
