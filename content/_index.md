@@ -13,7 +13,7 @@ sections:
       text: An 84-day structured transitional housing program in Omaha, Nebraska operated under the nonprofit 501(c)(3) organization, Good Turn Labor, to support formerly incarcerated individuals as they reintegrate into the community.
       primary_action:
         text: Support The Program
-        url: https://www.convergepay.com/hosted-payments?ssl_txn_auth_token=QVQ%2BZQDeRS%2Bl9WmNDygSkQAAAZgfevef
+        url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=J99PF8BVTPudrdhYqaQZkwAAAaBjQLbT#!/payment-method
         icon: rocket-launch
     design:
       css_class: "dark text-white"
@@ -279,7 +279,7 @@ sections:
         <p class="text-on-dark">Donate to Never Give Up through the 501(c)(3) organization, Good Turn Labor, LLC.</p>
       button:
         text: Support Our Mission
-        url: https://www.convergepay.com/hosted-payments?ssl_txn_auth_token=QVQ%2BZQDeRS%2Bl9WmNDygSkQAAAZgfevef
+        url: https://www.convergepay.com/hosted-payments/?ssl_txn_auth_token=J99PF8BVTPudrdhYqaQZkwAAAaBjQLbT#!/payment-method
         style: "background-color:#FECA1B;color:#0E2240;font-weight:700;border-radius:8px;padding:.6rem 1.2rem;"
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
